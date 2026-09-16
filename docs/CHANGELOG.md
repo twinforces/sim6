@@ -9,6 +9,7 @@ What: New public repo https://github.com/twinforces/sim6 . Working name. Paper f
 Why: Git is the restore point. Do not rewrite `iranhistory`. This sandbox had no git.
 
 How: Create empty repo on the twinforces user account (not an org). First commit is README, AGENTS.project.md, docs freeze, gitignore. Push `origin main`.
+Hash: `d46d0f4` Paper freeze for sim6. Poll still open.
 
 ## 2026-09-16 Architect session (poll still open)
 

@@ -8,7 +8,7 @@ What: `twinforces/sim6` on GitHub. Paper freeze pushed. Working name until the p
 
 Why: Git is the restore point. The Iran repo stays Iran. This sandbox had no git.
 
-How: https://github.com/twinforces/sim6 . Push `origin main` after each beat.
+How: https://github.com/twinforces/sim6 . First commit `d46d0f4`. Push `origin main` after each beat.
 
 ## Wait the poll, 2026-09-16
 
