@@ -1,6 +1,14 @@
 # CHANGELOG
 
-Serious work on the next sim. Engine not started.
+Serious work on the next sim.
+
+## 2026-09-18 Playable rail, cubicle thesis
+
+What: Hard to Unwind is a playable briefing. Washington or the Street. 1979-2011. Hindsight overlay. Drive-to-the-invoice offramps. Quiet years 1995 / 2004 / 2006 wired.
+
+Why: User said go. Enron and Crazy Eddie passed every audit. Accountants lie to accountants.
+
+How: Forked the Iran engine. Relabelled chairs. Nested unwind: RTC, LTCM room, Enron/SOX, then 2008 will not close.
 
 ## 2026-09-18 Poll called, Enron folded in
 
@@ -43,5 +51,6 @@ Inventing Afghanistan / Euro / COVID. The poll was the field. User called it. Af
 Pacepa on Operation SIG (defector; tag DK on headcounts, LT that he published and that UN 3379 happened). Baker-Gorbachev 9 Feb 1990 (National Security Archive). Nuland-Pyatt leak (BBC/Reuters; US did not deny the call).
 
 ## Open nags
-- Engine not started. User has not said go.
-- Rename the repo when the title is frozen.
+- Repo still named sim6.
+- Street chair is a modern NYSE floor. Fine as a stand-in.
+- Fastow plate is a later lecture photo. Dual plate is the point.
