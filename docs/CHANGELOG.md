@@ -1,14 +1,22 @@
 # CHANGELOG
 
-Serious work on the next sim.
+Serious work. Source of truth for what we tried, including what not to do.
 
 ## 2026-09-18 Playable rail, cubicle thesis
 
-What: Hard to Unwind is a playable briefing. Washington or the Street. 1979-2011. Hindsight overlay. Drive-to-the-invoice offramps. Quiet years 1995 / 2004 / 2006 wired.
+What: Hard to Unwind is a playable briefing. Washington or the Street. 1979-2011. Hindsight overlay. Drive-to-the-invoice offramps. Quiet years 1995 / 2004 / 2006 wired. Dual plate is year-true (Fastow, the room, RTC after FIRREA, the window). Finance portraits replace Iran advisors. All faction bars show. Cubicle faith is always a clock.
 
-Why: User said go. Enron and Crazy Eddie passed every audit. Accountants lie to accountants.
+Why: User said go. Enron and Crazy Eddie passed every audit. Accountants lie to accountants. Quiet years still get a sentence.
 
-How: Forked the Iran engine. Relabelled chairs. Nested unwind: RTC, LTCM room, Enron/SOX, then 2008 will not close.
+How: Forked the Iran engine. Relabelled chairs in the view. Nested unwind: RTC, LTCM room, Enron/SOX, then 2008 will not close. Museum offramps renamed off the Iran leftovers.
+
+Hash: `6516e25` Playable rail. Cubicle thesis. Quiet years 1995/2004/2006.
+
+### What did not work
+
+- Empty-replace of `PlayView.tsx` and `TrainViewModel.ts`. Files were still untracked, so `git checkout` was dead. Restored from `vendor/iranhistory`, then re-patched. Standing rule: never empty-replace a source file. Git is the restore. Commit after each beat.
+- Iran leftover museum ids (`hamas-us`, `hinterland`) survived the first playable pass. Renamed in `6516e25`.
+- PlayView used to hardcode Washington as R. Carter is D. Engine already seats the year. View must not invent the party.
 
 ## 2026-09-18 Poll called, Enron folded in
 
@@ -18,6 +26,8 @@ Why: User asked if Enron fits. It does, as the SOX poison between Greenwich and 
 
 How: `docs/NEXT-SIM.md` rewritten as the finance freeze. `docs/SHELVED.md` holds the other two. README and AGENTS.project.md stop saying the poll is open.
 
+Hash: `13696aa` Poll called. Hard to Unwind. Enron is the middle movie.
+
 ## 2026-09-16 `twinforces/sim6` created
 
 What: New public repo https://github.com/twinforces/sim6 . Working name. Paper freeze only.
@@ -25,6 +35,7 @@ What: New public repo https://github.com/twinforces/sim6 . Working name. Paper f
 Why: Git is the restore point. Do not rewrite `iranhistory`. This sandbox had no git.
 
 How: Create empty repo on the twinforces user account (not an org). First commit is README, AGENTS.project.md, docs freeze, gitignore. Push `origin main`.
+
 Hash: `d46d0f4` Paper freeze for sim6. Poll still open.
 
 ## 2026-09-16 Architect session (poll still open)
@@ -49,8 +60,3 @@ Inventing Afghanistan / Euro / COVID. The poll was the field. User called it. Af
 
 ### Sources touched
 Pacepa on Operation SIG (defector; tag DK on headcounts, LT that he published and that UN 3379 happened). Baker-Gorbachev 9 Feb 1990 (National Security Archive). Nuland-Pyatt leak (BBC/Reuters; US did not deny the call).
-
-## Open nags
-- Repo still named sim6.
-- Street chair is a modern NYSE floor. Fine as a stand-in.
-- Fastow plate is a later lecture photo. Dual plate is the point.

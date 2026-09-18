@@ -1,25 +1,23 @@
 # RECENTGOALS
 
-## Quiet years and cubicle HUD, 2026-09-18
+Living scratchpad. Older items live in `CHANGELOG.md`.
 
-What: RTC sunset 1995, CSE 2004, housing peak 2006. All faction bars show. Cubicle faith is always a clock. Dual plate is year-true. Finance portraits replace Iran advisors.
+## Playable rail, 2026-09-18
 
-Why: User said go, then nap. Quiet years still get a sentence. The cubicle is load-bearing.
+What: Hard to Unwind sits a chair. Washington or the Street. 1979-2011. Hindsight scores and does not steal the rail.
 
-How: Three cards on the rail. Isolation faces. Museum offramps renamed off the Iran leftovers.
+Why: User said go, then nap. Cubicle thesis is load-bearing. Enron and Crazy Eddie passed every audit.
 
-## Playable, 2026-09-18
+How: Forked the Iran engine. Relabelled in the view. Quiet years 1995 / 2004 / 2006 on the rail. Nested unwind: RTC, LTCM room, SOX, then 2008 will not close.
 
-What: Hard to Unwind is a playable briefing. Washington or the Street. 1979-2011.
+Hash: `6516e25`
 
-Why: User said go. Cubicle thesis is load-bearing. Enron and Crazy Eddie passed every audit.
+## Open nags
 
-How: Forked the Iran engine. Relabelled chairs. Hindsight overlay. Drive-to-the-invoice offramps. Golden path tested both desks.
-
-## Poll called, Enron folded, 2026-09-18
-
-What: 4 of 8 for the 2007 collapse. Enron is the middle movie.
-
-Why: SPEs are the CDO dress rehearsal. SOX does not unwind AIG FP.
-
-How: `docs/NEXT-SIM.md`.
+- Repo still named sim6. Rename when the title is frozen.
+- Engine chair ids stay `us` / `iran`. Relabel is view-only. Do not rename ids without a migration.
+- Fastow plate is a later lecture photo. Dual plate is the point.
+- Street chair is a modern NYSE floor. Fine as a stand-in.
+- Briefings are thin (one or two voices per chair). Iran's room had eight.
+- `resetTo1953` leftover in the ViewModel. Not on a button.
+- Reviewer and Tester have not sat.

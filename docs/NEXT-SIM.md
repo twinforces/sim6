@@ -1,8 +1,8 @@
 # Hard to Unwind
 
-What: the next Train Ride briefing.
+What: the Train Ride briefing that shipped.
 Why: poll closed 2026-09-18, 4 of 8 for the 2007 financial collapse.
-How: fork `twinforces/iranhistory` when the user says go. Auth off. MVVM stays. Origin is https://github.com/twinforces/sim6.
+How: forked `twinforces/iranhistory`. Auth off. MVVM stays. Origin is https://github.com/twinforces/sim6. Playable hash `6516e25`.
 
 Chairs: Washington or the Street. Never both.
 
@@ -12,13 +12,17 @@ Afghanistan, Euro, COVID were Architect padding. Out.
 
 Partition and The Memorandum stay on paper in `docs/SHELVED.md`. Do not build them in this repo.
 
+This file is the copy freeze. New cards obey it. Do not invent a third chair.
+
 ---
 
 ## Engine (from Train Ride)
 
 Keep: one chair, face changes, two buttons, `historical: true` never labelled and never a grave, dual plate, moral / serve / adapts, stick figure after a moral diverge, receipts, glossary, quiet years get a sentence.
 
-### New overlay: `hindsight`
+Chair ids are the fork: `us` is Washington, `iran` is the Street. Relabel in the view. Do not rename the ids.
+
+### Overlay: `hindsight`
 
 Distinct from `moral` (7-Eleven, you leave, the regime continues without you).
 
@@ -30,7 +34,7 @@ Template copy:
 >
 > Hindsight is 20/20. You have the point. The book continues on.
 
-Museum counter: `offramps`. Found-once. Unfound names stay off the chrome. Do not gate later cards on the score. Hunt, not a win screen.
+Museum counter: offramps. Found-once. Unfound names stay off the chrome. Do not gate later cards on the score. Hunt, not a win screen.
 
 ---
 
@@ -57,25 +61,16 @@ What it is in this engine:
 - Mark-to-market on a thing with no market. Same lie as AAA on a stack of 620 FICOs.
 - Dual plate inside the firm: Lay/Skilling are letterhead. Fastow has the SPEs.
 - Andersen is supposed to have the guns of the books. Andersen is a consultant. Dual plate in the audit.
-- Levitt's auditor-independence fight, 2000. Lay writes the SEC to kill it. Hindsight offramp: back Levitt. Historical is the watered rule. Flag that letter. 2008 reads it.
+- Levitt's auditor-independence fight, 2000. Lay writes the SEC to kill it. Hindsight offramp: back Levitt. Historical is the watered rule.
 - SOX, July 2002. CEOs sign the books. We fixed accounting. Flag `sox_worked`. Every later housing card that hides a SIV in an off-balance-sheet vehicle is this flag rotting.
 - Jail: Keating, then Skilling. 2011 is the empty dock. Do not skip the rhyme.
-- SPE unwind triggers (Rawhide blows on a downgrade) are the theme in miniature: the book was designed to explode when you try to close it.
 
 What it is not:
 
 - Not a third chair named Energy. You still sit Washington or the Street. Lay/Skilling are the Street face for 2001-2002, then Mozilo sits.
 - Not "Bush's Texas buddy" as the referee's origin story. IT briefing: Houston, the campaign, the appearance. LT: the Levitt letter. Label both.
 - WorldCom is a sentence on the SOX card, not its own movie. Same year, same because.
-- Employees' 401k is a `main_street` bar, not a third desk.
-
-Cards, not a campaign:
-
-1. 2000. Levitt vs Lay on auditor independence. Washington and Street both sit this.
-2. Oct-Dec 2001. Restatement, the shredder, bankruptcy. Street: *Mark it* vs *Hide it*. Hide is historical. Mark it is hindsight. You keep the chair. Enron still dies on the rail. Andersen's grave is a face change for the audit plate, not a Street-regime death. The Street lives.
-3. July 2002 SOX. Historical pass. *Pass SOX and call it done* is the golden path. *Pass SOX and keep hunting SIVs* is hindsight. Flag `sox_worked`.
-
-Then housing. Do not let Houston eat 2006-2008.
+- Employees' 401k is a main-street bar, not a third desk.
 
 ---
 
@@ -83,9 +78,9 @@ Then housing. Do not let Houston eat 2006-2008.
 
 Washington: Carter (Volcker in the room) → Reagan → Bush 41 → Clinton → Bush 43 → Obama.
 
-Street: thrift letterhead → Keating (Lincoln) → Meriwether → **Lay / Skilling (Enron)** → Mozilo → Cayne → Fuld → Blankfein.
+Street: thrift letterhead → Keating (Lincoln) → Meriwether → Lay / Skilling (Enron) → Mozilo → Cayne → Fuld → Blankfein.
 
-Dual plate: RTC after FIRREA. Consortium after Sep 1998. Andersen supposed-to after 2000, then gone. Window after TARP.
+Dual plate: RTC after FIRREA. Consortium after Sep 1998. Fastow on Lay. Window after TARP.
 
 Keating jail is historical. Skilling jail is historical. 2011 nobody went to jail is the rhyme. Bear said no in 1998 and dies in 2008. Do not skip either.
 
@@ -100,12 +95,14 @@ Keating jail is historical. Skilling jail is historical. 2011 nobody went to jai
 - 2002: SOX is not "done." Hunt the next off-balance-sheet vehicle.
 - 2005 Jackson Hole: listen to Rajan.
 - 2006: mark the housing book.
-- **Sep 2008 campaigns.** McCain suspends and goes to Washington. Obama looks at the polls and keeps campaigning. Historical for the winner is keep campaigning. Suspend is the hindsight point: country over ambition. You are the Washington chair heading into the election. Obama still sits. TARP still happens. You have the point.
+- Sep 2008 campaigns. McCain suspends and goes to Washington. Obama looks at the polls and keeps campaigning. Historical for the winner is keep campaigning. Suspend is the hindsight point: country over ambition. Obama still sits. TARP still happens. You have the point.
+
+Cubicle thesis, load-bearing: to catch a criminal you leave the cubicle and drive to the address on the invoice. Enron passed every audit. So did Crazy Eddie.
 
 ---
 
-## Proof cards when we build
+## Proof cards (shipped)
 
-Chair select. Garn-St Germain 1982. LTCM weekend 1998. Enron/SOX 2001-2002. "Contained" Aug 2007. Sep 2008 campaign card so offramp points are proven on day one.
+Chair select. Garn-St Germain 1982. LTCM weekend 1998. Enron/SOX 2001-2002. Contained Aug 2007. Sep 2008 campaign card. Quiet years: RTC sunset 1995, CSE 2004, housing peak 2006.
 
-Do not implement until the user says go. Architect still owns copy.
+Copy still obeys this freeze. Do not let Houston eat 2006-2008.
