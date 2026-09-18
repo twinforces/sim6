@@ -1,19 +1,20 @@
-# Next Train Ride
+# Hard to Unwind
 
-What: paper freeze for the sim after Train Ride to War.
-Why: poll is live, Implementer must not invent a morality play or a fourth topic.
-How: fork `twinforces/iranhistory` when the user says go. Auth off. MVVM stays.
+What: the next Train Ride briefing.
+Why: poll closed 2026-09-18, 4 of 8 for the 2007 financial collapse.
+How: fork `twinforces/iranhistory` when the user says go. Auth off. MVVM stays. Origin is https://github.com/twinforces/sim6.
 
-Poll (2026-09-16, 4 votes): Hard to Unwind 2, Partition 1, The Memorandum 1.
-Wait a couple of days. Do not build.
+Chairs: Washington or the Street. Never both.
+
+Theme: finance runs away in complicated books that get harder to unwind. RTC closed the thrifts. Fourteen banks closed Greenwich in a weekend. Enron died, Andersen died, SOX passed. 2008 will not close.
 
 Afghanistan, Euro, COVID were Architect padding. Out.
 
+Partition and The Memorandum stay on paper in `docs/SHELVED.md`. Do not build them in this repo.
+
 ---
 
-## Shared engine deltas (all three)
-
-Fork iranhistory. Replace chairs, faces, factions, clocks, cards, endings, portraits, author's note.
+## Engine (from Train Ride)
 
 Keep: one chair, face changes, two buttons, `historical: true` never labelled and never a grave, dual plate, moral / serve / adapts, stick figure after a moral diverge, receipts, glossary, quiet years get a sentence.
 
@@ -29,126 +30,82 @@ Template copy:
 >
 > Hindsight is 20/20. You have the point. The book continues on.
 
-Museum counter: `offramps`. Found-once. Unfound names stay off the chrome. Same hunt as peace exits in Train Ride. The US 20/20 listens already ticked peace without leaving the rail. This makes the payment visible and the sentence honest.
-
-Do not gate later cards on the score. The score is a hunt, not a win screen.
+Museum counter: `offramps`. Found-once. Unfound names stay off the chrome. Do not gate later cards on the score. Hunt, not a win screen.
 
 ---
 
-## 1. Hard to Unwind (finance, poll leader)
-
-Chairs: Washington or the Street. Never both.
-
-Theme: finance runs away in complicated books that get harder to unwind. RTC closed the thrifts. Fourteen banks closed Greenwich in a weekend. 2008 will not close.
-
-### Eras
+## Eras
 
 | Era | Mismatch | Book | Unwind that "worked" |
 | --- | --- | --- | --- |
 | S&L 1979-1995 | Borrow short, lend long. Volcker blows the spread. | Junk, desert condos, brokered deposits, FSLIC zombies. | RTC. Years. Taxpayers. Some jail. Flag `s_l_worked`. |
 | LTCM 1998 | Convergence plus leverage. Russia defaults. | Nobels, VaR, 100x. | Fourteen banks, no Treasury check. Flag `ltcm_worked`. |
-| Housing 2003-2011 | A 30-year note sold as AAA. | CDO, CDS, AIG FP, repo, China. | Will not close. TARP is a pause. |
+| Enron 2001-2002 | Mark-to-market on contracts you cannot mark. | SPEs, Raptors, auditor who is also the consultant. | Firm dies. Andersen dies. Skilling jail. SOX. Flag `sox_worked`. |
+| Housing 2003-2011 | A 30-year note sold as AAA. | CDO, CDS, AIG FP, repo, China. SIVs are SPEs in a new costume. | Will not close. TARP is a pause. SOX does not unwind AIG FP. |
 
-### Faces
+Four nested successes. Each is poison for the next book.
+
+---
+
+## Enron belongs. It is not the whole game.
+
+Single firm, not a sector. The book *was* unwound: bankruptcy, the auditor gone, a CEO in prison, a law. That is why it earns the slot. It is the Keating rhyme between Greenwich and the houses.
+
+What it is in this engine:
+
+- Off-balance-sheet is the book. Chewco, LJM, Raptors. The CDO/SIV joke, earlier, in Houston.
+- Mark-to-market on a thing with no market. Same lie as AAA on a stack of 620 FICOs.
+- Dual plate inside the firm: Lay/Skilling are letterhead. Fastow has the SPEs.
+- Andersen is supposed to have the guns of the books. Andersen is a consultant. Dual plate in the audit.
+- Levitt's auditor-independence fight, 2000. Lay writes the SEC to kill it. Hindsight offramp: back Levitt. Historical is the watered rule. Flag that letter. 2008 reads it.
+- SOX, July 2002. CEOs sign the books. We fixed accounting. Flag `sox_worked`. Every later housing card that hides a SIV in an off-balance-sheet vehicle is this flag rotting.
+- Jail: Keating, then Skilling. 2011 is the empty dock. Do not skip the rhyme.
+- SPE unwind triggers (Rawhide blows on a downgrade) are the theme in miniature: the book was designed to explode when you try to close it.
+
+What it is not:
+
+- Not a third chair named Energy. You still sit Washington or the Street. Lay/Skilling are the Street face for 2001-2002, then Mozilo sits.
+- Not "Bush's Texas buddy" as the referee's origin story. IT briefing: Houston, the campaign, the appearance. LT: the Levitt letter. Label both.
+- WorldCom is a sentence on the SOX card, not its own movie. Same year, same because.
+- Employees' 401k is a `main_street` bar, not a third desk.
+
+Cards, not a campaign:
+
+1. 2000. Levitt vs Lay on auditor independence. Washington and Street both sit this.
+2. Oct-Dec 2001. Restatement, the shredder, bankruptcy. Street: *Mark it* vs *Hide it*. Hide is historical. Mark it is hindsight. You keep the chair. Enron still dies on the rail. Andersen's grave is a face change for the audit plate, not a Street-regime death. The Street lives.
+3. July 2002 SOX. Historical pass. *Pass SOX and call it done* is the golden path. *Pass SOX and keep hunting SIVs* is hindsight. Flag `sox_worked`.
+
+Then housing. Do not let Houston eat 2006-2008.
+
+---
+
+## Faces
 
 Washington: Carter (Volcker in the room) → Reagan → Bush 41 → Clinton → Bush 43 → Obama.
 
-Street: thrift letterhead → Keating (Lincoln) → Meriwether → Mozilo → Cayne → Fuld → Blankfein.
+Street: thrift letterhead → Keating (Lincoln) → Meriwether → **Lay / Skilling (Enron)** → Mozilo → Cayne → Fuld → Blankfein.
 
-Dual plate: RTC has the guns after FIRREA. Consortium after Sep 1998. Window after TARP.
+Dual plate: RTC after FIRREA. Consortium after Sep 1998. Andersen supposed-to after 2000, then gone. Window after TARP.
 
-Keating jail is historical. 2011 nobody went to jail is the rhyme. Bear said no in 1998 and dies in 2008. Do not skip either.
+Keating jail is historical. Skilling jail is historical. 2011 nobody went to jail is the rhyme. Bear said no in 1998 and dies in 2008. Do not skip either.
 
-### Offramp examples (score, rail holds)
+---
+
+## Offramp examples (score, rail holds)
 
 - 1982: close the insolvent now, do not pass Garn-St Germain grow-out.
 - 1998: call it a put, out loud. Or unwind before the weekend.
+- 2000: back Levitt. Auditor cannot also be the consultant.
+- 2001: mark the SPE book before the restatement.
+- 2002: SOX is not "done." Hunt the next off-balance-sheet vehicle.
 - 2005 Jackson Hole: listen to Rajan.
 - 2006: mark the housing book.
-- **Sep 2008 campaigns.** McCain suspends and goes to Washington. Obama looks at the polls and keeps campaigning. Historical for the winner is keep campaigning. Suspend is the hindsight point: country over ambition. You are the Washington chair heading into the election, not a third "campaign" chair. Obama still sits. TARP still happens. You have the point.
-
-### Proof cards when we build
-
-Garn-St Germain 1982. LTCM weekend 1998. "Contained" Aug 2007.
+- **Sep 2008 campaigns.** McCain suspends and goes to Washington. Obama looks at the polls and keeps campaigning. Historical for the winner is keep campaigning. Suspend is the hindsight point: country over ambition. You are the Washington chair heading into the election. Obama still sits. TARP still happens. You have the point.
 
 ---
 
-## 2. Partition (Israel / Palestine)
+## Proof cards when we build
 
-Chairs: Israel or the Palestinian letterhead. Never Washington. Washington is in the room.
+Chair select. Garn-St Germain 1982. LTCM weekend 1998. Enron/SOX 2001-2002. "Contained" Aug 2007. Sep 2008 campaign card so offramp points are proven on day one.
 
-Thesis is Train Ride's: if one desk looks like the good guys, you are in Sunday school. Dual plate on both desks. Coalition/settlers/army on one. Cairo, then Arafat's irregulars, then Hamas on the other.
-
-### Operation SIG (user: Project SIG)
-
-KGB active measures, Pacepa: *Sionistskiye Gosudarstva*, Andropov, 1967-88. Seed the Islamic world with the US-as-Jewish-fiefdom map, Arabic *Protocols*, "Zionism is racism." UN 3379 (1975) is the public peak.
-
-Truth tags, do not get cute:
-
-- LT: Pacepa published this. UN 3379 passed and was repealed in 1991. The slogans are still in the water.
-- IT: the apartheid / settler-colonial / "Zionism is racism" stack is useful to desks that need Israel illegitimate. That is an incentive reading, not a blood test of every campus chant.
-- DK: headcounts of agents, forged Arafat birth records, "Krotov." Pacepa is a defector. Label the file. Do not let the referee swear to his footnotes.
-
-Card: mid-1970s, both desks. Israel: *Treat it as noise* vs *Treat it as a second front*. Historical is mostly noise plus hasbara. Hindsight may tick. Palestinian letterhead: the slogan is a weapon you did not have to invent. Serve or adapts depending who owns the guns that year.
-
-The poison is still the briefing in 2023. Do not end SIG in 1988. A late card (campus / UN / NGOs) rhymes it. Same way Johnson's SOFA is why Khomeini has a name.
-
-### Saudi TV, and the megaphone after Moscow
-
-Saudi state and religious TV carried Israel-as-villain long after the royal map was more complicated than the sermon. That split is dual plate inside Riyadh, but Riyadh is not a chair. Briefing on both desks. Later rhyme: Qatar / Al Jazeera takes the megaphone the USSR dropped. Do not collapse Saudi and Qatar into one name. Two cards.
-
-Hasbara is the other desk's machine. Both sides run poison. The referee does not pick a winner of the propaganda war. If SIG is a card, hasbara is a card. Same year-range, opposite room.
-
-### Rail reminder
-
-1947 partition is coup-1953. Oslo is the "it worked." 7 Oct is a card, not a splat. No win screen. No "no such people" grave. Glossary load-bearing.
-
----
-
-## 3. The Memorandum (Russia / Ukraine)
-
-Chairs: Moscow or Kyiv. **Not Washington.** NATO/US live in the room as CIA-analog advisors. If Washington sits, this becomes a sermon and Hormuz already has shooting.
-
-No hex map. Briefing only.
-
-### Baker, 9 Feb 1990. The promise Moscow heard.
-
-LT: Baker said "not one inch eastward" to Gorbachev three times, about NATO jurisdiction, in the German unification talks. Declassified. He walked the formula back. The Final Settlement and later enlargements happened.
-
-DK / two maps: Washington's file is "we meant East Germany." Moscow's file is "you promised you would not fuck with us." Gorbachev later said the obligation on East Germany was fulfilled. Putin does not tell that version.
-
-Card on the **Moscow** desk, Washington in the room. Kyiv does not exist as a NATO applicant yet. Flag `not_one_inch`. Every later NATO card reads that flag in the Moscow situation paragraph.
-
-Hindsight offramp from the Washington-in-the-room briefing: write it down, make it a treaty. That is not what happened. Point. Rail continues.
-
-### Maidan, 2014. Color revolution as a map, not the referee.
-
-LT: Yanukovych dumps the EU association under Russian pressure. The square fills. He flees. Nuland-Pyatt leak: US diplomats shopping a cabinet ("Yats"), telling the EU to get lost. US did not deny the call. Yatseniuk does sit.
-
-IT, Moscow map: the US ran a color revolution. The leak is the because.
-
-IT, Kyiv map: the street had bodies in it. Yanukovych packed. A leaked call picking ministers is ugly and is not the same thing as inventing the square.
-
-Serve: Washington is in the room and thinks it owns the letterhead. The player sits Kyiv, not Nuland. Dual plate: you are the name, the square and the embassy have the guns.
-
-Do not write "CIA did Maidan" as LT in the referee. Do not write "spontaneous democracy" as LT either. Two situation paragraphs. One rail. Historical face change: Yanukovych packs, Poroshenko sits. Crimea is the next card, not a cutscene.
-
-### Holodomor as why Kyiv flies to Washington
-
-LT: 1932-33 famine. Kyiv teaches it as genocide. That is the file in Ukrainian schools.
-
-IT, Kyiv desk: Moscow did this once. NATO is life insurance. You go to Washington because the memorandum was paper. The grudge is not a punchline. It is the because on the NATO-bid card.
-
-IT, Moscow desk: they will never be a buffer. They will always recruit a distant empire. The Holodomor lesson is a weapon aimed at you.
-
-Card: NATO bid / Bucharest / later applications. Situation, Kyiv, must say the famine, not just "Europe." Situation, Moscow, must say the 1990 words, not just "encirclement." Both maps. No jersey.
-
-Budapest 1994 remains Ajax: nukes for paper. Flag `budapest_worked`. 2022 is the cup.
-
----
-
-## Pick when the poll closes
-
-Still **Hard to Unwind** unless the thread flips. New mechanic (unwind clock + hindsight points) is the reason to build it first. Partition is Iran's twin and gets SIG. Memorandum is buildable only if Washington never sits and tanks never become hexes.
-
-First Implementer slice (finance): chair select, 1982, 1998, 2007, plus the Sep 2008 campaign card so offramp points are proven on day one.
+Do not implement until the user says go. Architect still owns copy.

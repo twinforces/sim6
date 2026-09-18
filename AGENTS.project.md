@@ -1,15 +1,17 @@
-# Sim 6
+# Sim 6: Hard to Unwind
 
 Next Train Ride briefing. A GrumpyTechBro joint.
 
-Working name until the poll is called. Origin is https://github.com/twinforces/sim6.
+Working name. Origin is https://github.com/twinforces/sim6.
+Poll closed 2026-09-18: 2007 financial collapse, 4 of 8.
 
 ## Non-negotiables
 
-- Ringmaster roles. Architect owns the rail until copy is frozen. Poll is still open. Do not implement the game yet.
+- Ringmaster roles. Architect owns the rail until copy is frozen. Do not implement the game until the user says go.
 - Same model as Train Ride to War: one chair, face changes, two buttons, golden path is the file, dual plate, receipts.
 - New overlay: `hindsight`. Right thing, not what happened, you keep the chair, you get a point, the book continues on. Distinct from `moral` (7-Eleven, you leave).
-- Washington is never a third chair on Partition or The Memorandum.
+- Four nested "it worked": RTC, LTCM room, Enron/SOX, then 2008 will not close.
+- Enron is a middle movie, not a third chair. Lay/Skilling sit the Street for 2001-2002. WorldCom is a sentence on the SOX card.
 - No hex map.
 - No em-dashes.
 - Header pattern when we ship: title, icon pfp, subtitle "a GrumpyTechBro joint" linking to https://x.com/GrumpyTechBro in a new tab.
@@ -27,4 +29,4 @@ Off. localStorage later for a run. No accounts.
 
 ## Freeze
 
-Read `docs/NEXT-SIM.md` before writing a card. `docs/RECENTGOALS.md` is the scratchpad. `docs/CHANGELOG.md` is the session.
+Read `docs/NEXT-SIM.md` before writing a card. `docs/RECENTGOALS.md` is the scratchpad. `docs/CHANGELOG.md` is the session. Shelved topics: `docs/SHELVED.md`.

@@ -2,6 +2,14 @@
 
 Serious work on the next sim. Engine not started.
 
+## 2026-09-18 Poll called, Enron folded in
+
+What: Hard to Unwind is the sim (4 of 8). Enron/SOX is a middle movie, not a third chair. Partition and Memorandum shelved.
+
+Why: User asked if Enron fits. It does, as the SOX poison between Greenwich and the houses. Single-firm fraud is not a sector unwind. That is why it earns the slot: the book *was* unwound, and 2008 still will not close.
+
+How: `docs/NEXT-SIM.md` rewritten as the finance freeze. `docs/SHELVED.md` holds the other two. README and AGENTS.project.md stop saying the poll is open.
+
 ## 2026-09-16 `twinforces/sim6` created
 
 What: New public repo https://github.com/twinforces/sim6 . Working name. Paper freeze only.
@@ -35,5 +43,5 @@ Inventing Afghanistan / Euro / COVID. The poll was the field. User called it. Af
 Pacepa on Operation SIG (defector; tag DK on headcounts, LT that he published and that UN 3379 happened). Baker-Gorbachev 9 Feb 1990 (National Security Archive). Nuland-Pyatt leak (BBC/Reuters; US did not deny the call).
 
 ## Open nags
-- Poll still open. Do not scaffold the game.
+- Engine not started. User has not said go.
 - Rename the repo when the title is frozen.

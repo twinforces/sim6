@@ -1,43 +1,27 @@
 # RECENTGOALS
 
-Scratchpad for the next Train Ride briefing. Poll is live. Do not implement yet.
+Scratchpad for Hard to Unwind. Poll is closed. Do not implement until the user says go.
+
+## Enron belongs, 2026-09-18
+
+What: Enron/SOX is era 3 of 4, between LTCM and the houses. Not a third chair.
+
+Why: SPEs are the CDO dress rehearsal. SOX is the "it worked" that does not unwind AIG FP. Jail rhyme: Keating, Skilling, 2011 empty dock.
+
+How: Three cards (Levitt 2000, bankruptcy 2001, SOX 2002). Lay/Skilling sit the Street for those years. WorldCom is a sentence. Freeze in `docs/NEXT-SIM.md`.
+
+## Poll called, 2026-09-18
+
+What: 2007 financial collapse, 4 of 8. This repo is *Hard to Unwind*.
+
+Why: The thread settled. Partition and Memorandum go to `docs/SHELVED.md`.
+
+How: Rename in copy only. Repo stays `sim6` until the user says otherwise.
 
 ## Repo exists, 2026-09-16
 
-What: `twinforces/sim6` on GitHub. Paper freeze pushed. Working name until the poll is called.
+What: `twinforces/sim6` on GitHub.
 
-Why: Git is the restore point. The Iran repo stays Iran. This sandbox had no git.
+Why: Git is the restore point. The Iran repo stays Iran.
 
-How: https://github.com/twinforces/sim6 . First commit `d46d0f4`. Push `origin main` after each beat.
-
-## Wait the poll, 2026-09-16
-
-What: Architect freeze only. Poll runs a couple of days. No engine, no cards.
-
-Why: Four votes in. Two financial collapse, one Russia/Ukraine, one Israel/Palestine. Building before the thread settles wastes a rail.
-
-How: `docs/NEXT-SIM.md` is the freeze. Implementer does not start until the user says the poll is done.
-
-## Offramp points, 2026-09-16
-
-What: A scored 20/20. Pick the right thing that did not happen. Get a point. History still rides.
-
-Why: Hindsight is 20/20. The gift time machine should pay you for using it without pretending you rewrote 2008. Distinct from 7-Eleven morals (you leave) and from graves (you pack).
-
-How: New overlay kind `hindsight`. Copy template and McCain/Obama card in `docs/NEXT-SIM.md`. Counter is museum chrome, found-once, names stay off until found.
-
-## Finance is one rail, 2026-09-16
-
-What: S&L then LTCM then the houses. Title *Hard to Unwind*.
-
-Why: Finance runs away in complicated books that get harder to close. RTC worked. The Greenwich room worked. 2008 will not close. Each success is poison for the next book.
-
-How: Three eras, one pair of chairs (Washington / the Street). Proof cards when we build: Garn-St Germain 1982, LTCM weekend 1998, "contained" 2007.
-
-## Partition and Memorandum, 2026-09-16
-
-What: Keep both as paper architectures. SIG, Saudi TV, Baker not-one-inch, Maidan/Nuland, Holodomor-as-NATO-because.
-
-Why: User corrections. Afghanistan was the Architect inventing a fourth game the poll did not contain. Do not do that again.
-
-How: `docs/NEXT-SIM.md`. Washington is never a third chair. Poison and promises live as briefings and cards on the two desks.
+How: https://github.com/twinforces/sim6 . Push `origin main` after each beat.
