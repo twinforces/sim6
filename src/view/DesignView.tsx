@@ -25,7 +25,7 @@ export function DesignView() {
     <div className="flex flex-col gap-6">
       <header>
         <p className="kicker">Design freeze</p>
-        <h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-fg">Hard to Unwind</h1>
+        <h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-fg">Past Performance</h1>
       </header>
       <ol className="flex flex-col gap-4">
         {QUESTIONS.map((item) => (

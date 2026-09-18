@@ -1,9 +1,10 @@
 /**
  * What: the offramps the time machine is for.
- * Why: most of the rail is locked. Hindsight points, walk-outs, and the memoir
- * are the museum. Catalog lives here so the chrome cannot invent a sixth exit.
+ * Why: the overlay already said you have the point. The chrome has to tick.
+ * Catalog is derived from the cards so a new hindsight button cannot be silent.
  */
-import type { Chair, EndingId, GameState } from "./types.ts";
+import { CARDS } from "./cards.ts";
+import type { Chair, Choice, EndingId, GameState } from "./types.ts";
 
 export const EXITS_KEY = "htu-exits";
 
@@ -18,27 +19,42 @@ export interface ExitDef {
   readonly endingId?: EndingId;
 }
 
-export const EXITS: readonly ExitDef[] = [
-  { id: "close-1982", chair: "us", kind: "peace", found: "You closed the zombies in 1982", choiceId: "us-close-now" },
-  { id: "spe-iran", chair: "iran", kind: "peace", found: "You marked the SPE", choiceId: "ir-drive-spe" },
-  { id: "warehouse-iran", chair: "iran", kind: "peace", found: "You drove to the warehouse", choiceId: "ir-drive-warehouse" },
-  { id: "warehouse-us", chair: "us", kind: "peace", found: "You drove to the warehouse", choiceId: "us-drive-eddie" },
-  { id: "call-put", chair: "us", kind: "peace", found: "You called it a put", choiceId: "us-call-put" },
-  { id: "back-levitt", chair: "us", kind: "peace", found: "You backed Levitt", choiceId: "us-back-levitt" },
-  { id: "listen-rajan", chair: "us", kind: "peace", found: "You listened to Rajan", choiceId: "us-listen-rajan" },
-  { id: "sox-hunt", chair: "us", kind: "peace", found: "You kept hunting SIVs", choiceId: "us-sox-hunt" },
-  { id: "suspend-2008", chair: "us", kind: "peace", found: "You suspended the campaign", choiceId: "us-suspend" },
-  { id: "drive-peak", chair: "us", kind: "peace", found: "You drove to the houses in 2006", choiceId: "us-drive-peak" },
-  { id: "drive-vegas", chair: "iran", kind: "peace", found: "You drove to Las Vegas", choiceId: "ir-drive-vegas" },
-  { id: "haircut", chair: "us", kind: "peace", found: "You kept twelve to one", choiceId: "us-keep-12" },
-  { id: "nukes", chair: "iran", kind: "nukes", found: "The book hit zero", endingId: "seizure" },
-  { id: "cso-london", chair: "iran", kind: "cso", found: "You handed the keys to FSLIC", choiceId: "ir-close-self" },
-  { id: "cso-fpl", chair: "iran", kind: "cso", found: "You refused to sign", choiceId: "ir-refuse-sign" },
-  { id: "cso-stamp", chair: "iran", kind: "cso", found: "You walked in 2011", choiceId: "ir-walk-2011" },
-  { id: "cso-purge", chair: "iran", kind: "cso", found: "The book seized the desk", endingId: "seizure" },
-  { id: "cso-sideline", chair: "iran", kind: "cso", found: "Sidelined twice", endingId: "desk_sideline" },
-  { id: "memoirs", chair: "us", kind: "memoirs", found: "The other party took the chair", endingId: "election_loss" },
-];
+function fromChoice(chair: Chair, choice: Choice): ExitDef | null {
+  if (choice.historical) return null;
+  if (choice.overlay === "hindsight") {
+    return { id: choice.id, chair, kind: "peace", found: choice.label, choiceId: choice.id };
+  }
+  if (choice.overlay === "moral") {
+    return { id: choice.id, chair, kind: "cso", found: choice.label, choiceId: choice.id };
+  }
+  return null;
+}
+
+function catalog(): ExitDef[] {
+  const out: ExitDef[] = [];
+  const seen = new Set<string>();
+  for (const card of CARDS) {
+    for (const choice of card.usChoices) {
+      const def = fromChoice("us", choice);
+      if (!def || seen.has(def.id)) continue;
+      seen.add(def.id);
+      out.push(def);
+    }
+    for (const choice of card.iranChoices) {
+      const def = fromChoice("iran", choice);
+      if (!def || seen.has(def.id)) continue;
+      seen.add(def.id);
+      out.push(def);
+    }
+  }
+  out.push(
+    { id: "nukes", chair: "iran", kind: "nukes", found: "The book hit zero", endingId: "seizure" },
+    { id: "memoirs", chair: "us", kind: "memoirs", found: "The other party took the chair", endingId: "election_loss" },
+  );
+  return out;
+}
+
+export const EXITS: readonly ExitDef[] = catalog();
 
 const BY_ID = new Map(EXITS.map((e) => [e.id, e]));
 

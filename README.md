@@ -1,6 +1,6 @@
-# Hard to Unwind
+# Past Performance
 
-S&L, LTCM, Enron, then the houses.
+S&L, LTCM, Enron, then the houses. Past performance is no guarantee of future results.
 
 **a [GrumpyTechBro](https://x.com/GrumpyTechBro) joint.**
 

@@ -432,8 +432,13 @@ export class TrainViewModel {
   hydrateMuseum(): boolean {
     const loaded = this.museumStore.load();
     if (loaded.size === 0) return false;
-    this.found = loaded;
-    return true;
+    let dirty = false;
+    for (const id of loaded) {
+      if (this.found.has(id)) continue;
+      this.found.add(id);
+      dirty = true;
+    }
+    return dirty;
   }
 
   getState(locale: Locale = "en"): TrainViewState {

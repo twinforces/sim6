@@ -13,6 +13,6 @@ describe("exits", () => {
   it("1982 close-now is a Washington offramp", () => {
     let s = newGame({ chair: "us", party: "R", cardId: "garn-1982" });
     s = applyChoice(s, "us-close-now");
-    assert.equal(detectExits(s).includes("close-1982"), true);
+    assert.equal(detectExits(s).includes("us-close-now"), true);
   });
 });

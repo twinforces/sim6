@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Title: Past Performance. Museum derived from the cards.
+
+What: Product title is Past Performance. Street / Washington / moral victories tick from the actual hindsight and walk buttons, not a short named list.
+
+Why: Playtesting. The overlay said you have the point. The scoreboard did not move. Unfound names staying off the chrome is the hunt. Silent finds are a bug.
+
+How: `exits.ts` catalogs every `overlay: hindsight` as peace and every `overlay: moral` as a walk. Election loss is still the memoir.
+
+### What did not work
+A closed list of a dozen named offramps while the rail had thirty hindsight buttons. The overlay and the museum have to be the same hunt.
+
 ## 2026-09-18 Playable rail, cubicle thesis
 
 What: Hard to Unwind is a playable briefing. Washington or the Street. 1979-2011. Hindsight overlay. Drive-to-the-invoice offramps. Quiet years 1995 / 2004 / 2006 wired. Dual plate is year-true (Fastow, the room, RTC after FIRREA, the window). Finance portraits replace Iran advisors. All faction bars show. Cubicle faith is always a clock.

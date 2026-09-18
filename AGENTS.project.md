@@ -1,10 +1,10 @@
-# Sim 6: Hard to Unwind
+# Sim 6: Past Performance
 
-A GrumpyTechBro joint.
+A GrumpyTechBro joint. Working name was Hard to Unwind.
 
-Working name. Origin is https://github.com/twinforces/sim6.
+Origin is https://github.com/twinforces/sim6.
 Poll closed 2026-09-18: 2007 financial collapse, 4 of 8.
-Playable: `6516e25`.
+Playable: `6516e25`. Title frozen: Past Performance.
 
 ## Non-negotiables
 

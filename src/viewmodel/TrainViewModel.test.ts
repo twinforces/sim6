@@ -24,4 +24,23 @@ describe("TrainViewModel", () => {
     assert.equal(ui.face, "thrift");
     assert.match(ui.leader.youAre, /thrift/i);
   });
+
+  it("a hindsight click ticks Washington on the scoreboard", () => {
+    const vm = new TrainViewModel("us", "D", "eddie-1987", { museum: memoryMuseumStore() });
+    assert.equal(vm.getState().museum.usFound, 0);
+    vm.choose("us-drive-eddie");
+    const ui = vm.getState();
+    assert.equal(ui.lastResult?.kind, "hindsight");
+    assert.equal(ui.museum.usFound, 1);
+    assert.ok(ui.museum.usNames.length === 1);
+  });
+
+  it("a Street walk ticks moral victories, not Washington", () => {
+    const vm = new TrainViewModel("iran", "R", "garn-1982", { museum: memoryMuseumStore() });
+    vm.choose("ir-close-self");
+    const ui = vm.getState();
+    assert.equal(ui.lastResult?.kind, "moral");
+    assert.ok(ui.museum.moralFound >= 1);
+    assert.equal(ui.museum.usFound, 0);
+  });
 });

@@ -5,7 +5,7 @@ import { HydrateMark } from "../view/HydrateMark.tsx";
 import { RailPending } from "../view/RailPending.tsx";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Hard to Unwind";
+const APP_NAME = "Past Performance";
 
 const LOCALE_BOOT = `(function(){try{var l=localStorage.getItem("trtw-locale");if(l!=="fa")return;var r=document.documentElement;r.lang="fa";r.dir="rtl";r.classList.add("locale-fa");var k=document.querySelector(".rail-boot .kicker");var t=document.querySelector(".rail-boot-title");var c=document.querySelector(".rail-boot-copy");if(k)k.textContent="قطار به سوی جنگ";if(t)t.textContent="ریل در حال آمدن است";if(c)c.textContent="بریفینگ هنوز روی سیم است.";}catch(e){}})();`;
 const BOOT_TIMEOUT = `setTimeout(function(){try{document.documentElement.classList.add("hydrated")}catch(e){}},2500);`;
@@ -21,7 +21,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "The book runs away. The unwind gets harder. A GrumpyTechBro joint.",
+          "Past performance is no guarantee of future results. A GrumpyTechBro joint.",
       },
       { name: "theme-color", content: "#100e0c" },
     ],
@@ -52,7 +52,7 @@ export const Route = createRootRoute({
       <body>
         <div className="rail-boot" role="status" aria-live="polite">
           <div className="rail-boot-inner">
-            <p className="kicker">Hard to Unwind</p>
+            <p className="kicker">Past Performance</p>
             <p className="rail-boot-title">Loading the rail</p>
             <p className="rail-boot-copy">The briefing is still coming down the wire.</p>
           </div>

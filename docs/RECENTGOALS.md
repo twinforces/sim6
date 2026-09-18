@@ -2,22 +2,20 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
-## Playable rail, 2026-09-18
+## Title frozen, museum ticks, 2026-09-18
 
-What: Hard to Unwind sits a chair. Washington or the Street. 1979-2011. Hindsight scores and does not steal the rail.
+What: The product is Past Performance. Every hindsight button is a Street or Washington offramp. Moral victories tick when you walk.
 
-Why: User said go, then nap. Cubicle thesis is load-bearing. Enron and Crazy Eddie passed every audit.
+Why: Playtesting found the overlay giving the point while the scoreboard stayed at zero. The catalog was a handful of named exits. The overlay already said you have the point.
 
-How: Forked the Iran engine. Relabelled in the view. Quiet years 1995 / 2004 / 2006 on the rail. Nested unwind: RTC, LTCM room, SOX, then 2008 will not close.
-
-Hash: `6516e25`
+How: Derive the museum from the cards. Title is the SEC sentence.
 
 ## Open nags
 
-- Repo still named sim6. Rename when the title is frozen.
-- Engine chair ids stay `us` / `iran`. Relabel is view-only. Do not rename ids without a migration.
+- Repo still named sim6.
+- Engine chair ids stay `us` / `iran`. Relabel is view-only.
 - Fastow plate is a later lecture photo. Dual plate is the point.
 - Street chair is a modern NYSE floor. Fine as a stand-in.
-- Briefings are thin (one or two voices per chair). Iran's room had eight.
+- Briefings are thin (one or two voices per chair).
 - `resetTo1953` leftover in the ViewModel. Not on a button.
 - Reviewer and Tester have not sat.

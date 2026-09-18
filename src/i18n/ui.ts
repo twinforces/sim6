@@ -1,7 +1,7 @@
 import type { Locale } from "./types.ts";
 
 const EN = {
-  product: "Hard to Unwind",
+  product: "Past Performance",
   joint: "a GrumpyTechBro joint",
   navFrame: "Frame",
   navSystems: "Systems",
@@ -14,11 +14,11 @@ const EN = {
   langFa: "فا",
   langSwitch: "Language",
   navSections: "Sections",
-  bootKicker: "Hard to Unwind",
+  bootKicker: "Past Performance",
   bootTitle: "Loading the rail",
   bootCopy: "The briefing is still coming down the wire.",
-  homeKicker: "A time travel simulation",
-  homeTitle: "The book runs away. The unwind gets harder.",
+  homeKicker: "Past Performance",
+  homeTitle: "Past performance is no guarantee of future results.",
   homeP1:
     "What people think this is about: greed, or regulation, or one party. A morality play with a villain in a suit.",
   homeP2:

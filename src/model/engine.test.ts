@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import { applyChoice, newGame, overlayKindOf, iranFaceOf, currentCard } from "./engine.ts";
 import { CARDS, FIRST_CARD_ID, cardById } from "./cards.ts";
-import { detectExits } from "./exits.ts";
+import { detectExits, EXITS } from "./exits.ts";
 
 describe("hard to unwind engine", () => {
   it("Washington golden path reaches 2011 without a grave", () => {
@@ -100,7 +100,7 @@ describe("hard to unwind engine", () => {
     assert.equal(s.lastResult?.kind, "hindsight");
     assert.equal(s.cardId, "keating-1987");
     assert.equal(s.phase, "playing");
-    assert.equal(detectExits(s).includes("warehouse-us"), true);
+    assert.equal(detectExits(s).includes("us-drive-eddie"), true);
   });
 
   it("McCain suspend is hindsight and Obama still sits later", () => {
@@ -122,5 +122,17 @@ describe("hard to unwind engine", () => {
     assert.ok(cardById("rtc-1995"));
     assert.ok(cardById("sec-2004"));
     assert.ok(cardById("peak-2006"));
+  });
+
+  it("every hindsight button is a museum offramp", () => {
+    for (const card of CARDS) {
+      for (const c of [...card.usChoices, ...card.iranChoices]) {
+        if (c.overlay !== "hindsight") continue;
+        assert.ok(
+          EXITS.some((e) => e.choiceId === c.id && e.kind === "peace"),
+          `silent hindsight ${c.id} on ${card.id}`,
+        );
+      }
+    }
   });
 });
