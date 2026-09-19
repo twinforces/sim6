@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Hygiene
+
+What: Trailing comma in `package.json` broke `npm run`. Format script was dropped when `cards:dump` landed. Playable hash was still `6516e25`. RECENTGOALS was a second changelog.
+
+Why: User: hygiene and push so he can grab the file in the morning.
+
+How: Valid JSON. `npm run cards:dump`. Dump file unchanged. Hash `0253393` is the dump commit. Do not commit sandbox `AGENTS.md`, `.project_id`, or `migrations/`.
+
+### What did not work
+Leaving a trailing comma in package.json. npm died on parse.
+
 ## 2026-09-18 Card review dump
 
 What: `docs/CARDS.md` is the whole rail on paper. Home copy, both chairs, referee, buttons, overlays, briefings. History is marked here. The player never sees that label.

@@ -2,7 +2,7 @@
 
 What: the Train Ride briefing that shipped. Working name was Hard to Unwind.
 Why: poll closed 2026-09-18, 4 of 8 for the 2007 financial collapse. Past performance is no guarantee of future results.
-How: forked `twinforces/iranhistory`. Auth off. MVVM stays. Origin is https://github.com/twinforces/sim6. Playable hash `6516e25`.
+How: forked `twinforces/iranhistory`. Auth off. MVVM stays. Origin is https://github.com/twinforces/sim6. Playable hash `0253393`.
 
 Chairs: Washington or the Street. Never both.
 
