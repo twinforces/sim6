@@ -39,17 +39,17 @@ export const FACTION_LABEL: Record<FactionId, string> = {
 };
 
 export const FACTION_BLURB: Record<FactionId, string> = {
-  irgc: "The actual book. Duration, leverage, SPEs, CDOs. Soften it and it seizes you.",
-  leader: "The name on the letterhead. Survival of the desk, not the country.",
-  street: "Depositors, 401ks, the address on the invoice. Not a government-in-waiting.",
-  my_party: "How much your caucus will tolerate you this round. Not how much they like banks.",
-  opposing_party: "The other paper. They take the chair if this bar runs ahead.",
-  media: "Attention stack: crash, fear, anger, then process. Amplifier, not a voter.",
-  cia: "Rates, the window, the room. Thinks the model is the territory.",
-  saudis: "Hearings, forbearance, campaign cash. Will not go first.",
-  europeans: "The insurance fund. Insolvent before the industry is, if you wait.",
-  china: "Buys the paper. Recycles the surplus into the next book.",
-  venezuela: "AAA is a product. They get paid to keep it.",
+  irgc: "The actual bets on the balance sheet, not the press release. Old cheap mortgages, borrowed money, paper companies. Soften those numbers and the bets eat the firm.",
+  leader: "The name on the stationery. Survival of the CEO or the president, not of the country and not of the depositors.",
+  street: "Depositors, retirement accounts, the family on the home loan. The address you are supposed to drive to.",
+  my_party: "How much your own caucus will tolerate you this round. Not how much they like banks.",
+  opposing_party: "The other party. They take the White House if this bar runs ahead of yours.",
+  media: "Attention stack: crash, fear, anger, then process. An amplifier, not a voter.",
+  cia: "The Federal Reserve. It sets interest rates. In a panic it also runs the discount window, the emergency counter where a bank borrows cash overnight.",
+  saudis: "Hearings, campaign cash, and the habit of waiting. Will not go first if closing a bank looks like a recession.",
+  europeans: "The government promise on a bank deposit. FSLIC did this for savings and loans. FDIC does it for ordinary banks. Wait long enough and the fund itself goes broke.",
+  china: "Buys the paper. Recycles a trade surplus into American mortgages, then into the next book.",
+  venezuela: "The credit-rating firms. They stamp AAA, the safest grade, on products. They get paid by the people who sell those products.",
 };
 
 export function defaultBars(chair: Chair, party: Party): Bars {

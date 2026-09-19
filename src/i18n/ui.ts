@@ -20,25 +20,29 @@ const EN = {
   homeKicker: "Past Performance",
   homeTitle: "Past performance is no guarantee of future results.",
   homeP1:
-    "What people think this is about: greed, or regulation, or one party. A morality play with a villain in a suit.",
+    "What people think a financial crash is about: greed, or not enough rules, or one political party. A movie with a villain in a suit.",
   homeP2:
-    "What the machinery is actually doing: finance running away in complicated books that get harder to unwind. RTC closed the thrifts. Fourteen banks closed Greenwich in a weekend. Enron died, Andersen died, SOX passed. 2008 will not close. Each success is poison for the next book.",
+    "What actually happens is quieter and worse. A savings and loan, a hedge fund, an energy company, then the whole mortgage market each built a book of bets that looked fine on paper. Each time, Washington or the banks found a way to close the mess. Each success taught the next desk that complicated books can be cleaned up. The savings and loan cleanup worked. The 1998 hedge-fund weekend worked. Enron died and a new accounting law passed. 2008 would not close. The last rescue was a pause, not a cleanup.",
   homeP3:
-    "You sit the chair in 1979. Volcker has not hiked yet. The audit still passes. Can you find the offramps? To catch a criminal you have to leave the cubicle and drive to the address on the invoice.",
+    "You sit a chair in 1979, before any of that is a fact. Paul Volcker at the Federal Reserve has not yet jacked up interest rates. The audits still pass. Can you find the moments to get off the train? People who commit financial crimes are accountants. The people who check them are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave the office and drive to the address printed on the invoice.",
   tehran: "The Street",
   washington: "Washington",
   playIran: "Play as the Street",
   playUs: "Play as Washington",
-  homeIranBlurb: "You are a thrift. The duration gap is already the book.",
-  homeUsBlurb: "You are Carter. Volcker is in the room. The hike is on the desk.",
+  homeIranBlurb:
+    "You run a savings and loan. You pay depositors 3 percent, you make home loans at 6 percent, and you are on the golf course by 3. That world is about to end.",
+  homeUsBlurb:
+    "You are Jimmy Carter. Inflation is eating paychecks. Paul Volcker, who runs the Federal Reserve, wants to crush it with high interest rates. The savings and loans will scream.",
   readSystems: "Read the systems",
   github: "GitHub repo",
   chairKicker: "Time travel",
   chairTitle: "Play as the Street or play as Washington?",
   chairBody:
-    "You are not reading a recap. You are sitting the chair in 1979, before the hike is a fact. The 3-6-3 world is still a habit. The rail is a future, not a museum. You sit one chair.",
-  chairIranBlurb: "You are the thrift. Borrow short, lend long. The cubicle still calls that banking.",
-  chairUsBlurb: "You are Carter. Volcker wants the hike. The thrifts will scream. Inflation is already a street bar.",
+    "You are not reading a recap. You are sitting the chair in 1979, before the rate hike is a fact. It is good to be a savings and loan. You pay depositors 3 percent. You make thirty-year home loans at 6 percent. You count the money on the golf course by 3 in the afternoon. People in the business called that 3-6-3. You sit one chair. The other chair is someone else's problem.",
+  chairIranBlurb:
+    "You are the savings and loan. You borrow short from depositors and lend long to families. The office still calls that banking.",
+  chairUsBlurb:
+    "You are Carter. Volcker wants to raise rates until inflation breaks. Savings and loans will lose money on every old mortgage. Inflation is already hurting ordinary people.",
   unitedStates: "Washington",
   iran: "The Street",
   sitDifferent: "Sit a different chair",
@@ -50,7 +54,7 @@ const EN = {
   timeTravelBack: "Time travel: back one",
   lastBranch: "Last branch",
   advisors: "Advisors",
-  advisorsBlurb: "They are briefing you now. They do not know the ending.",
+  advisorsBlurb: "They are briefing you now. They do not know how this ends. Hover a name for what their job is.",
   moralVictory: "Moral victory",
   iranContinues: "The Street continues on.",
   serveSomebody: "You serve somebody",
@@ -70,14 +74,14 @@ const EN = {
   systemsKicker: "Systems",
   systemsTitle: "Bars, clocks, graves",
   systemsLead:
-    "50 means this faction will live with you for one more round. The book is the Street gun. Soften it and it seizes you. The cubicle is not a detective.",
+    "Each bar is how much that player will live with you for one more round. 50 is a working relationship. If you keep making the hole in the real loans worse, the book seizes the desk. Hover a bar for the plain-English job.",
   bar: "Bar",
   ifFalls: "If it falls",
   ifSpikes: "If it spikes",
   railKicker: "The rail",
   railTitle: "The rail, not eighty stations",
   railLead:
-    "Playable means the card is written and the engine will take a button. Quiet years still get a sentence. Trains stay on their rails. The offramps are the work.",
+    "Playable means the card is written and a button will take you somewhere. Quiet years still get a full sentence, not a skip. History is the path that actually happened. The other button is the offramp.",
   playThisCard: "Play this card",
   receiptsKicker: "Receipts",
   receiptsTitle: "Annotated bibliography",
@@ -86,11 +90,11 @@ const EN = {
   noteKicker: "A GrumpyTechBro joint",
   noteTitle: "Author's Note",
   noteP1:
-    "If you are reading a crash and one side looks like the villain, you are reading a campaign ad.",
+    "If you are reading a crash and one side looks like the only villain, you are reading a campaign ad.",
   noteP2:
-    "The thrifts had a duration gap. Volcker did his job. Washington let zombies gamble for resurrection because FSLIC would pay. The RTC then did the slow, ugly, public unwind. People went to jail. We called that competence. Greenwich took the lesson and built a model. Fourteen banks closed that book in a weekend. We called that private. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal, you have to leave your cubicle and drive to the address on the invoice. SOX made the CEO sign. We called that fixed. The houses took every lesson. The book was the country. It would not close.",
+    "Savings and loans paid depositors a little and lent to families for thirty years. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. Paul Volcker at the Federal Reserve crushed inflation by raising rates, which also crushed that gap. Washington then let dying thrifts gamble with insured deposits because the insurance fund would pay if they lost. The Resolution Trust Corporation later sold the wreckage in public, slowly, and some people went to jail. We called that competence. A hedge fund in Greenwich, Connecticut took the lesson and built a mathematical bet. Fourteen banks closed that bet in a weekend, with no check from the Treasury. We called that private. Enron in Houston passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the accountants. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you leave the office and drive to the address on the invoice. In 2002 a law made the CEO personally sign the books. We called accounting fixed. Then the mortgage factories took every lesson at once. The book was the country. It would not close.",
   noteP3:
-    "Hindsight is 20/20. There are no time machines in real life. This one is a gift. You get a point for the offramp. History still rides.",
+    "Hindsight is 20/20. There are no time machines in real life. This one is a gift. You get a point for getting off the train. History still rides.",
   noteP4:
     "Playing toward a boring bank is trivial from both chairs. It is hard from one. I do not let you play both. That is life.",
   noteP5: "Is that a slightly cynical view? I am Grumpy Tech Bro, not Happy Go Lucky Tech Bro. Deal with it.",
@@ -103,15 +107,16 @@ const EN = {
   kindReference: "Index",
   cardsPrefix: "cards",
   court: "The old book",
-  courtBlurb: "3-6-3. A mortgage someone lives in. Not a product yet.",
+  courtBlurb:
+    "A mortgage a family lives in, funded by neighborhood deposits. Not yet a product you sell to someone else.",
   myParty: "My party",
   opposing: "Opposing",
-  urbanLiberals: "Duration gap",
-  hardCurrency: "Capital",
-  oilPain: "Housing",
-  breakout: "Leverage",
-  missileCupboard: "TED",
-  holesKnown: "Cubicle faith",
+  urbanLiberals: "Loan vs deposit",
+  hardCurrency: "Cash on hand",
+  oilPain: "House prices",
+  breakout: "Borrowed money",
+  missileCupboard: "Bank fear",
+  holesKnown: "Did anyone look?",
   clockOff: "off",
   clockMonths: "mo",
   democrat: "Democrat",

@@ -110,7 +110,9 @@ export function FactionBars({
       <dl className="grid grid-cols-2 gap-2 sm:grid-cols-3">
         {clocks.map((c) => (
           <div key={c.id} className="rounded-[var(--radius-sm)] bg-surface-2 px-3 py-2">
-            <dt className="font-mono text-2xs uppercase tracking-wide text-muted">{c.label}</dt>
+            <dt className="font-mono text-2xs uppercase tracking-wide text-muted">
+              <GlossLabel id={c.glossaryId}>{c.label}</GlossLabel>
+            </dt>
             <dd className="font-mono text-sm tabular-nums text-fg">{c.display}</dd>
           </div>
         ))}

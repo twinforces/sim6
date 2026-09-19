@@ -10,6 +10,7 @@ import {
   FACTION_BLURB,
   FACTION_LABEL,
   FACTION_ORDER,
+  glossaryForClock,
   glossaryForFaction,
   iranFaceOf,
   isGrey,
@@ -72,6 +73,7 @@ export interface PresentedClock {
   id: string;
   label: string;
   display: string;
+  glossaryId: string | null;
 }
 
 export interface PresentedMuseum {
@@ -295,11 +297,17 @@ function presentBars(
 
 function presentClocks(state: GameState, card: Card, locale: Locale): PresentedClock[] {
   const num = (n: number) => (locale === "fa" ? faDigits(n) : String(n));
+  const clock = (id: string, label: string, display: string): PresentedClock => ({
+    id,
+    label,
+    display,
+    glossaryId: glossaryForClock(id)?.id ?? null,
+  });
   const row: PresentedClock[] = [
-    { id: "liberals", label: ui(locale, "urbanLiberals"), display: num(state.clocks.liberals) },
-    { id: "hard_currency", label: ui(locale, "hardCurrency"), display: num(state.clocks.hard_currency) },
-    { id: "oil_pain", label: ui(locale, "oilPain"), display: num(state.clocks.oil_pain) },
-    { id: "holes", label: ui(locale, "holesKnown"), display: num(state.clocks.drone_holes_known) },
+    clock("liberals", ui(locale, "urbanLiberals"), num(state.clocks.liberals)),
+    clock("hard_currency", ui(locale, "hardCurrency"), num(state.clocks.hard_currency)),
+    clock("oil_pain", ui(locale, "oilPain"), num(state.clocks.oil_pain)),
+    clock("holes", ui(locale, "holesKnown"), num(state.clocks.drone_holes_known)),
   ];
   if (card.clocksOn || state.clocks.nuke_breakout_months !== null) {
     const off = ui(locale, "clockOff");
@@ -310,10 +318,7 @@ function presentClocks(state: GameState, card: Card, locale: Locale): PresentedC
       state.clocks.missile_inventory_months === null
         ? off
         : `${num(state.clocks.missile_inventory_months)} ${mo}`;
-    row.push(
-      { id: "nuke", label: ui(locale, "breakout"), display: nuke },
-      { id: "missiles", label: ui(locale, "missileCupboard"), display: missiles },
-    );
+    row.push(clock("nuke", ui(locale, "breakout"), nuke), clock("missiles", ui(locale, "missileCupboard"), missiles));
   }
   return row;
 }

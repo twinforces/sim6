@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Copy teaches, then hover, 2026-09-18
+
+What: First use of a term is a story on the card. Hover glossary catches the repeats. 3-6-3 is no longer a nickname without a sentence.
+
+Why: User: most people will not know the terms. Pithy copy was haiku. Harder than Iran History because fewer proper names.
+
+How: Rail copy, plates, bars, HUD clocks, systems page, glossary paragraphs.
+
 ## Title frozen, museum ticks, 2026-09-18
 
 What: The product is Past Performance. Every hindsight button is a Street or Washington offramp. Moral victories tick when you walk.

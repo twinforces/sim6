@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Copy teaches, then hover
+
+What: Every finance term is a story on first use. Hover catches the repeats. 3-6-3 is pay depositors 3, lend at 6, golf by 3, then the nickname.
+
+Why: Playtesting. Most people do not know the terms. Pithy copy read as haiku. This is harder than Iran History because there are fewer proper names.
+
+How: Situations, briefings, buttons, plates, faction bars, HUD clocks, and glossary paragraphs all teach before they nickname. Volcker is a person, not another name for the Fed. SPE is a paper company, not a synonym for Enron.
+
+### What did not work
+Leaving "mark the" as a glossary alias. It would have hovered the 1979 duration card as Enron accounting.
+
 ## 2026-09-18 Title: Past Performance. Museum derived from the cards.
 
 What: Product title is Past Performance. Street / Washington / moral victories tick from the actual hindsight and walk buttons, not a short named list.

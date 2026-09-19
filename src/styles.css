@@ -200,6 +200,12 @@
     line-height: 1.2;
   }
 
+  .action-choices {
+    position: relative;
+    z-index: 3;
+    flex-shrink: 0;
+  }
+
   .situation-panel {
     overflow: hidden;
     border-radius: var(--radius-xl);

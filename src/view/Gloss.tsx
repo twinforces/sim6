@@ -31,7 +31,7 @@ function GlossTerm({ id, text, nested }: { id: string; text: string; nested?: bo
           {text}
         </span>
       </TooltipTrigger>
-      <TooltipContent side="top" collisionPadding={12} className="pointer-events-none">
+      <TooltipContent side="top" collisionPadding={12} className="pointer-events-none max-w-96">
         <TipBody id={id} />
       </TooltipContent>
     </Tooltip>
@@ -56,7 +56,7 @@ export function GlossLabel({
           {children}
         </span>
       </TooltipTrigger>
-      <TooltipContent side="top" collisionPadding={12} className="pointer-events-none">
+      <TooltipContent side="top" collisionPadding={12} className="pointer-events-none max-w-96">
         <TipBody id={id} />
       </TooltipContent>
     </Tooltip>
