@@ -2,7 +2,16 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 The Big Short: bonds of bonds
+
+What: Bundling mortgages seemed like genius because people live in the house. Then a bond of bonds. Slice it: good, medium, leftover. Roll the leftover, stamp AAA. Shorting the stack pays a premium, which funds more loans. Same pile. New side bets.
+
+Why: User memory from Lewis. 2003 is the live-in-the-house genius. 2005 is the machine.
+
+How: New card `slices-2005`. Glossary for leftover, shorting, mortgage bond. AIG is the mountain, not the first lesson.
+
 ## 2026-09-18 LTCM: split legs, 40 percent, trillion, $300k
+
 
 What: 1997 is the riddle. 40 percent a year, no place to put it, stay a hedge or split the long and the short. 1998 is the crater. A trillion in positions. Fold and the Street folds. One principal names $300,000 a year to unwind. The Street pays. They do not know the book.
 

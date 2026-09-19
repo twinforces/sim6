@@ -285,9 +285,30 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "cdo",
     term: "CDO",
-    aliases: ["CDO", "CDOs", "collateralized debt obligation"],
+    aliases: ["CDO", "CDOs", "collateralized debt obligation", "bond of bonds", "bonds of bonds"],
     definition:
-      "A collateralized debt obligation. Take a stack of home loans, including weak ones, slice it, and sell the slices as products. The top slice got stamped AAA, as if it were as safe as the government. Mark-to-market on a thing with no honest market, in a new dress.",
+      "A collateralized debt obligation. A bond of bonds. Take a stack of home loans, slice it into good credit, medium, leftover, then stack the leftover into a new pile and sell that too. The top of the second pile got stamped AAA, as if trash plus trash were the government. The rating firm was paid by the people selling it.",
+  },
+  {
+    id: "mortgage-bond",
+    term: "mortgage bond",
+    aliases: ["mortgage bond", "mortgage bonds", "bundling"],
+    definition:
+      "Home loans piled together and sold as a bond. Seemed like genius: a mortgage is a debt people live in, and they will keep paying even if the house is worth less than the loan. Once it is a bond, it is a product. You can slice it. You can short it. The family is still in the house.",
+  },
+  {
+    id: "leftover",
+    term: "the leftover",
+    aliases: ["the leftover", "leftover", "Slice it", "slice it"],
+    definition:
+      "The ugly slice. Good credit pays less and looks safer. Medium pays more. Nobody wants the leftover, so the factory rolls it into a new bond and has the rating firm stamp the top AAA. Same trash. New product.",
+  },
+  {
+    id: "shorting",
+    term: "short",
+    aliases: ["shorting", "short the", "short your"],
+    definition:
+      "Bet that a product dies. On a home-loan stack the usual tool is a credit default swap: you pay a premium, and if the stack goes bad you collect. The factory that sold you that bet keeps the premium and uses it to make more loans. You do not need a new house. Same pile, new side bets.",
   },
   {
     id: "gse",
@@ -315,7 +336,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "CDS",
     aliases: ["CDS", "credit default swap", "credit default swaps"],
     definition:
-      "A credit default swap. A side bet that pays if a loan, or a stack of loans, goes bad. Sold as insurance. AIG wrote a mountain of them without being an insurance company in the old sense, and without holding the cash an insurer would.",
+      "A credit default swap. A side bet that pays if a loan, or a stack of loans, goes bad. Sold as insurance. If people buy that insurance, the factory collects a premium and makes more loans. AIG later wrote a mountain of them without holding the cash an insurer would.",
   },
   {
     id: "ted",

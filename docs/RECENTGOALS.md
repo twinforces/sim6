@@ -2,7 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## The Big Short machine, 2026-09-18
+
+What: People live in the house. Bonds of bonds. Slice, roll leftover, stamp AAA. Shorting funds more loans.
+
+Why: User memory. Lewis is not a file here.
+
 ## LTCM from the dog-and-knees notes, 2026-09-18
+
 
 What: Split the legs. Skinny haircut because Nobels. 40 percent, doubling, no place to put it. They stopped being a hedge. A trillion if they fold. One principal, $300k to unwind.
 

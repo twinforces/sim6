@@ -57,6 +57,15 @@ describe("glossary", () => {
     assert.equal(ids.includes("haircut"), true);
   });
 
+  it("teaches a bond of bonds without stealing a hedge", () => {
+    const cdo = glossaryById("cdo");
+    assert.match(cdo?.definition ?? "", /bond of bonds/);
+    const parts = linkify("Slice it. Roll the leftover. People are shorting the stack.");
+    const ids = parts.map((p) => p.id).filter(Boolean);
+    assert.equal(ids.includes("leftover"), true);
+    assert.equal(ids.includes("shorting"), true);
+  });
+
   it("maps HUD clocks to teaching entries", () => {
     assert.equal(glossaryForClock("liberals")?.id, "duration-gap");
     assert.equal(glossaryForClock("holes")?.id, "cubicle");

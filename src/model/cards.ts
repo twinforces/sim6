@@ -1110,7 +1110,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "The savings-and-loan housing sermon, louder. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Subprime means a loan to someone with weak credit, sold as inclusion. Countrywide. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. The seller picks the firm. The firm stamps the seller's stack. Sarbanes-Oxley does not unwind a mortgage.",
+        "The savings-and-loan housing sermon, louder. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They will keep paying even if the house is worth less than the loan. That looks safer than a company that can walk away. People who hate risk will buy that paper. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Subprime means a loan to someone with weak credit, sold as inclusion. Countrywide. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. Sarbanes-Oxley does not unwind a mortgage.",
       ],
       tags: ["LT", "IT"],
     },
@@ -1135,7 +1135,7 @@ const CARDS: Card[] = [
     situationUs:
       "Ownership society: more families in houses, on purpose. Push Fannie Mae and Freddie Mac, the government-sponsored buyers of home loans, to take weaker files. The houses are not Enron. That is the sentence in the room. Subprime, loans to people with weak credit, is being sold as inclusion.",
     situationIran:
-      "You are Angelo Mozilo of Countrywide. A thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.",
+      "You are Angelo Mozilo of Countrywide. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They pay even if the house is worth less than the loan. Safe-looking paper for people who hate risk.\n\nA thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.",
     iranChoices: [
       {
         id: "ir-originate-sell",
@@ -1259,6 +1259,81 @@ const CARDS: Card[] = [
     ],
     sources: ["SEC CSE program 2004", "Net capital exemption"],
     visibleFactions: ROOM,
+    next: "slices-2005",
+  },
+  {
+    id: "slices-2005",
+    year: 2005,
+    yearLabel: "2005",
+    title: "Bonds of bonds",
+    titleUs: "The leftover finds a buyer",
+    titleIran: "Slice it",
+    era: "housing",
+    status: "playable",
+    branchPoint: true,
+    referee: {
+      paragraphs: [
+        "Once home loans are a bond, you can build a bond of bonds. A CDO, a collateralized debt obligation, is that second pile: slices of the first pile, stacked again. Slice the first bond into good credit, medium credit, leftover. Good credit pays less interest and looks safer. Medium pays more. Nobody wants the leftover, so you roll the leftover into a new bond. The credit-rating firm, paid by the people selling the product they are rating, stamps the top of that new pile AAA, as if trash plus trash were the government.",
+        "A bond is a product. You can short a product: bet that it dies. The usual tool is a credit default swap, a side bet that pays if the stack goes bad, sold as insurance. If people short your stack, you collect the premium. That is more money in the door. More money to make more loans. You do not even need a new house. Same pile, new side bets. Michael Lewis, The Big Short, is the file. The houses are still the invoice.",
+      ],
+      tags: ["LT", "IT"],
+    },
+    briefings: [
+      {
+        faction: "irgc",
+        audience: "iran",
+        rant: "The leftover has no buyer until you wrap it. Wrap it. Stamp it. Sell the shorts the insurance. The premium is origination money. Do not drive to the house.",
+        face: "mozilo",
+      },
+      {
+        faction: "venezuela",
+        audience: "us",
+        rant: "The top of the second pile is AAA. We ran the numbers on the first pile, then on the pile of the first pile. We get paid by the people selling it. We did not drive to Las Vegas.",
+      },
+    ],
+    situationUs:
+      "The factory is no longer just selling home loans. It is selling slices of home loans, then slices of those slices. The leftover, the bad-credit piece nobody wanted, is being rolled into a new bond and stamped AAA. People who hate risk are buying the top. People who want to bet against the pile are buying insurance on it.\n\nIf they short the stack, the factory collects the premium and makes more loans. Same houses. New paper. You can make them keep the leftover, or you can call a bond of bonds a private product.",
+    situationIran:
+      "Bundling mortgages as bonds seemed like genius. A family lives in the house. They pay even if they are underwater: the house is worth less than the loan. Once the loans are a bond, you can build a bond of bonds. Slice it. Good credit, medium credit, leftover. Nobody wants the leftover, so you roll that leftover into a new bond. The rating firm, paid by you, stamps the top AAA.\n\nA bond is a product. You can short a product. If people short your stack, they pay you a premium for the privilege of betting it dies. That premium is more money to make more loans. You do not need a new house. Same pile. New side bets.",
+    iranChoices: [
+      {
+        id: "ir-roll-leftover",
+        label: "Slice it. Roll the leftover.",
+        summary: "Bond of bonds. Stamp the trash AAA. Sell the shorts the insurance. The premium funds the next loan.",
+        kind: "hard",
+        historical: true,
+        deltas: { irgc: -8, oil_pain: 8, venezuela: 8, china: 4 },
+        flags: { iran_face: "mozilo" },
+      },
+      {
+        id: "ir-stop-slices",
+        label: "Stop at the first bond",
+        summary: "Do not build a bond of bonds. Do not sell insurance on it. A family still lives in the first one.",
+        kind: "walk",
+        deltas: { irgc: 8, venezuela: -6, leader: -6 },
+        ...hindsight("You stopped at the first bond. The leftover stayed leftover. The factory next door sliced it anyway. You have the point."),
+      },
+    ],
+    usChoices: [
+      {
+        id: "us-let-slices",
+        label: "Let them slice",
+        summary: "A bond of bonds is a private product. People want safe paper. The leftover is not your charter.",
+        kind: "ignore",
+        historical: true,
+        deltas: { venezuela: 6, oil_pain: 6, cia: 2 },
+      },
+      {
+        id: "us-keep-leftover",
+        label: "Make them keep the leftover",
+        summary: "If they roll trash into a new AAA, they hold it. If they sell insurance on a house, they hold cash like an insurer.",
+        kind: "hard",
+        deltas: { venezuela: -10, saudis: -8, oil_pain: -6, drone_holes_known: 10 },
+        ...hindsight("The leftover stayed leftover. The factory still wanted a second pile. You have the point."),
+      },
+    ],
+    sources: ["Lewis, The Big Short", "CDO mezzanine machine 2004-2007"],
+    visibleFactions: ROOM,
     next: "jackson-2005",
   },
   {
@@ -1291,7 +1366,7 @@ const CARDS: Card[] = [
     situationUs:
       "Jackson Hole, Wyoming. The Federal Reserve's annual conference. Raghuram Rajan says the system is more fragile than the models claim: more risk is being held, not less. The room wants to celebrate the Great Moderation, the years of calm. A scold is a scold.",
     situationIran:
-      "A Fed conference just described your book of home-loan products as a weapon. Keep making the loans. The rating is still AAA, the safest grade. The cubicle ran the numbers. The cubicle did not drive to Las Vegas.",
+      "A Fed conference just described your book of home-loan products as a weapon. You are already slicing the first bond, rolling the leftover into a second pile, stamping the top AAA. Keep the factory on. The cubicle ran the numbers. The cubicle did not drive to Las Vegas.",
     iranChoices: [
       {
         id: "ir-ignore-rajan",
@@ -1660,7 +1735,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "AIG Financial Products. A credit default swap, a CDS, is a side bet that pays if a loan, or a stack of loans, goes bad. Sold as insurance. AIG wrote a mountain of them on the AAA slices without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. The discount window takes 79.9 percent of the firm.",
+        "AIG Financial Products. A credit default swap is a side bet that pays if the stack goes bad, sold as insurance. In 2005 the factory collected that premium and made more loans. AIG wrote a mountain of them on the AAA slices, including the second pile, the leftover stamped safe, without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. The discount window takes 79.9 percent of the firm.",
       ],
       tags: ["LT"],
     },

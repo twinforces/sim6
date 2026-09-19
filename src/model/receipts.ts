@@ -28,6 +28,16 @@ export const RECEIPTS: readonly Receipt[] = [
     truth: "mixed",
   },
   {
+    id: "lewis-big-short",
+    title: "The Big Short",
+    publisher: "Michael Lewis",
+    url: "https://en.wikipedia.org/wiki/The_Big_Short",
+    kind: "investigation",
+    usedFor: ["dream-2003", "slices-2005", "peak-2006", "aig-2008"],
+    note: "Bundling seemed like genius. People live in the house. Bonds of bonds. Slice it, roll the leftover, stamp AAA. Shorting the stack funds more loans. Wikipedia is the link. The book is the book.",
+    truth: "mixed",
+  },
+  {
     id: "fcic",
     title: "The Financial Crisis Inquiry Report",
     publisher: "FCIC",
