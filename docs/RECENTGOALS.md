@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Hibachi dinner, 2026-09-18
+
+What: Mix the shorts with the longs. Cold feet, then they double. January 2007, between peak and contained.
+
+Why: User memory, Benihana. Book quotes say hibachi steam at the Wynn, Lippmann mixed the table. DK on the chain.
+
+How: Card `hibachi-2007`. Player is the long side, not Eisman.
+
 ## Lowenstein, not memory, 2026-09-18
 
 What: Patch LTCM to the book. No haircut. $100bn assets plus $1T side bets. Partners as a group, $250,000, three years.

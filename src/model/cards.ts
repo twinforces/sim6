@@ -1489,6 +1489,81 @@ const CARDS: Card[] = [
     ],
     sources: ["Case-Shiller peak 2006", "New Century 2006-2007", "Friends of Angelo"],
     visibleFactions: ROOM,
+    next: "hibachi-2007",
+  },
+  {
+    id: "hibachi-2007",
+    year: 2007,
+    yearLabel: "Jan 2007",
+    title: "The shorts sat with the longs",
+    titleUs: "A dinner in Vegas",
+    titleIran: "Keep talking",
+    era: "housing",
+    status: "playable",
+    branchPoint: true,
+    referee: {
+      paragraphs: [
+        "January 2007, the American Securitization Forum, Las Vegas. House prices have already peaked. The people who shorted the home-loan stack, betting it dies, have been paying a premium every month for a credit default swap, a side bet sold as insurance. The stack has not died. They have cold feet.",
+        "Greg Lippmann at Deutsche Bank throws a dinner at the Wynn. Hibachi steam: strangers around one grill, the kind of table Benihana made famous. He seats the shorts next to the longs, the people who still buy the stack. After they talk to a CDO manager on the long side, they double. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. DK on Benihana as the chain. LT that it was hibachi, that Lippmann mixed the table, and that they doubled. Michael Lewis, The Big Short, is the file.",
+      ],
+      tags: ["LT", "IT", "DK"],
+    },
+    briefings: [
+      {
+        faction: "irgc",
+        audience: "iran",
+        rant: "They seated the people betting you die next to people like you. You talk. They double. That premium is still origination money until it is not. Keep the factory on.",
+        face: "mozilo",
+      },
+      {
+        faction: "cia",
+        audience: "us",
+        rant: "A private dinner. Hedge funds and a salesman. Not a bank. The models still say a sector. August is when you get to say contained.",
+      },
+    ],
+    situationUs:
+      "Bush sits. A bond conference in Las Vegas. The salesman who sold insurance on home-loan stacks has seated the shorts, the people betting those stacks die, next to the longs, the people who still sell them. Hibachi steam. Strangers around one grill.\n\nThe shorts have cold feet. They have been paying a premium every month and the stack has not died. After dinner they double the bet.\n\nYou can ask what they heard. Or you can call a private dinner a private dinner, and in August you will say contained.",
+    situationIran:
+      "You are Angelo Mozilo. House prices peaked last year. People have been shorting your stack: betting it dies, paying you a premium every month for the privilege. The stack has not died. They have cold feet.\n\nDeutsche Bank throws a dinner in Las Vegas. Hibachi steam, the kind of table Benihana made famous: strangers around one grill. The salesman seats the shorts next to the longs. You are the long side of this book. Someone like you talks. Explains the factory.\n\nAfter they listen, they double the bet. Two doors. Keep talking. Or stop originating, because the people betting you die just met you and doubled.",
+    iranChoices: [
+      {
+        id: "ir-keep-talking",
+        label: "Keep talking",
+        summary: "Explain the factory. The shorts double. The premium is still origination money.",
+        kind: "hard",
+        historical: true,
+        deltas: { irgc: -6, oil_pain: 6, venezuela: 4, leader: 4 },
+        flags: { iran_face: "mozilo" },
+      },
+      {
+        id: "ir-leave-table",
+        label: "Stop originating",
+        summary: "They doubled because they sat with you. Turn the factory off.",
+        kind: "walk",
+        deltas: { irgc: 8, oil_pain: -8, leader: -6 },
+        ...hindsight("You left the table. The factory next door kept talking. The shorts still doubled. You have the point."),
+      },
+    ],
+    usChoices: [
+      {
+        id: "us-ignore-dinner",
+        label: "Call it a private dinner",
+        summary: "Hedge funds and a salesman. Not a bank. August is when you say contained.",
+        kind: "ignore",
+        historical: true,
+        deltas: { cia: 4, media: 2, oil_pain: 4 },
+      },
+      {
+        id: "us-ask-dinner",
+        label: "Ask what the shorts heard",
+        summary: "They had cold feet. After they sat with the longs they doubled. Ask why.",
+        kind: "hard",
+        deltas: { cia: -4, drone_holes_known: 10, saudis: -4 },
+        ...hindsight("You asked what the shorts heard. August still said contained. You have the point."),
+      },
+    ],
+    sources: ["Lewis, The Big Short", "American Securitization Forum Jan 2007"],
+    visibleFactions: ROOM,
     next: "contained-2007",
   },
   {

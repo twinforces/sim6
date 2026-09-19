@@ -180,7 +180,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "a-hedge",
     term: "a hedge",
-    aliases: ["a hedge", "the hedge", "Stay a hedge", "stay a hedge", "being a hedge", "both legs", "long side", "short side"],
+    aliases: ["a hedge", "the hedge", "Stay a hedge", "stay a hedge", "being a hedge", "both legs", "long side", "short side", "the longs"],
     definition:
       "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, you want the price down. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb. Long-Term did that, then talked them into no haircut at all.",
   },
@@ -306,7 +306,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "shorting",
     term: "short",
-    aliases: ["shorting", "short the", "short your"],
+    aliases: ["shorting", "short the", "short your", "the shorts"],
     definition:
       "Bet that a product dies. On a home-loan stack the usual tool is a credit default swap: you pay a premium, and if the stack goes bad you collect. The factory that sold you that bet keeps the premium and uses it to make more loans. You do not need a new house. Same pile, new side bets.",
   },

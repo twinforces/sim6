@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Hibachi: the shorts sat with the longs
+
+What: January 2007. Lippmann mixed the shorts with the longs at a hibachi table. The shorts had cold feet. After they talked to the longs they doubled.
+
+Why: User memory from The Big Short: Benihana, mix the table, double the bet. The book file is not here. The book as quoted is hibachi steam at the Wynn, not the chain. DK on Benihana as the restaurant. LT on the mix and the double.
+
+How: New card `hibachi-2007` between the empty houses and contained. Street still Mozilo. Isolation face list also picks up `slices-2005`.
+
+### What did not work
+Making the player Eisman. The Street chair is the long side. You talk. They double.
+
 ## 2026-09-18 Lowenstein, not memory
 
 What: The book file is here. No haircut, not skinny. $100 billion of assets, almost all borrowed, plus more than a trillion of side bets. The consortium salary is $250,000 for the partners as a group, stay three years. Not one principal at $300,000. Drop DK on the paycheck.

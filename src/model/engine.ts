@@ -259,8 +259,10 @@ function isolationStreetFace(cardId: string): IranFace {
   if (
     cardId === "dream-2003" ||
     cardId === "sec-2004" ||
+    cardId === "slices-2005" ||
     cardId === "jackson-2005" ||
     cardId === "peak-2006" ||
+    cardId === "hibachi-2007" ||
     cardId === "contained-2007"
   ) {
     return "mozilo";

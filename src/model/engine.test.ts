@@ -28,6 +28,7 @@ describe("hard to unwind engine", () => {
       "us-let-slices",
       "us-moderation",
       "us-peak-ok",
+      "us-ignore-dinner",
       "us-contained",
       "us-bear-backstop",
       "us-lehman-file",
@@ -70,6 +71,7 @@ describe("hard to unwind engine", () => {
       "ir-roll-leftover",
       "ir-ignore-rajan",
       "ir-keep-factory",
+      "ir-keep-talking",
       "ir-contained",
       "ir-bear-sold",
       "ir-lehman-file",
@@ -126,6 +128,7 @@ describe("hard to unwind engine", () => {
     assert.ok(cardById("rtc-1995"));
     assert.ok(cardById("sec-2004"));
     assert.ok(cardById("peak-2006"));
+    assert.ok(cardById("hibachi-2007"));
   });
 
   it("every hindsight button is a museum offramp", () => {

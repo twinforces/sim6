@@ -75,6 +75,13 @@ describe("glossary", () => {
     assert.equal(ids.includes("shorting"), true);
   });
 
+  it("does not steal shorting when the shorts sit with the longs", () => {
+    const parts = linkify("The shorts sat with the longs. People are shorting the stack.");
+    const ids = parts.map((p) => p.id).filter(Boolean);
+    assert.equal(ids.includes("shorting"), true);
+    assert.equal(ids.includes("a-hedge"), true);
+  });
+
   it("maps HUD clocks to teaching entries", () => {
     assert.equal(glossaryForClock("liberals")?.id, "duration-gap");
     assert.equal(glossaryForClock("holes")?.id, "cubicle");
