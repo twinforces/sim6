@@ -2,7 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## LTCM from the dog-and-knees notes, 2026-09-18
+
+What: Split the legs. Skinny haircut because Nobels. 40 percent, doubling, no place to put it. They stopped being a hedge. A trillion if they fold. One principal, $300k to unwind.
+
+Why: User memory. Book is not a file here. DK on the paycheck.
+
 ## Ratings paid by the seller. LTCM as a story, 2026-09-18
+
 
 What: The credit-rating firms get paid by the people selling the product they are rating. Long-Term Capital is a story now, not a nickname dump.
 

@@ -45,6 +45,18 @@ describe("glossary", () => {
     assert.equal(ids.includes("venezuela"), true);
   });
 
+  it("teaches a hedge as both legs, and does not steal hedge fund", () => {
+    const hedge = glossaryById("a-hedge");
+    assert.match(hedge?.definition ?? "", /Both sides/);
+    const hair = glossaryById("haircut");
+    assert.match(hair?.definition ?? "", /Extra collateral/);
+    const parts = linkify("A hedge fund is allowed to stop being a hedge. The haircut stayed skinny.");
+    const ids = parts.map((p) => p.id).filter(Boolean);
+    assert.equal(ids.includes("hedge-fund"), true);
+    assert.equal(ids.includes("a-hedge"), true);
+    assert.equal(ids.includes("haircut"), true);
+  });
+
   it("maps HUD clocks to teaching entries", () => {
     assert.equal(glossaryForClock("liberals")?.id, "duration-gap");
     assert.equal(glossaryForClock("holes")?.id, "cubicle");

@@ -2,7 +2,19 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 LTCM: split legs, 40 percent, trillion, $300k
+
+What: 1997 is the riddle. 40 percent a year, no place to put it, stay a hedge or split the long and the short. 1998 is the crater. A trillion in positions. Fold and the Street folds. One principal names $300,000 a year to unwind. The Street pays. They do not know the book.
+
+Why: User memory from When Genius Failed. Haircut, both legs, doubling, the hostage. We do not have the book file. DK on the paycheck. LT that they paid.
+
+How: New card `ltcm-1997`. Glossary for a hedge and a haircut. 2004 CSE rhymes: same courtesy, whole firm.
+
+### What did not work
+Aliasing "a hedge" without "a hedge fund" as the longer needle. Hover would have stolen the fund.
+
 ## 2026-09-18 Ratings get paid by the seller. LTCM is a story.
+
 
 What: Issuer-pays is the Ratings bar, not a trailing clause. The 1998 card is the Lowenstein story: Salomon, Nobels, pennies on $30 of debt per $1, Russia, Buffett's fax, Bear's no, then the room.
 

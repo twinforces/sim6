@@ -23,8 +23,8 @@ export const RECEIPTS: readonly Receipt[] = [
     publisher: "Roger Lowenstein",
     url: "https://en.wikipedia.org/wiki/When_Genius_Failed",
     kind: "investigation",
-    usedFor: ["ltcm-1998"],
-    note: "The Greenwich file. Salomon, Nobels, convergence, 30 to 1, Russia, Buffett's fax, Bear's no, the room. Treat as the story, not a sermon. Wikipedia is the link. The book is the book.",
+    usedFor: ["ltcm-1997", "ltcm-1998"],
+    note: "The Greenwich file. 40 percent a year. Give money back and the leverage jumps. Split the long and the short, skinny haircut, Nobels. A trillion in positions. Fold and the Street folds. One principal names a price to unwind. Wikipedia is the link. The book is the book. DK on the $300,000 paycheck. LT that they paid.",
     truth: "mixed",
   },
   {

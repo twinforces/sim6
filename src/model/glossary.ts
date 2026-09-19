@@ -173,9 +173,23 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "hedge-fund",
     term: "hedge fund",
-    aliases: ["hedge fund", "hedge funds"],
+    aliases: ["a hedge fund", "A hedge fund", "hedge fund", "hedge funds"],
     definition:
-      "A private pool of bets for rich clients and other funds. Lightly regulated. Often borrows many dollars for each dollar of its own. When the bets work, the returns look like genius. When they fail, the borrowed money turns a hole into a crater.",
+      "A private pool of bets for rich clients and other funds. The name is a joke. A real hedge is both sides at once. A hedge fund often borrows many dollars for each dollar of its own, and is allowed to stop being a hedge. When the bets work, the returns look like genius. When they fail, the borrowed money turns a hole into a crater.",
+  },
+  {
+    id: "a-hedge",
+    term: "a hedge",
+    aliases: ["a hedge", "the hedge", "Stay a hedge", "stay a hedge", "being a hedge", "both legs", "long side", "short side"],
+    definition:
+      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, you want the price down. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb, and you talk them into a skinny haircut because the letterhead says Nobel.",
+  },
+  {
+    id: "haircut",
+    term: "haircut",
+    aliases: ["haircut", "haircuts", "skinny haircut"],
+    definition:
+      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term Capital split the legs, then talked each broker into a skinny one because nobody on the Street had a Nobel. Later the five investment banks asked the SEC for the same courtesy on the whole firm: kill the old twelve-to-one capital rule.",
   },
   {
     id: "leverage",

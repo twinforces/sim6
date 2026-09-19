@@ -647,6 +647,80 @@ const CARDS: Card[] = [
     ],
     sources: ["RTC sunset 1995", "Keating convictions"],
     visibleFactions: ROOM,
+    next: "ltcm-1997",
+  },
+  {
+    id: "ltcm-1997",
+    year: 1997,
+    yearLabel: "1997",
+    title: "Forty percent a year",
+    titleUs: "A private fund, printing",
+    titleIran: "No place to put the money",
+    era: "ltcm",
+    status: "playable",
+    branchPoint: true,
+    referee: {
+      paragraphs: [
+        "Long-Term Capital is beating the market by about 40 percent a year. That doubles in two years. The gaps they sit in are getting crowded. They gave about $2.7 billion back to investors in 1997. That sounded like discipline. It left the same bets on less of their own money, so the borrowed-money pile got taller. They also stopped being a hedge. A hedge is both sides at once: you own one bond, the long side, and you have borrowed and sold a near twin, the short side. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. Long-Term put the long at one firm and the short at another, then talked each of them into a skinny haircut because the letterhead said Nobel and nobody on the Street had one. Each broker had a one-sided bomb and thought they had a customer.",
+      ],
+      tags: ["LT", "IT"],
+    },
+    briefings: [
+      {
+        faction: "irgc",
+        audience: "iran",
+        rant: "The gaps are gone. Everyone else caught up. You nibble and the pennies vanish. Two doors. Stay a hedge and stay smaller, or stop hedging and take the directional book. The letterhead will get you the skinny haircut either way.",
+        face: "meriwether",
+      },
+      {
+        faction: "cia",
+        audience: "us",
+        rant: "A private fund in Greenwich. Not a bank. Forty percent is a success story. Haircuts on a hedge fund are not our charter.",
+      },
+    ],
+    situationUs:
+      "Clinton sits. A hedge fund in Greenwich is printing about 40 percent a year. That doubles in two years. It is not a bank. It does not take insured deposits. The New York Fed has not asked what the haircuts look like: the extra collateral a broker keeps in case the customer dies.\n\nA real hedge is both sides at once. If a broker holds the long and the short, they only have net risk. If this fund has been splitting the legs across the Street, each desk has a bomb and thinks it has a customer. You can ask. Or you can call it private.",
+    situationIran:
+      "You are John Meriwether. You are beating the market by about 40 percent a year. That doubles in two years. You have more money than gaps. The pennies are getting crowded.\n\nA hedge is both sides at once. Long: you own it, you want it up. Short: you borrowed it and sold it, you want it down. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. You have been putting the long at one firm and the short at another, then talking them into a skinny haircut because Scholes and Merton sit on the letterhead and nobody on the Street has a Nobel.\n\nTwo doors. Stop taking money, stay a hedge, live with the pennies you can still find. Or stop being a hedge: directional bets, split legs, skinny haircuts, and give some money back so the same book sits on less of your own cash. Guess which one the desk wants.",
+    iranChoices: [
+      {
+        id: "ir-stop-hedge",
+        label: "Stop being a hedge",
+        summary: "Directional bets. Split the legs. Skinny haircut. Give money back so the same book sits on less of your own cash.",
+        kind: "hard",
+        historical: true,
+        deltas: { irgc: -8, leader: 8, cia: 2 },
+        flags: { iran_face: "meriwether" },
+      },
+      {
+        id: "ir-stay-hedge",
+        label: "Stay a hedge. Stop taking money.",
+        summary: "You already double in two years. The gaps are gone. Keep both legs at the same broker. Live with the pennies.",
+        kind: "walk",
+        deltas: { irgc: 8, leader: -8 },
+        ...hindsight("You stayed a hedge. Greenwich still split the legs. You have the point."),
+      },
+    ],
+    usChoices: [
+      {
+        id: "us-private-1997",
+        label: "Call it private",
+        summary: "A hedge fund is not a bank. Forty percent is their problem. Haircuts are not your charter.",
+        kind: "ignore",
+        historical: true,
+        deltas: { cia: 4, media: 2 },
+      },
+      {
+        id: "us-ask-1997",
+        label: "Ask what the haircuts look like",
+        summary: "If they split the legs, each desk on the Street has a bomb. Ask what happens if they fold.",
+        kind: "hard",
+        deltas: { cia: -4, drone_holes_known: 10, saudis: -4 },
+        ...hindsight("You asked about the haircuts in 1997. The weekend still came. You have the point."),
+      },
+    ],
+    sources: ["Lowenstein, When Genius Failed", "LTCM 1997 capital return"],
+    visibleFactions: ROOM,
     next: "ltcm-1998",
   },
   {
@@ -662,29 +736,29 @@ const CARDS: Card[] = [
     clocksOn: true,
     referee: {
       paragraphs: [
-        "John Meriwether was the bond star at Salomon Brothers. He left, went to Greenwich, Connecticut, and in 1994 built a hedge fund: a private pool of bets. Ten million dollars just to get in. No look at the positions. Myron Scholes and Robert Merton, who won the Nobel Prize in 1997 for teaching the world how to price an option, sat on the letterhead. The trade was called convergence. Two almost-identical bonds sometimes trade at a tiny gap. The gap, they said, will close. Sit in the gap and collect the pennies. To make pennies worth a career they borrowed a mountain. Leverage is borrowed money piled on the bet. At the end of 1997 the fund owed about $30 for every $1 of its own. A cubicle model named Value at Risk claimed to say how much you could lose on a normal day. In 1997 they gave money back to investors because the bets were too good to share.",
-        "In August 1998 Russia defaulted on its debts. The gaps blew open instead of closing. The fund lost 44 percent that month. The model had not priced a country walking away from its own paper. On September 23, fourteen banks and brokerage firms put $3.6 billion into the fund at the New York Fed so it would not dump the trades overnight. Bear Stearns, which cleared the trades, said no. A group led by Warren Buffett faxed an offer to buy the partners for scraps and inject cash. The partners did not take it. The Fed lent none of its own money. We will call this private. We will call it a put anyway: a cheap option to dump the loss on someone else. This time the someone else was the other banks.",
+        "By September 1998 the fund was sitting on about a trillion dollars of positions. Not cash in a vault. Bets. A real hedge is both sides. They had split the long and the short across the Street, with skinny haircuts, because the letterhead said Nobel. If they folded and dumped the book overnight, every desk on the other side would die with them. That is why fourteen banks sat in a room. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk had not priced a country walking away from its own paper.",
+        "On September 23, fourteen firms put $3.6 billion into the fund at the New York Fed. Bear Stearns, which cleared the trades, said no. A group led by Warren Buffett faxed an offer to buy the partners for scraps. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. One of the principals would only help if they kept him on, at $300,000 a year. The Street was furious. They paid. They did not know the positions. DK on the paycheck. LT that they paid, and that they had to. We will call this private. We will call it a put anyway.",
       ],
-      tags: ["LT", "IT"],
+      tags: ["LT", "IT", "DK"],
     },
     briefings: [
       {
         faction: "cia",
         audience: "us",
-        rant: "Not a bailout. A consortium: the banks on the other side of the trades put in cash. If Long-Term Capital dumps the book tonight, every desk on the other side dies with them. Get them in a room. There is no Treasury check.",
+        rant: "Not a bailout. A consortium. If they dump a trillion dollars of positions tonight, every desk on the other side dies with them. You cannot unwind it without them. Get them in a room. There is no Treasury check.",
         closer: "William McDonough, New York Fed. He is in the room. He is not the chair.",
       },
       {
         faction: "irgc",
         audience: "iran",
-        rant: "Value at Risk said this could not happen. Value at Risk is a math model that claims to say how much you can lose on a normal day. It is a cubicle. Russia was not a normal day. The counterparties, the desks on the other side of your bets, have the real power this weekend.",
+        rant: "If you fold, the Street folds. A trillion dollars of positions, long at one desk and short at another, skinny haircuts, no one holding both legs. Value at Risk said this could not happen. Russia was not a normal day. They need you to unwind it. Name a price.",
         face: "meriwether",
       },
     ],
     situationUs:
-      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nJohn Meriwether left Salomon, hired Myron Scholes and Robert Merton, and built Long-Term Capital Management. The bet was convergence: tiny gaps between almost-identical bonds would close. They borrowed about $30 for every $1 of their own. In August, Russia defaulted. The gaps blew open. The fund lost 44 percent in a month. Value at Risk, the cubicle that claimed to know a normal day, had not priced that.\n\nBill McDonough at the New York Fed wants fourteen banks in a room to put in cash so the fund does not dump its trades overnight. Bear Stearns will say no. Warren Buffett sent a fax. There is no Treasury check. Call it a recap, not a bailout. We will call this private. The next book will call it a put.",
+      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nThey split the long and the short across the Street. Skinny haircuts, because the letterhead said Nobel. They are sitting on about a trillion dollars of positions. If they fold tonight and dump the book, every desk on the other side dies with them. Russia defaulted in August. Forty-four percent gone in a month.\n\nBill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed scraps. There is no Treasury check. After you save them, you will need them to unwind it. One principal will name a price to stay. Call it a recap, not a bailout. We will call this private. The next book will call it a put.",
     situationIran:
-      "You are John Meriwether. You were the bond star at Salomon Brothers. You left, went to Greenwich, and built a hedge fund: a private pool of bets for people who could put up ten million just to get in. Two of your partners, Myron Scholes and Robert Merton, won the Nobel Prize for teaching the world how to price an option. The pitch was simple. Two almost-identical bonds sometimes trade at a tiny gap. The gap will close. Sit in the gap, collect the pennies. They called that convergence.\n\nTo make pennies worth a career you borrowed a mountain. By the end of 1997 the fund owed about $30 for every $1 of its own. People call that leverage. A cubicle model named Value at Risk said how much you could lose on a normal day. You gave money back to investors in 1997 because the bets were too good to share. Then Russia defaulted on its debts in August. The gaps blew open. In one month the fund lost 44 percent. The model had not priced a country walking away from its own paper.\n\nFourteen banks are in a room at the New York Fed this weekend because if you dump the trades tonight, every desk on the other side dies with you. Warren Buffett sent a fax that would have bought the partners for scraps. Bear Stearns, the bank that clears your trades, will not put in a dollar. There is no Treasury check. They will call this private.",
+      "You are John Meriwether. Last year you stopped being a hedge. The long sat at one broker, the short at another. Skinny haircuts, because Scholes and Merton sit on the letterhead. You gave money back, which left the same bets on less of your own cash.\n\nRussia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You are sitting on about a trillion dollars of positions. Not cash in a vault. Bets. If you fold tonight and dump them, every Street firm on the other side dies with you. That is why fourteen banks are in a room.\n\nThey cannot unwind it without you. One of your principals will only help if he stays on, at $300,000 a year. They will be furious. They will pay. They do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed scraps. There is no Treasury check. They will call this private.",
     iranChoices: [
       {
         id: "ir-take-room",
@@ -698,12 +772,12 @@ const CARDS: Card[] = [
       {
         id: "ir-file",
         label: "File for bankruptcy",
-        summary: "Chapter 11. A fire sale: dump the trades overnight. Every other desk marks you at zero.",
+        summary: "Dump a trillion dollars of positions tonight. Every Street firm on the other side dies with you.",
         kind: "walk",
         deltas: { irgc: -20, leader: -20 },
         ...adapts(
           "The fire sale",
-          "You filed. Every desk on the other side marked you overnight. The room still happens, uglier, without you as letterhead. History still rides. AL on the ugliness, not on the hole.",
+          "You filed. A trillion dollars of positions marked every desk overnight. The room still happens, uglier, without you as letterhead. History still rides. AL on the ugliness, not on the hole.",
         ),
       },
     ],
@@ -759,7 +833,7 @@ const CARDS: Card[] = [
       },
     ],
     situationUs:
-      "The 1998 weekend is already a success story: fourteen banks, no Treasury check, the system held. Repeal Glass-Steagall, the Depression-era wall between deposit banks and trading floors. The models worked.",
+      "The 1998 weekend is already a success story: fourteen banks, no Treasury check, the system held. You paid one of their principals $300,000 a year to unwind his own book. The Street was furious. You paid. Repeal Glass-Steagall, the Depression-era wall between deposit banks and trading floors. The models worked.",
     situationIran:
       "The wall between deposit banking and the trading floor is coming down. You can be everything: take deposits, underwrite, trade. The cubicle will call that synergy.",
     iranChoices: [
@@ -1138,7 +1212,7 @@ const CARDS: Card[] = [
       {
         faction: "leader",
         audience: "iran",
-        rant: "The old haircut, the capital rule, is for commercial banks. You are a market. Markets mark themselves.",
+        rant: "The old haircut, the capital rule, is for commercial banks. Long-Term already talked the brokers out of a haircut on each trade. You want the same courtesy from the SEC on the whole firm. Markets mark themselves.",
         face: "mozilo",
       },
     ],
