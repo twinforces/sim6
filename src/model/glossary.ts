@@ -161,14 +161,14 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "Crazy Eddie",
     aliases: ["Crazy Eddie"],
     definition:
-      "An electronics chain. Before the accountants arrived, staff moved inventory at night from store to store so every warehouse looked full. The audit passed. Every year. The lesson for Enron: accountants are not detectives.",
+      "An electronics chain. Before the accountants arrived, staff moved inventory at night from store to store so every warehouse looked full. The audit passed. Every year. Wall Street thought they were taking New Jersey rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The lesson for Enron: accountants are not detectives.",
   },
   {
     id: "ltcm",
     term: "Long-Term Capital",
     aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Black-Scholes", "Scholes", "Merton"],
     definition:
-      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. Black-Scholes is icky nerd math. Nobody on the Street had ever really understood it. Charging Scholes a haircut would have meant admitting that. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the 2026 economy: about $360 billion, and about $3.6 trillion of side bets. Fourteen banks had to sit in a room.",
+      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. Black-Scholes is icky nerd math for pricing options. Nobody on the Street had ever really understood it. Charging Scholes a haircut would have meant admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the 2026 economy: about $360 billion, and about $3.6 trillion of side bets. Fourteen banks had to sit in a room.",
   },
   {
     id: "hedge-fund",

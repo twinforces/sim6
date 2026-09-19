@@ -34,7 +34,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/When_Genius_Failed",
     kind: "investigation",
     usedFor: ["ltcm-1997", "ltcm-1998"],
-    note: "The book is in the sandbox this pass. More than 40 percent a year. Gave $2.7 billion back, leverage 18 to 28. Policy was no haircut. Charging Scholes a haircut would have meant admitting nobody understood Black-Scholes. Merrill saw only one side. $100 billion borrowed, more than a trillion in side bets: about $360 billion and $3.6 trillion of the 2026 economy. Fold and each bank holds one side of a dead contract. When you owe half the Street a trillion by Monday, Treasury has a problem. Consortium: stay three years, salary $250,000, about $500,000 in 2026 grocery money. Partners exploded. Banks needed signatures. Wikipedia is the public link. The file is the book.",
+    note: "The book is in the sandbox this pass. More than 40 percent a year. Gave $2.7 billion back, leverage 18 to 28. Policy was no haircut. Charging Scholes a haircut would have meant admitting nobody understood Black-Scholes. Merrill saw only one side. $100 billion borrowed, more than a trillion in side bets: about $360 billion and $3.6 trillion of the 2026 economy. Fold and each bank holds one side of a dead contract. When you owe half of Wall Street a trillion by Monday, Treasury has a problem. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. Consortium: stay three years, salary $250,000, about $500,000 in 2026 grocery money. Partners exploded. Banks needed signatures. Wikipedia is the public link. The file is the book.",
     truth: "LT",
   },
   {

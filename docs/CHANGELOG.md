@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-19 Morning: complete the ride, fancy math, half of Wall Street
+
+What: Crazy Eddie: Instead, the rubes took them for a ride. LTCM: the Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. Quote: half of Wall Street a trillion by Monday morning.
+
+Why: User overnight thoughts, second pass. The four items were already on the rail. This pass completes the parallel and the clothes.
+
+How: Cards, glossary, receipts, GTs, dump.
+
+### What did not work
+Reworking 2026 dollars again. Then-dollars stay. Grocery for people. GDP for holes. Already shipped.
+
 ## 2026-09-19 Overnight: Treasury problem, no clothes, 2026 dollars
 
 What: LTCM: owe $10 million / $10 billion / a trillion by Monday, Treasury has a problem. Nobody understood Black-Scholes; charging Scholes a haircut would admit that; emperors had no clothes. Crazy Eddie: Wall Street thought they were taking New Jersey rubes; the rubes took them; cons do not work on the honest. Then-dollars stay. Grocery money for paychecks and caps. Same slice of GDP for system holes.

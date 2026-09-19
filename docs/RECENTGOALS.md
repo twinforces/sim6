@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Morning punchlines, 2026-09-19
+
+What: Complete the ride. Fancy math that can bankrupt you. Half of Wall Street a trillion.
+
+Why: User overnight thoughts, second pass. 2026 dollars already shipped.
+
+How: Eddie, LTCM 1997/1998, glossary, receipts, GTs, dump.
+
 ## Overnight copy and 2026 dollars, 2026-09-19
 
 What: Treasury-has-a-problem. Black-Scholes, no clothes. Rubes took Wall Street. Then-dollars plus two rulers.

@@ -136,13 +136,13 @@ Card change: none.
 
 Frame: a retailer scandal vs the cubicle lesson parked next to Keating on purpose.
 
-Observations: not an S&L. Carnival: inventory at night. Audit passed. Enron will pass the same way. November 1987 is the year of the count.
+Observations: not an S&L. Carnival: inventory at night. Audit passed. Enron will pass the same way. November 1987 is the year of the count. Wall Street thought they were taking New Jersey rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest.
 
-Incentives: accountants lying to accountants. The SEC filing is the alibi.
+Incentives: accountants lying to accountants. The SEC filing is the alibi. Cons do not work on the honest.
 
 Falsify: if Peat Marwick had driven at 2 a.m. and still signed.
 
-Card change: none. Placement is IT, and load-bearing.
+Card change: complete the ride. The nutshell is the load-bearing sentence next to the cubicle.
 
 #### `keating-1987`
 
@@ -208,7 +208,9 @@ Lowenstein is in the sandbox. The numbers are his.
 4. Russia defaulted August 17, 1998. Fund lost 44 percent that month. VaR had not priced a country walking away from its own paper. (LT)
 5. September 23: fourteen firms, $3.6 billion, New York Fed. Bear said no. Cayne had vowed to stop clearing under $500 million. Buffett faxed $250 million for the fund and would fire the partners. Partners did not take it. (LT)
 6. Consortium: stay three years, salary $250,000. Partners exploded. 140 lawyers at Skadden. Banks needed signatures. They paid. (LT)
-7. Sideways: the hostage was the book, not one principal at $300,000. Memory had the shape. The file has the group and the number.
+7. When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. Shape is the user's. Numbers are Lowenstein's book. (IT on the ladder. LT on the trillion.)
+8. Nobody on the Street had ever really understood Black-Scholes. Charging Scholes a haircut would mean admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. (IT. The book has the no-haircut policy. The clothes are the take.)
+9. Sideways: the hostage was the book, not one principal at $300,000. Memory had the shape. The file has the group and the number.
 
 ### Sides
 
@@ -248,17 +250,17 @@ If Merrill held both legs. If there was a Treasury check. If the salary was $300
 
 Frame: a private success story vs a hedge that stopped being a hedge.
 
-Observations: 40 percent, crowded pennies, split legs, no haircut, give money back. Washington can ask about haircuts or call it private.
+Observations: 40 percent, crowded pennies, split legs, no haircut, give money back. Black-Scholes is icky nerd math. Charging Scholes a haircut would admit nobody understood it. Rules of thumb that worked, not fancy math that can bankrupt you. Washington can ask about haircuts or call it private.
 
-Card change: already Lowenstein, not memory. This pass: none.
+Card change: Wall Street emperors. Fancy math that could make you bankrupt.
 
 #### `ltcm-1998`
 
 Frame: a weekend of grown-ups vs a put we refused to name.
 
-Observations: $100 billion plus $1 trillion side bets. Bear's no. Buffett fax. $250,000 for the group. We will call this private.
+Observations: $100 billion plus $1 trillion side bets. Owe the bank $10 million, a bank $10 billion, half of Wall Street a trillion by Monday, Treasury has a problem. Bear's no. Buffett fax. $250,000 for the group. We will call this private.
 
-Card change: already patched. This pass: none.
+Card change: the quote now says half of Wall Street, not half the Street.
 
 #### `glba-1999`
 
