@@ -2,6 +2,14 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Card review dump
+
+What: `docs/CARDS.md` is the whole rail on paper. Home copy, both chairs, referee, buttons, overlays, briefings. History is marked here. The player never sees that label.
+
+Why: User going to bed. Morning redline.
+
+How: `npm run cards:dump` writes it from `src/model/cards.ts`. Do not hand-edit the dump.
+
 ## 2026-09-18 Title: just future greed
 
 What: Home title is now the SEC line plus the punchline.

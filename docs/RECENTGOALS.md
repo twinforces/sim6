@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Card review dump, 2026-09-18
+
+What: `docs/CARDS.md` for the morning redline. 30 cards.
+
+Why: User asked for every card on paper.
+
+How: `npm run cards:dump`. Do not hand-edit the dump.
+
 ## Title punchline, 2026-09-18
 
 What: "...just future greed."
