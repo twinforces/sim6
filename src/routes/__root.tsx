@@ -21,7 +21,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Past performance is no guarantee of future results. A GrumpyTechBro joint.",
+          "Past performance is no guarantee of future results; just future greed. A GrumpyTechBro joint.",
       },
       { name: "theme-color", content: "#100e0c" },
     ],

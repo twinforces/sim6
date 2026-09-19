@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Title punchline, 2026-09-18
+
+What: "...just future greed."
+
+Why: User.
+
+How: homeTitle, tab title.
+
 ## Home opening, 2026-09-18
 
 What: July 4, not Constitution Day. Skip the United States Bank and 1929. Start at the S&L.

@@ -2,6 +2,14 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Title: just future greed
+
+What: Home title is now the SEC line plus the punchline.
+
+Why: User.
+
+How: `homeTitle` and the tab title. Spelling stays guarantee.
+
 ## 2026-09-18 Opening: July 4, then the S&L
 
 What: Home screen is GTB's skip. Optimistic people. Constitution Day is the machinery. July 4 is the aspiration. SCOTUS takes the Declaration seriously. Scandals are as old as the country. We are not doing the United States Bank or 1929. We start at the first one he remembers: the savings and loan crisis.

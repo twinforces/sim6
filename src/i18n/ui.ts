@@ -18,7 +18,7 @@ const EN = {
   bootTitle: "Loading the rail",
   bootCopy: "The briefing is still coming down the wire.",
   homeKicker: "Past Performance",
-  homeTitle: "Past performance is no guarantee of future results.",
+  homeTitle: "Past performance is no guarantee of future results; just future greed.",
   homeP1:
     "We are an optimistic people. We do not celebrate Constitution Day, the day we actually stood up the machinery of government. We celebrate July 4, 1776, the aspiration. The Supreme Court, SCOTUS, takes the Declaration of Independence as seriously as the Constitution, and has ruled based on things it says.",
   homeP2:
