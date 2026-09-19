@@ -2,6 +2,14 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Opening: July 4, then the S&L
+
+What: Home screen is GTB's skip. Optimistic people. Constitution Day is the machinery. July 4 is the aspiration. SCOTUS takes the Declaration seriously. Scandals are as old as the country. We are not doing the United States Bank or 1929. We start at the first one he remembers: the savings and loan crisis.
+
+Why: User rewrote the opening.
+
+How: `homeP1` and `homeP2`. Title stays the SEC joke. Italic still sits you in 1979 and keeps the cubicle.
+
 ## 2026-09-18 Lewis, not memory
 
 What: The dinner is Okada at the Wynn, not Benihana. Teppanyaki room, four islands, one shorter per grill, longs around them. Lippmann mixed the table because his shorts were in full flight. They left under $300 million short and came back at $550 million. Without the shorts the longs had nothing to buy. Drop DK.

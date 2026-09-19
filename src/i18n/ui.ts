@@ -20,11 +20,11 @@ const EN = {
   homeKicker: "Past Performance",
   homeTitle: "Past performance is no guarantee of future results.",
   homeP1:
-    "What people think a financial crash is about: greed, or not enough rules, or one political party. A movie with a villain in a suit.",
+    "We are an optimistic people. We do not celebrate Constitution Day, the day we actually stood up the machinery of government. We celebrate July 4, 1776, the aspiration. The Supreme Court, SCOTUS, takes the Declaration of Independence as seriously as the Constitution, and has ruled based on things it says.",
   homeP2:
-    "What actually happens is quieter and worse. A savings and loan, a hedge fund, an energy company, then the whole mortgage market each built a book of bets that looked fine on paper. Each time, Washington or the banks found a way to close the mess. Each success taught the next desk that complicated books can be cleaned up. The savings and loan cleanup worked. The 1998 hedge-fund weekend worked. Enron died and a new accounting law passed. 2008 would not close. The last rescue was a pause, not a cleanup.",
+    "Consequently, financial scandals are as old as the country. Older than I am. I am not going back through every time we created a United States Bank, killed it, stood one up again, invented the Federal Reserve, then toasted the economy in 1929. I am starting with the first financial scandal I remember: the savings and loan crisis.",
   homeP3:
-    "You sit a chair in 1979, before any of that is a fact. Paul Volcker at the Federal Reserve has not yet jacked up interest rates. The audits still pass. Can you find the moments to get off the train? People who commit financial crimes are accountants. The people who check them are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave the office and drive to the address printed on the invoice.",
+    "You sit a chair in 1979, before that crisis is a fact. Paul Volcker at the Federal Reserve has not yet jacked up interest rates. The audits still pass. Can you find the moments to get off the train? People who commit financial crimes are accountants. The people who check them are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave the office and drive to the address printed on the invoice.",
   tehran: "The Street",
   washington: "Washington",
   playIran: "Play as the Street",

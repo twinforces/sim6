@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Home opening, 2026-09-18
+
+What: July 4, not Constitution Day. Skip the United States Bank and 1929. Start at the S&L.
+
+Why: User copy for the starting screen.
+
+How: homeP1, homeP2. Cubicle stays on the italic.
+
 ## Lewis, not memory, 2026-09-18
 
 What: Patch the dinner to the book. Okada, four islands, $300m to $550m. Without the shorts they have nothing to buy.
