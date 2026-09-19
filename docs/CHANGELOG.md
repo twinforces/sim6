@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Lewis, not memory
+
+What: The dinner is Okada at the Wynn, not Benihana. Teppanyaki room, four islands, one shorter per grill, longs around them. Lippmann mixed the table because his shorts were in full flight. They left under $300 million short and came back at $550 million. Without the shorts the longs had nothing to buy. Drop DK.
+
+Why: User attached The Big Short. Memory was Benihana. The file has Okada, hibachi, the mix, the double.
+
+How: `hibachi-2007` referee, situations, receipts. Card id stays: the grill is the table.
+
+### What did not work
+Keeping "the kind of table Benihana made famous" as a hedge. That is still the wrong restaurant.
+
 ## 2026-09-18 Hibachi: the shorts sat with the longs
 
 What: January 2007. Lippmann mixed the shorts with the longs at a hibachi table. The shorts had cold feet. After they talked to the longs they doubled.

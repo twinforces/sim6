@@ -1503,28 +1503,28 @@ const CARDS: Card[] = [
     branchPoint: true,
     referee: {
       paragraphs: [
-        "January 2007, the American Securitization Forum, Las Vegas. House prices have already peaked. The people who shorted the home-loan stack, betting it dies, have been paying a premium every month for a credit default swap, a side bet sold as insurance. The stack has not died. They have cold feet.",
-        "Greg Lippmann at Deutsche Bank throws a dinner at the Wynn. Hibachi steam: strangers around one grill, the kind of table Benihana made famous. He seats the shorts next to the longs, the people who still buy the stack. After they talk to a CDO manager on the long side, they double. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. DK on Benihana as the chain. LT that it was hibachi, that Lippmann mixed the table, and that they doubled. Michael Lewis, The Big Short, is the file.",
+        "January 2007, the American Securitization Forum, Las Vegas. House prices have already peaked. The people who shorted the home-loan stack, betting it dies, have been paying a premium every month for a credit default swap, a side bet sold as insurance. The stack has not died. Some of them want to quit. Greg Lippmann at Deutsche Bank is afraid they will.",
+        "He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than $300 million short going in, $550 million coming out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. Michael Lewis, The Big Short, is the file.",
       ],
-      tags: ["LT", "IT", "DK"],
+      tags: ["LT", "IT"],
     },
     briefings: [
       {
         faction: "irgc",
         audience: "iran",
-        rant: "They seated the people betting you die next to people like you. You talk. They double. That premium is still origination money until it is not. Keep the factory on.",
+        rant: "They seated one shorter at each grill and a ring of people like you. You talk. Without the shorts they have nothing to buy. They double. Keep the factory on.",
         face: "mozilo",
       },
       {
         faction: "cia",
         audience: "us",
-        rant: "A private dinner. Hedge funds and a salesman. Not a bank. The models still say a sector. August is when you get to say contained.",
+        rant: "A private dinner. Four grills and a salesman. Not a bank. The models still say a sector. August is when you get to say contained.",
       },
     ],
     situationUs:
-      "Bush sits. A bond conference in Las Vegas. The salesman who sold insurance on home-loan stacks has seated the shorts, the people betting those stacks die, next to the longs, the people who still sell them. Hibachi steam. Strangers around one grill.\n\nThe shorts have cold feet. They have been paying a premium every month and the stack has not died. After dinner they double the bet.\n\nYou can ask what they heard. Or you can call a private dinner a private dinner, and in August you will say contained.",
+      "Bush sits. A bond conference in Las Vegas. The salesman who sold insurance on home-loan stacks rents a teppanyaki room: four grills. Around each grill he seats one shorter, a person betting the stacks die, and a ring of longs, the people who still sell them.\n\nThe shorts have been paying a premium every month and the stack has not died. Some want to quit. After dinner they double the bet.\n\nYou can ask what they heard. Or you can call a private dinner a private dinner, and in August you will say contained.",
     situationIran:
-      "You are Angelo Mozilo. House prices peaked last year. People have been shorting your stack: betting it dies, paying you a premium every month for the privilege. The stack has not died. They have cold feet.\n\nDeutsche Bank throws a dinner in Las Vegas. Hibachi steam, the kind of table Benihana made famous: strangers around one grill. The salesman seats the shorts next to the longs. You are the long side of this book. Someone like you talks. Explains the factory.\n\nAfter they listen, they double the bet. Two doors. Keep talking. Or stop originating, because the people betting you die just met you and doubled.",
+      "You are Angelo Mozilo. House prices peaked last year. People have been shorting your stack: betting it dies, paying you a premium every month for the privilege. The stack has not died. Some of them want to quit.\n\nDeutsche Bank throws a dinner in Las Vegas. A teppanyaki room: four islands, each a grill with a chef. Around each grill, one shorter and a ring of longs. You are the long side of this book. Someone like you talks. He even likes that they short you: without the shorts he has nothing to buy.\n\nAfter they listen, they double the bet. Two doors. Keep talking. Or stop originating, because the people betting you die just met you and doubled.",
     iranChoices: [
       {
         id: "ir-keep-talking",
@@ -1556,7 +1556,7 @@ const CARDS: Card[] = [
       {
         id: "us-ask-dinner",
         label: "Ask what the shorts heard",
-        summary: "They had cold feet. After they sat with the longs they doubled. Ask why.",
+        summary: "They had been paying. Some wanted to quit. After they sat with the longs they doubled. Ask why.",
         kind: "hard",
         deltas: { cia: -4, drone_holes_known: 10, saudis: -4 },
         ...hindsight("You asked what the shorts heard. August still said contained. You have the point."),

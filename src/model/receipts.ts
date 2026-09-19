@@ -34,8 +34,8 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/The_Big_Short",
     kind: "investigation",
     usedFor: ["dream-2003", "slices-2005", "peak-2006", "hibachi-2007", "aig-2008"],
-    note: "Bundling seemed like genius. People live in the house. Bonds of bonds. Slice it, roll the leftover, stamp AAA. Shorting the stack funds more loans. January 2007: hibachi steam at the Wynn, Lippmann mixed the shorts with the longs, they doubled. DK on Benihana as the chain. Wikipedia is the link. The book is the book.",
-    truth: "mixed",
+    note: "The book is in the sandbox this pass. Bundling, leftover, stamp AAA. January 2007: Okada at the Wynn, four hibachi islands, one shorter per grill and a ring of longs. Lippmann mixed the table because his shorts wanted to quit. They left at under $300 million short and came back at $550 million. Without the shorts the longs had nothing to buy. Wikipedia is the public link. The file is the book.",
+    truth: "LT",
   },
   {
     id: "fcic",

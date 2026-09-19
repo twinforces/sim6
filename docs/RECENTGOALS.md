@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Lewis, not memory, 2026-09-18
+
+What: Patch the dinner to the book. Okada, four islands, $300m to $550m. Without the shorts they have nothing to buy.
+
+Why: User attached the EPUB. Memory was Benihana.
+
+How: Cards and receipts. Wikipedia stays the public link. The file stays out of the repo.
+
 ## Hibachi dinner, 2026-09-18
 
 What: Mix the shorts with the longs. Cold feet, then they double. January 2007, between peak and contained.
