@@ -99,6 +99,10 @@ Keating jail is historical. Skilling jail is historical. 2011 nobody went to jai
 
 Cubicle thesis, load-bearing: to catch a criminal you leave the cubicle and drive to the address on the invoice. Enron passed every audit. So did Crazy Eddie.
 
+### Letter to Congress
+
+If you finish the rail, the museum drafts a letter from the hindsight offramps you actually found. Only the ones that never got written into law: Levitt, invoice visits, haircuts, leftover, a standing RTC. Drive-to-the-warehouse collapses to one audit standard. Moral walks stay graves, not bills. Empty museum: you rode history. Nothing to mail. Copy and a mail draft. The host in the letter is pastperformance.grok.me.
+
 ---
 
 ## Proof cards (shipped)

@@ -31,6 +31,7 @@ import {
   timeTravelBackOne,
   timeTravelFurtherBack,
   timeTravelToBranch,
+  asksFor,
   type Card,
   type Chair,
   type Choice,
@@ -124,6 +125,16 @@ export interface PresentedCard {
   sources: readonly string[];
 }
 
+export interface PresentedAsk {
+  id: string;
+  headline: string;
+  ask: string;
+}
+
+export interface PresentedLetter {
+  asks: readonly PresentedAsk[];
+}
+
 export interface TrainViewState {
   chair: Chair;
   party: Party;
@@ -137,6 +148,7 @@ export interface TrainViewState {
   endingTitle: string | null;
   endingBody: string | null;
   endingId: string | null;
+  letter: PresentedLetter | null;
   lastResult: { title: string; body: string; kind: OverlayKind } | null;
   canBackOne: boolean;
   canBackBranch: boolean;
@@ -399,6 +411,18 @@ function presentMuseum(found: ReadonlySet<string>, locale: Locale): PresentedMus
   };
 }
 
+function cupEnding(phase: GameState["phase"], endingId: string | null): boolean {
+  if (phase !== "ended") return false;
+  return endingId === "none" || endingId === "boring_bank" || endingId === "marked_the_book";
+}
+
+function presentLetter(found: ReadonlySet<string>, phase: GameState["phase"], endingId: string | null): PresentedLetter | null {
+  if (!cupEnding(phase, endingId)) return null;
+  return {
+    asks: asksFor(found).map((ask) => ({ id: ask.id, headline: ask.headline, ask: ask.ask })),
+  };
+}
+
 function localizeBleed(raw: string, locale: Locale, months: number | null): string {
   if (!raw) return "";
   if (locale !== "fa") return raw;
@@ -498,6 +522,7 @@ export class TrainViewModel {
           ? (choiceFa?.result ?? endingFa?.body ?? this.state.ending?.referee ?? null)
           : (this.state.ending?.referee ?? null),
       endingId,
+      letter: presentLetter(this.found, this.state.phase, endingId),
       lastResult,
       canBackOne: travel.backOne,
       canBackBranch: travel.backToBranch,

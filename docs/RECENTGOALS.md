@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Letter to Congress, 2026-09-19
+
+What: Cup drafts a letter from found offramps. Copy. Mail draft. Empty if you rode history.
+
+Why: User. Codify the things that never got written. Prevention is worth trillions in cure, I guess.
+
+How: `src/model/letter.ts`, Play ending, museum already in localStorage.
+
 ## Morning punchlines, 2026-09-19
 
 What: Complete the ride. Fancy math that can bankrupt you. Half of Wall Street a trillion.

@@ -186,6 +186,21 @@ const EN = {
   csoSideline: "Sidelined twice",
   csoPurge: "The book seized the desk",
   memoirsFound: "The other party took the chair",
+  letterKicker: "The museum writes",
+  letterTitle: "A letter to your CongressCritter",
+  letterLead:
+    "The offramps you found. History did not write them into law. Copy the letter. Mail it. Prevention is worth trillions in cure, I guess.",
+  letterEmpty:
+    "You rode history. Nothing to mail. Hunt the offramps, sit the other chair, then come back to the cup.",
+  letterHunt:
+    "Those who do not learn from history are doomed to repeat it, especially if they do not write their congressman.",
+  letterToLabel: "Dear",
+  letterToPlaceholder: "CongressCritter",
+  letterFromLabel: "Sincerely",
+  letterFromPlaceholder: "Your Name",
+  letterCopy: "Copy the letter",
+  letterCopied: "Copied.",
+  letterMailto: "Open a mail draft",
 } as const;
 
 const FA = EN;

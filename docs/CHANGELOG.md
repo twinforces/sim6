@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-19 Letter to CongressCritter
+
+What: Finish the rail, the museum drafts a letter from the hindsight offramps you found. Levitt, invoice visits, haircuts, leftover, a standing RTC. Copy and a mail draft. Empty museum: you rode history. Nothing to mail.
+
+Why: User. Those who do not learn from history are doomed to repeat it, especially if they do not write their congressman. Economy-destroying crises only. Madoff stays off the letter as a movie. Investing is risk.
+
+How: `src/model/letter.ts`. Cup ending on Play. No new cards.
+
+### What did not work
+A fifth movie. A letter on a grave. One bullet per warehouse drive.
+
 ## 2026-09-19 Morning: complete the ride, fancy math, half of Wall Street
 
 What: Crazy Eddie: Instead, the rubes took them for a ride. LTCM: the Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. Quote: half of Wall Street a trillion by Monday morning.

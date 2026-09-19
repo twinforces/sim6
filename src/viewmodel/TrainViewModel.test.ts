@@ -43,4 +43,29 @@ describe("TrainViewModel", () => {
     assert.ok(ui.museum.moralFound >= 1);
     assert.equal(ui.museum.usFound, 0);
   });
+
+  it("the cup drafts a letter from found offramps, not from riding history", () => {
+    const seeded = new TrainViewModel("us", "D", "jail-2011", {
+      museum: memoryMuseumStore(["us-back-levitt", "us-close-now", "us-drive-eddie"]),
+    });
+    seeded.hydrateMuseum();
+    seeded.choose("us-hold-2011");
+    const withFinds = seeded.getState();
+    assert.equal(withFinds.phase, "ended");
+    assert.ok(withFinds.letter);
+    const ids = withFinds.letter?.asks.map((a) => a.id) ?? [];
+    assert.equal(ids.includes("levitt"), true);
+    assert.equal(ids.includes("close-now"), true);
+    assert.equal(ids.includes("invoice"), true);
+
+    const history = new TrainViewModel("us", "D", "jail-2011", { museum: memoryMuseumStore() });
+    history.choose("us-hold-2011");
+    assert.equal(history.getState().letter?.asks.length, 0);
+  });
+
+  it("a grave is not a letter", () => {
+    const vm = new TrainViewModel("iran", "R", "volcker-1979", { museum: memoryMuseumStore(["us-back-levitt"]) });
+    vm.hydrateMuseum();
+    assert.equal(vm.getState().letter, null);
+  });
 });

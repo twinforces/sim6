@@ -7,6 +7,7 @@ import { AdvisorList } from "./AdvisorList.tsx";
 import { ActionChoices } from "./ActionChoices.tsx";
 import { GlossText } from "./Gloss.tsx";
 import { PlayerPlate } from "./PlayerPlate.tsx";
+import { CongressLetter } from "./CongressLetter.tsx";
 import { TrainViewModel } from "../viewmodel/TrainViewModel.ts";
 import type { Chair, Party } from "../model/types.ts";
 import { useLocale } from "./LocaleContext.tsx";
@@ -34,6 +35,15 @@ export function PlayView({
     if (!vm) return;
     if (vm.hydrateMuseum()) setTick((n) => n + 1);
   }, [vm]);
+
+  useEffect(() => {
+    if (!vm) return;
+    const state = vm.getState(locale);
+    if (!state.letter || state.lastResult) return;
+    const node = document.querySelector(".letter-panel");
+    if (!(node instanceof HTMLElement)) return;
+    node.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [vm, tick, locale]);
 
   if (!chair || !vm) {
     return <ChairSelect onPick={setChair} />;
@@ -187,6 +197,8 @@ export function PlayView({
               ))}
             </article>
           ) : null}
+
+          {ui.letter ? <CongressLetter letter={ui.letter} /> : null}
 
           {ui.bleed ? <p className="text-sm italic text-muted">{ui.bleed}</p> : null}
 
