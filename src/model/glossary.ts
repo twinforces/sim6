@@ -168,7 +168,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "Long-Term Capital",
     aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Scholes", "Merton"],
     definition:
-      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. When the gaps blew open, fourteen banks had to sit in a room.",
+      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Fourteen banks had to sit in a room.",
   },
   {
     id: "hedge-fund",
@@ -182,14 +182,14 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "a hedge",
     aliases: ["a hedge", "the hedge", "Stay a hedge", "stay a hedge", "being a hedge", "both legs", "long side", "short side"],
     definition:
-      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, you want the price down. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb, and you talk them into a skinny haircut because the letterhead says Nobel.",
+      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, you want the price down. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb. Long-Term did that, then talked them into no haircut at all.",
   },
   {
     id: "haircut",
     term: "haircut",
-    aliases: ["haircut", "haircuts", "skinny haircut"],
+    aliases: ["no haircut", "No haircut", "haircut", "haircuts"],
     definition:
-      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term Capital split the legs, then talked each broker into a skinny one because nobody on the Street had a Nobel. Later the five investment banks asked the SEC for the same courtesy on the whole firm: kill the old twelve-to-one capital rule.",
+      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term's policy was to refuse it. Zero. Like a car that does not burn gas. Meriwether was popular, the letterhead said Nobel, and each new bank was told: if we give you one we have to give it to everyone, so nobody got one. Later the five investment banks asked the SEC for the same courtesy on the whole firm: kill the old twelve-to-one capital rule.",
   },
   {
     id: "leverage",

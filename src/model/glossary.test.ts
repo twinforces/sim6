@@ -50,11 +50,20 @@ describe("glossary", () => {
     assert.match(hedge?.definition ?? "", /Both sides/);
     const hair = glossaryById("haircut");
     assert.match(hair?.definition ?? "", /Extra collateral/);
-    const parts = linkify("A hedge fund is allowed to stop being a hedge. The haircut stayed skinny.");
+    const parts = linkify("A hedge fund is allowed to stop being a hedge. They paid no haircut.");
     const ids = parts.map((p) => p.id).filter(Boolean);
     assert.equal(ids.includes("hedge-fund"), true);
     assert.equal(ids.includes("a-hedge"), true);
     assert.equal(ids.includes("haircut"), true);
+  });
+
+  it("says Long-Term paid no haircut, and names the borrowed pile versus the side bets", () => {
+    const hair = glossaryById("haircut");
+    assert.match(hair?.definition ?? "", /Zero/);
+    assert.match(hair?.definition ?? "", /refuse/);
+    const ltcm = glossaryById("ltcm");
+    assert.match(ltcm?.definition ?? "", /100 billion/);
+    assert.match(ltcm?.definition ?? "", /trillion/);
   });
 
   it("teaches a bond of bonds without stealing a hedge", () => {

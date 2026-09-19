@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Lowenstein, not memory
+
+What: The book file is here. No haircut, not skinny. $100 billion of assets, almost all borrowed, plus more than a trillion of side bets. The consortium salary is $250,000 for the partners as a group, stay three years. Not one principal at $300,000. Drop DK on the paycheck.
+
+Why: User attached When Genius Failed. Memory had the shape. The file has the numbers. Meriwether was the public face and the financing reason, not only the Nobels. Merrill saw only one side.
+
+How: 1997, 1998, GLBA, glossary, receipts. Tests still ride `ir-stop-hedge` and `us-private-1997`.
+
+### What did not work
+Leaving "skinny haircut" as a glossary alias. The book joke is No-Haircut Capital Management. Zero.
+
 ## 2026-09-18 The Big Short: bonds of bonds
 
 What: Bundling mortgages seemed like genius because people live in the house. Then a bond of bonds. Slice it: good, medium, leftover. Roll the leftover, stamp AAA. Shorting the stack pays a premium, which funds more loans. Same pile. New side bets.

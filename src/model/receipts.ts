@@ -24,8 +24,8 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/When_Genius_Failed",
     kind: "investigation",
     usedFor: ["ltcm-1997", "ltcm-1998"],
-    note: "The Greenwich file. 40 percent a year. Give money back and the leverage jumps. Split the long and the short, skinny haircut, Nobels. A trillion in positions. Fold and the Street folds. One principal names a price to unwind. Wikipedia is the link. The book is the book. DK on the $300,000 paycheck. LT that they paid.",
-    truth: "mixed",
+    note: "The book is in the sandbox this pass. More than 40 percent a year. Gave $2.7 billion back, leverage 18 to 28. Policy was no haircut. Merrill saw only one side. $100 billion borrowed, more than a trillion in side bets. Fold and each bank holds one side of a dead contract. Consortium: stay three years, salary $250,000. Partners exploded. Banks needed signatures. Wikipedia is the public link. The file is the book.",
+    truth: "LT",
   },
   {
     id: "lewis-big-short",

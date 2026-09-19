@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Lowenstein, not memory, 2026-09-18
+
+What: Patch LTCM to the book. No haircut. $100bn assets plus $1T side bets. Partners as a group, $250,000, three years.
+
+Why: User attached the EPUB. Memory was $300k, one principal, skinny, a trillion of assets.
+
+How: Cards, glossary, receipts. Wikipedia stays the public link. The file stays out of the repo.
+
 ## The Big Short machine, 2026-09-18
 
 What: People live in the house. Bonds of bonds. Slice, roll leftover, stamp AAA. Shorting funds more loans.

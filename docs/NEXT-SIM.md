@@ -43,7 +43,7 @@ Museum counter: offramps. Found-once. Unfound names stay off the chrome. Do not 
 | Era | Mismatch | Book | Unwind that "worked" |
 | --- | --- | --- | --- |
 | S&L 1979-1995 | Borrow short, lend long. Volcker blows the spread. | Junk, desert condos, brokered deposits, FSLIC zombies. | RTC. Years. Taxpayers. Some jail. Flag `s_l_worked`. |
-| LTCM 1998 | Convergence plus leverage. Russia defaults. | Nobels, VaR, 100x. | Fourteen banks, no Treasury check. Flag `ltcm_worked`. |
+| LTCM 1998 | Convergence plus leverage. Russia defaults. | Nobels, no haircut, VaR, 100x. | Fourteen banks, no Treasury check. Flag `ltcm_worked`. |
 | Enron 2001-2002 | Mark-to-market on contracts you cannot mark. | SPEs, Raptors, auditor who is also the consultant. | Firm dies. Andersen dies. Skilling jail. SOX. Flag `sox_worked`. |
 | Housing 2003-2011 | A 30-year note sold as AAA. | CDO, CDS, AIG FP, repo, China. SIVs are SPEs in a new costume. | Will not close. TARP is a pause. SOX does not unwind AIG FP. |
 
