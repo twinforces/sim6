@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-19 Brooklyn rubes
+
+What: Crazy Eddie is Brooklyn. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride.
+
+Why: Sam Antar. Dan Schwinn. The briefing already said Brooklyn at 2 a.m. The referee had New Jersey.
+
+How: Eddie card, glossary, receipts, GTs, dump.
+
+### What did not work
+New Jersey. The stores were Brooklyn.
+
 ## 2026-09-19 Letter to CongressCritter
 
 What: Finish the rail, the museum drafts a letter from the hindsight offramps you found. Levitt, invoice visits, haircuts, leftover, a standing RTC. Copy and a mail draft. Empty museum: you rode history. Nothing to mail.

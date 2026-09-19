@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Brooklyn rubes, 2026-09-19
+
+What: Crazy Eddie is Brooklyn, not New Jersey.
+
+Why: Sam Antar. Dan Schwinn.
+
+How: Card, glossary, receipts, GTs, dump.
+
 ## Letter to Congress, 2026-09-19
 
 What: Cup drafts a letter from found offramps. Copy. Mail draft. Empty if you rode history.

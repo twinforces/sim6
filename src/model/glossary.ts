@@ -161,7 +161,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "Crazy Eddie",
     aliases: ["Crazy Eddie"],
     definition:
-      "An electronics chain. Before the accountants arrived, staff moved inventory at night from store to store so every warehouse looked full. The audit passed. Every year. Wall Street thought they were taking New Jersey rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The lesson for Enron: accountants are not detectives.",
+      "An electronics chain from Brooklyn. Before the accountants arrived, staff moved inventory at night from store to store so every warehouse looked full. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The lesson for Enron: accountants are not detectives.",
   },
   {
     id: "ltcm",

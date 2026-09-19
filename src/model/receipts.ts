@@ -124,7 +124,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/Crazy_Eddie",
     kind: "investigation",
     usedFor: ["eddie-1987"],
-    note: "The carnival. Inventory at night. The audit passed. The cubicle lesson.",
+    note: "Brooklyn, not New Jersey. The carnival. Inventory at night. The audit passed. The cubicle lesson. Sam Antar.",
     truth: "mixed",
   },
   {

@@ -136,13 +136,13 @@ Card change: none.
 
 Frame: a retailer scandal vs the cubicle lesson parked next to Keating on purpose.
 
-Observations: not an S&L. Carnival: inventory at night. Audit passed. Enron will pass the same way. November 1987 is the year of the count. Wall Street thought they were taking New Jersey rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest.
+Observations: not an S&L. Brooklyn, not New Jersey. Carnival: inventory at night. Audit passed. Enron will pass the same way. November 1987 is the year of the count. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest.
 
 Incentives: accountants lying to accountants. The SEC filing is the alibi. Cons do not work on the honest.
 
 Falsify: if Peat Marwick had driven at 2 a.m. and still signed.
 
-Card change: complete the ride. The nutshell is the load-bearing sentence next to the cubicle.
+Card change: Brooklyn rubes. Sam Antar, Dan Schwinn. The briefing already drove to Brooklyn at 2 a.m. The referee had said New Jersey.
 
 #### `keating-1987`
 

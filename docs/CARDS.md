@@ -281,11 +281,11 @@ A constituent with a savings and loan. Do not let the San Francisco examiners ge
 
 ### Referee
 
-Crazy Eddie is an electronics chain from New Jersey. Before the accountants arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking New Jersey rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.
+Crazy Eddie is an electronics chain from Brooklyn. Before the accountants arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.
 
 ### Street
 
-You are not Crazy Eddie. You are the savings and loan next door, watching an electronics chain from New Jersey teach the lesson. Wall Street thought they were taking rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The auditors will come to you the same way. They will not drive at night. They will sign what the file says.
+You are not Crazy Eddie. You are the savings and loan next door, watching an electronics chain from Brooklyn teach the lesson. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The auditors will come to you the same way. They will not drive at night. They will sign what the file says.
 
 - **Trust the audit** `ir-trust-audit` (HISTORY · soft)
   The cubicle is the job. Accountants check accountants. That is how the work is done.
@@ -304,7 +304,7 @@ The warehouse is empty when the auditors leave. Full when they arrive. Accountan
 
 ### Washington
 
-A retailer just became a case file. Crazy Eddie, New Jersey. Wall Street thought they were taking rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The audit passed. Every year. The invoices have addresses. Nobody from your chair has seen the loading dock. People committing financial crimes are accountants. The people who check them are also accountants.
+A retailer just became a case file. Crazy Eddie, Brooklyn. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The audit passed. Every year. The invoices have addresses. Nobody from your chair has seen the loading dock. People committing financial crimes are accountants. The people who check them are also accountants.
 
 - **The audit passed** `us-trust-eddie` (HISTORY · ignore)
   The filing is at the SEC. Accountants signed it. That is supposed to be enough.
