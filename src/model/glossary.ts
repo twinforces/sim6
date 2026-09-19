@@ -166,9 +166,9 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "ltcm",
     term: "Long-Term Capital",
-    aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Scholes", "Merton"],
+    aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Black-Scholes", "Scholes", "Merton"],
     definition:
-      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Fourteen banks had to sit in a room.",
+      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. Black-Scholes is icky nerd math. Nobody on the Street had ever really understood it. Charging Scholes a haircut would have meant admitting that. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the 2026 economy: about $360 billion, and about $3.6 trillion of side bets. Fourteen banks had to sit in a room.",
   },
   {
     id: "hedge-fund",
@@ -371,7 +371,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "DIDMCA",
     aliases: ["DIDMCA"],
     definition:
-      "A 1980 law that raised federal deposit insurance from $40,000 to $100,000 and started killing the old caps on what a bank could pay a depositor. The safety net got bigger. So did the chip stack a dying bank could buy.",
+      "A 1980 law that raised federal deposit insurance from $40,000 to $100,000 and started killing the old caps on what a bank could pay a depositor. In 2026 grocery money that is about $160,000 to $410,000. The safety net got bigger. So did the chip stack a dying bank could buy.",
   },
   {
     id: "garn",

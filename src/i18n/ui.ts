@@ -86,7 +86,7 @@ const EN = {
   receiptsKicker: "Receipts",
   receiptsTitle: "Annotated bibliography",
   receiptsLead:
-    "Standing rule: if we used it, it lives here. LT is the date or the document. IT is the incentive reading. DK stays DK. AL is labelled on the card, not laundered into the referee.",
+    "Standing rule: if we used it, it lives here. LT is the date or the document. IT is the incentive reading. DK stays DK. AL is labelled on the card, not laundered into the referee. Then-dollars stay: they are the file. A paycheck or an insurance cap is also in 2026 grocery money, because that is what a person felt. A hole in the system is also the same slice of the economy in 2026 dollars, because inflation still makes 1989 look like lunch. GDP does not.",
   noteKicker: "A GrumpyTechBro joint",
   noteTitle: "Author's Note",
   noteP1:
@@ -94,10 +94,12 @@ const EN = {
   noteP2:
     "Savings and loans paid depositors a little and lent to families for thirty years. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. Paul Volcker at the Federal Reserve crushed inflation by raising rates, which also crushed that gap. Washington then let dying thrifts gamble with insured deposits because the insurance fund would pay if they lost. The Resolution Trust Corporation later sold the wreckage in public, slowly, and some people went to jail. We called that competence. A hedge fund in Greenwich, Connecticut took the lesson and built a mathematical bet. Fourteen banks closed that bet in a weekend, with no check from the Treasury. We called that private. Enron in Houston passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the accountants. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you leave the office and drive to the address on the invoice. In 2002 a law made the CEO personally sign the books. We called accounting fixed. Then the mortgage factories took every lesson at once. The book was the country. It would not close.",
   noteP3:
-    "Hindsight is 20/20. There are no time machines in real life. This one is a gift. You get a point for getting off the train. History still rides.",
+    "The then-dollars stay on the page. They are the file. A paycheck or an insurance cap we also restated in 2026 grocery money, because that is what a person felt. A hole in the system we restated as the same slice of the economy, because inflation still makes 1989 look like lunch. GDP does not. The savings-and-loan cleanup was about $125 billion then, about $720 billion of today's economy. TARP was $700 billion then, about $1.5 trillion of today's. It was huge at the time.",
   noteP4:
+    "Hindsight is 20/20. There are no time machines in real life. This one is a gift. You get a point for getting off the train. History still rides.",
+  noteP5:
     "Playing toward a boring bank is trivial from both chairs. It is hard from one. I do not let you play both. That is life.",
-  noteP5: "Is that a slightly cynical view? I am Grumpy Tech Bro, not Happy Go Lucky Tech Bro. Deal with it.",
+  noteP6: "Is that a slightly cynical view? I am Grumpy Tech Bro, not Happy Go Lucky Tech Bro. Deal with it.",
   mixed: "mixed",
   mixedBlurb: "Some of this is a date or a document. Some of it is argued. Read the note.",
   kindPrimary: "Primary",

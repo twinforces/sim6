@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-19 Overnight: Treasury problem, no clothes, 2026 dollars
+
+What: LTCM: owe $10 million / $10 billion / a trillion by Monday, Treasury has a problem. Nobody understood Black-Scholes; charging Scholes a haircut would admit that; emperors had no clothes. Crazy Eddie: Wall Street thought they were taking New Jersey rubes; the rubes took them; cons do not work on the honest. Then-dollars stay. Grocery money for paychecks and caps. Same slice of GDP for system holes.
+
+Why: User overnight. Old disasters look small. CPI still makes 1989 look like lunch. GDP does not. RTC $125 billion then is about $720 billion of today's economy. TARP $700 billion then is about $1.5 trillion of today's.
+
+How: Author's note, receipts lead, a BLS/BEA receipt. Cards. Glossary. Dump.
+
+### What did not work
+Scaling everything by CPI. The S&L hole still looks like lunch. Scaling a $250,000 salary by GDP would lie about what a person felt.
+
 ## 2026-09-18 Grumpy Takes on the rail
 
 What: Hierarchical GTs in `docs/GTs.md`. Four stories, then each card. The take patched laundered facts: CSE is not "12 became 40" as LT. Contained is Bernanke in March and Paulson in August. GLBA ratifies a screen door. AIG is not a bank. 3-6-3 is slang. Keating Five named. $100,000 was a conference add.

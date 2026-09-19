@@ -22,8 +22,11 @@ export function AuthorNoteView() {
         <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
           <GlossText text={t("noteP4")} />
         </p>
-        <p className="mt-4 font-serif text-sm italic text-ink/70">
+        <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
           <GlossText text={t("noteP5")} />
+        </p>
+        <p className="mt-4 font-serif text-sm italic text-ink/70">
+          <GlossText text={t("noteP6")} />
         </p>
       </article>
     </div>

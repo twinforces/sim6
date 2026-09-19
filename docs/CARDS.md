@@ -125,11 +125,11 @@ _Paul Volcker. He is in the room. He is not the chair._
 
 ### Referee
 
-A 1980 law, DIDMCA, raises federal deposit insurance from $40,000 to $100,000, effective April 1. The $100,000 was a conference add, not in the original bills. Deposit insurance is a promise: if the bank dies, Washington pays the customer. The old caps on what you could pay a depositor start to die too. If you can pay any rate, and the government will make the depositor whole, you can buy money from a broker and gamble with it. A broker gathers cash from around the country and parks it in whichever bank pays the most. People call those brokered deposits. People later called the government backstop a put: a cheap option to dump the loss on the insurance fund.
+A 1980 law, DIDMCA, raises federal deposit insurance from $40,000 to $100,000, effective April 1. In 2026 grocery money that is about $160,000 to $410,000. The $100,000 was a conference add, not in the original bills. Deposit insurance is a promise: if the bank dies, Washington pays the customer. The old caps on what you could pay a depositor start to die too. If you can pay any rate, and the government will make the depositor whole, you can buy money from a broker and gamble with it. A broker gathers cash from around the country and parks it in whichever bank pays the most. People call those brokered deposits. People later called the government backstop a put: a cheap option to dump the loss on the insurance fund.
 
 ### Street
 
-The government is about to insure each deposit up to $100,000 instead of $40,000. A broker can now gather money from around the country and park it with you, because every dollar is insured. People call those brokered deposits. Your old cheap mortgages still do not pay enough. You can buy this new money and try to grow out of the hole.
+The government is about to insure each deposit up to $100,000 instead of $40,000. In 2026 grocery money that is about $410,000 instead of $160,000. A broker can now gather money from around the country and park it with you, because every dollar is insured. People call those brokered deposits. Your old cheap mortgages still do not pay enough. You can buy this new money and try to grow out of the hole.
 
 - **Buy deposits from a broker** `ir-buy-brokered` (HISTORY · hard)
   Insured money, from anywhere, at whatever rate it takes. Grow out of the hole.
@@ -148,7 +148,7 @@ Insured deposits at any price. Then lend them at a hope. The accountants will ca
 
 ### Washington
 
-It is still Carter's year. Savings and loans say they will die unless you raise the government insurance on each deposit from $40,000 to $100,000. Deposit insurance is a promise: if the bank fails, Washington pays the customer. Make that promise bigger and a dying bank can attract more money to gamble with.
+It is still Carter's year. Savings and loans say they will die unless you raise the government insurance on each deposit from $40,000 to $100,000. In 2026 grocery money that is about $160,000 to $410,000. Deposit insurance is a promise: if the bank fails, Washington pays the customer. Make that promise bigger and a dying bank can attract more money to gamble with.
 
 - **Raise insurance to $100,000** `us-raise-cap` (HISTORY · deal)
   DIDMCA. The safety net gets bigger. So does the chip stack a dying bank can buy.
@@ -281,11 +281,11 @@ A constituent with a savings and loan. Do not let the San Francisco examiners ge
 
 ### Referee
 
-Crazy Eddie is an electronics chain. Before the accountants arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.
+Crazy Eddie is an electronics chain from New Jersey. Before the accountants arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking New Jersey rubes for a ride. The rubes took them. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.
 
 ### Street
 
-You are not Crazy Eddie. You are the savings and loan next door, watching an electronics chain teach the lesson. The auditors will come to you the same way. They will not drive at night. They will sign what the file says.
+You are not Crazy Eddie. You are the savings and loan next door, watching an electronics chain from New Jersey teach the lesson. Wall Street thought they were taking rubes for a ride. The rubes took them. Cons do not work on the honest. The auditors will come to you the same way. They will not drive at night. They will sign what the file says.
 
 - **Trust the audit** `ir-trust-audit` (HISTORY · soft)
   The cubicle is the job. Accountants check accountants. That is how the work is done.
@@ -304,7 +304,7 @@ The warehouse is empty when the auditors leave. Full when they arrive. Accountan
 
 ### Washington
 
-A retailer just became a case file. Crazy Eddie. The audit passed. Every year. The invoices have addresses. Nobody from your chair has seen the loading dock. People committing financial crimes are accountants. The people who check them are also accountants.
+A retailer just became a case file. Crazy Eddie, New Jersey. Wall Street thought they were taking rubes for a ride. The rubes took them. Cons do not work on the honest. The audit passed. Every year. The invoices have addresses. Nobody from your chair has seen the loading dock. People committing financial crimes are accountants. The people who check them are also accountants.
 
 - **The audit passed** `us-trust-eddie` (HISTORY · ignore)
   The filing is at the SEC. Accountants signed it. That is supposed to be enough.
@@ -333,7 +333,7 @@ The financials are clean. We signed them. We did not drive to Brooklyn at 2 a.m.
 
 ### Referee
 
-Five senators. Cranston, DeConcini, Glenn, McCain, Riegle. About a million dollars in donations. San Francisco wants to seize Lincoln Savings. The senators want the examiners to forbear: leave the dying bank open a little longer. They meet in April 1987. FSLIC, the insurance fund for savings and loans, is already broke. Forbearance is how the bill grows. People will call them the Keating Five.
+Five senators. Cranston, DeConcini, Glenn, McCain, Riegle. About a million dollars in donations, about $3 million in 2026 grocery money. San Francisco wants to seize Lincoln Savings. The senators want the examiners to forbear: leave the dying bank open a little longer. They meet in April 1987. FSLIC, the insurance fund for savings and loans, is already broke. Forbearance is how the bill grows. People will call them the Keating Five.
 
 ### Street
 
@@ -385,7 +385,7 @@ These are constituents. The examiners are cowboys. Give Lincoln time.
 
 ### Referee
 
-FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about $125 billion. Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next book will hear that we can clean this up.
+FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about $125 billion then, about $720 billion of the 2026 economy. Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next book will hear that we can clean this up.
 
 ### Street
 
@@ -493,13 +493,13 @@ A sector died in daylight. Markets learned. Complexity is now a private problem.
 
 ### Referee
 
-Long-Term Capital is beating the market by more than 40 percent a year. That doubles in two years. No losing stretches. The gaps they sit in are getting crowded. They gave about $2.7 billion back to investors at the end of 1997. That sounded like discipline. It left the same bets on less of their own money, so leverage, borrowed money piled on a bet, jumped from 18 to 1 to 28 to 1. They also stopped being a hedge. A hedge is both sides at once: you own one bond, the long side, and you have borrowed and sold a near twin, the short side. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. Long-Term put the long at one firm and the short at another. Merrill saw only one side of each trade. Then they talked each desk into no haircut at all. Zero. Meriwether was the public face, popular, and the letterhead said Nobel. Each new bank was told: if we give you a haircut we have to give it to everyone. So nobody got one. Each broker had a one-sided bomb and thought they had a customer.
+Long-Term Capital is beating the market by more than 40 percent a year. That doubles in two years. No losing stretches. The gaps they sit in are getting crowded. They gave about $2.7 billion back to investors at the end of 1997, about $5.5 billion in 2026 grocery money. That sounded like discipline. It left the same bets on less of their own money, so leverage, borrowed money piled on a bet, jumped from 18 to 1 to 28 to 1. They also stopped being a hedge. A hedge is both sides at once: you own one bond, the long side, and you have borrowed and sold a near twin, the short side. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. Long-Term put the long at one firm and the short at another. Merrill saw only one side of each trade. Then they talked each desk into no haircut at all. Zero. Meriwether was the public face, popular, and the letterhead said Nobel. Black-Scholes is a formula for pricing options, the right to buy or sell later. Scholes sat on the letterhead. Nobody on the Street had ever really understood that math. It is icky nerd math. Charging Scholes a haircut would mean admitting that. They used rules of thumb that had worked. The emperors had no clothes. Each new bank was told: if we give you a haircut we have to give it to everyone. So nobody got one. Each broker had a one-sided bomb and thought they had a customer.
 
 ### Street
 
 You are John Meriwether. You are beating the market by more than 40 percent a year. That doubles in two years. You have more money than gaps. The pennies are getting crowded.
 
-A hedge is both sides at once. Long: you own it, you want it up. Short: you borrowed it and sold it, you want it down. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. You have been putting the long at one firm and the short at another. Merrill sees only one side. Then you talk each of them into no haircut at all, because you are the public face, Scholes and Merton sit on the letterhead, and every new bank is told the cool people already waived it.
+A hedge is both sides at once. Long: you own it, you want it up. Short: you borrowed it and sold it, you want it down. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. You have been putting the long at one firm and the short at another. Merrill sees only one side. Then you talk each of them into no haircut at all. Scholes sits on the letterhead. Black-Scholes is icky nerd math for pricing options. Nobody on the Street has ever really understood it. Charging Scholes a haircut would mean admitting that. They use rules of thumb that have worked. The emperors have no clothes.
 
 Two doors. Stop taking money, stay a hedge, live with the pennies you can still find. Or stop being a hedge: merger bets, directional books, split legs, no haircut, and give some money back so the same book sits on less of your own cash. Guess which one the desk wants.
 
@@ -551,17 +551,17 @@ A private fund in Greenwich. Not a bank. Forty percent is a success story. Hairc
 
 ### Referee
 
-By September 1998 the fund had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets: derivative contracts, not cash in a vault. If they defaulted, every bank in the room would be left holding one side of a contract whose other side no longer existed. That is why fourteen banks sat in a room. They had split the long and the short across the Street, with no haircut, because Meriwether was popular and the letterhead said Nobel. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk had not priced a country walking away from its own paper.
+By September 1998 the fund had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets: derivative contracts, not cash in a vault. Same slice of the economy today: about $360 billion of assets, about $3.6 trillion of side bets. When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half the Street a trillion by Monday morning, the Secretary of the Treasury has a problem. If they defaulted, every bank in the room would be left holding one side of a contract whose other side no longer existed. That is why fourteen banks sat in a room. They had split the long and the short across the Street, with no haircut, because Meriwether was popular and the letterhead said Nobel. Charging Scholes a haircut would have meant admitting nobody understood the math. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk had not priced a country walking away from its own paper.
 
-On September 23, fourteen firms put $3.6 billion into the fund at the New York Fed. Bear Stearns, which cleared the trades, said no. James Cayne had vowed to stop clearing if cash fell under $500 million. A group led by Warren Buffett faxed $250 million for the fund and would fire the partners. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. The consortium contract said stay three years, salary $250,000. The partners exploded. They called it indentured servitude and threatened to let the fund blow and take seven-figure jobs. One hundred forty lawyers at Skadden. The banks needed signatures. They paid. We will call this private. We will call it a put anyway.
+On September 23, fourteen firms put $3.6 billion into the fund at the New York Fed, about $13 billion of the 2026 economy, still lunch next to the side bets. Bear Stearns, which cleared the trades, said no. James Cayne had vowed to stop clearing if cash fell under $500 million. A group led by Warren Buffett faxed $250 million for the fund and would fire the partners. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. The consortium contract said stay three years, salary $250,000, about $500,000 a year in 2026 grocery money. The partners exploded. They called it indentured servitude and threatened to let the fund blow and take seven-figure jobs. One hundred forty lawyers at Skadden. The banks needed signatures. They paid. We will call this private. We will call it a put anyway.
 
 ### Street
 
-You are John Meriwether. Last year you stopped being a hedge. The long sat at one broker, the short at another. No haircut. You are the public face. Scholes and Merton sit on the letterhead. You gave money back, which left the same bets on less of your own cash.
+You are John Meriwether. Last year you stopped being a hedge. The long sat at one broker, the short at another. No haircut. Charging Scholes a haircut would have meant admitting they did not understand the math. You are the public face. Scholes and Merton sit on the letterhead. You gave money back, which left the same bets on less of your own cash.
 
-Russia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. If you fold tonight, every Street firm is left holding one side of a dead contract. That is why fourteen banks are in a room.
+Russia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. When you owe half the Street a trillion by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks are in a room.
 
-They cannot unwind it without you. The consortium contract will say stay three years, salary $250,000. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed $250 million for the fund and would fire you. There is no Treasury check. They will call this private.
+They cannot unwind it without you. The consortium contract will say stay three years, salary $250,000, about $500,000 a year in 2026 grocery money. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed $250 million for the fund and would fire you. There is no Treasury check. They will call this private.
 
 - **Take the consortium** `ir-take-room` (HISTORY · deal)
   Fourteen banks put in $3.6 billion. You live. They own 90 percent. We will call it private.
@@ -580,9 +580,9 @@ If you fold, the Street folds. A hundred billion borrowed, a trillion in side be
 
 Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.
 
-They split the long and the short across the Street. No haircut, because Meriwether was popular and the letterhead said Nobel. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.
+When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half the Street a trillion by Monday morning, the Secretary of the Treasury has a problem. They split the long and the short across the Street. No haircut. Charging Scholes a haircut would have meant admitting nobody understood the math. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the economy today: about $360 billion, and about $3.6 trillion of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.
 
-Bill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at $250,000 a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next book will call it a put.
+Bill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at $250,000 a year, about $500,000 in 2026 grocery money. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next book will call it a put.
 
 - **Get them in a room** `us-room` (HISTORY · deal)
   Not a bailout. Fourteen banks, their cash, no Treasury check. We will call it private.
@@ -1111,7 +1111,7 @@ The structure is investment grade. We get paid by the people selling it. We ran 
 
 January 2007, the American Securitization Forum, Las Vegas. House prices have already peaked. The people who shorted the home-loan stack, betting it dies, have been paying a premium every month for a credit default swap, a side bet sold as insurance. The stack has not died. Some of them want to quit. Greg Lippmann at Deutsche Bank is afraid they will.
 
-He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than $300 million short going in, $550 million coming out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. Michael Lewis, The Big Short, is the file.
+He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than $300 million short going in, $550 million coming out. In 2026 grocery money that is about $500 million in and $900 million out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. Michael Lewis, The Big Short, is the file.
 
 ### Street
 
@@ -1326,7 +1326,7 @@ History let Lehman file. This button keeps the name alive for a week. AIG is sti
 
 ### Referee
 
-AIG Financial Products. A credit default swap is a side bet that pays if the stack goes bad, sold as insurance. In 2005 the factory collected that premium and made more loans. AIG wrote a mountain of them on the AAA slices, including the second pile, the leftover stamped safe, without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. AIG is not a bank. The discount window is for banks. They invent a credit line, $85 billion, and take 79.9 percent of the firm.
+AIG Financial Products. A credit default swap is a side bet that pays if the stack goes bad, sold as insurance. In 2005 the factory collected that premium and made more loans. AIG wrote a mountain of them on the AAA slices, including the second pile, the leftover stamped safe, without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. AIG is not a bank. The discount window is for banks. They invent a credit line, $85 billion then, about $190 billion of the 2026 economy, and take 79.9 percent of the firm.
 
 ### Street
 
@@ -1345,7 +1345,7 @@ We cannot do Lehman twice in two days. The discount window is the buyer.
 
 ### Washington
 
-AIG Financial Products wrote side bets, credit default swaps, that pay if the AAA stacks of home loans go bad. AIG is not a bank. The discount window is for banks. Invent a credit line, $85 billion, take 79.9 percent of the firm, or watch every desk that bought that insurance go at once. Lehman was yesterday.
+AIG Financial Products wrote side bets, credit default swaps, that pay if the AAA stacks of home loans go bad. AIG is not a bank. The discount window is for banks. Invent a credit line, $85 billion then, about $190 billion of the 2026 economy, take 79.9 percent of the firm, or watch every desk that bought that insurance go at once. Lehman was yesterday.
 
 - **Take 79.9 percent** `us-aig-take` (HISTORY · hard)
   The discount window buys the firm. The insurance was the country.
@@ -1372,7 +1372,7 @@ If AIG Financial Products fails, every desk that bought the insurance is naked. 
 
 ### Referee
 
-TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject cash into banks, or buy the ugly assets, so the banks do not die this week. The House of Representatives says no. The book is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.
+TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about $1.5 trillion of the 2026 economy. The House of Representatives says no. The book is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.
 
 ### Street
 
@@ -1476,7 +1476,7 @@ McCain looks serious. Obama looks like a president who can walk and chew. The po
 
 ### Referee
 
-TARP, the Troubled Asset Relief Program, passes on the second vote. Capital injections: Washington forces cash into the big banks. The discount window has the real power. This is not a cleanup. It is a pause. Sarbanes-Oxley did not do this. The Resolution Trust Corporation was a cleanup: seize, sell in public, take years, some jail. This is a hold. The letterhead stays.
+TARP, the Troubled Asset Relief Program, passes on the second vote. Up to $700 billion then, about $1.5 trillion of the 2026 economy. Capital injections: Washington forces cash into the big banks. The discount window has the real power. This is not a cleanup. It is a pause. Sarbanes-Oxley did not do this. The Resolution Trust Corporation was a cleanup: seize, sell in public, take years, some jail. This is a hold. The letterhead stays.
 
 ### Street
 

@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Overnight copy and 2026 dollars, 2026-09-19
+
+What: Treasury-has-a-problem. Black-Scholes, no clothes. Rubes took Wall Street. Then-dollars plus two rulers.
+
+Why: User. Grocery money for people. GDP slice for holes.
+
+How: Author's note, receipts, LTCM, Eddie, DIDMCA, RTC, AIG, TARP.
+
 ## Grumpy Takes, 2026-09-18
 
 What: `docs/GTs.md` plus rail patches the takes found. Morning paper is now `docs/CARDS.md` and `docs/GTs.md`.
