@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Grumpy Takes on the rail
+
+What: Hierarchical GTs in `docs/GTs.md`. Four stories, then each card. The take patched laundered facts: CSE is not "12 became 40" as LT. Contained is Bernanke in March and Paulson in August. GLBA ratifies a screen door. AIG is not a bank. 3-6-3 is slang. Keating Five named. $100,000 was a conference add.
+
+Why: User: Grumpy Takes force the work, not the narrative. Revise the card if you learn something. Then hygiene so the morning dump matches.
+
+How: `docs/GTs.md`. Card referee patches. Glossary on leverage, haircut, Glass-Steagall. `npm run cards:dump`.
+
+### What did not work
+Inventing a CFMA card. The freeze said Houston does not eat 2006-2008. CFMA is one sentence on GLBA.
+
 ## 2026-09-18 Hygiene
 
 What: Trailing comma in `package.json` broke `npm run`. Format script was dropped when `cards:dump` landed. Playable hash was still `6516e25`. RECENTGOALS was a second changelog.

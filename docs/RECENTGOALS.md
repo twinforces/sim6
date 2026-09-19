@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Grumpy Takes, 2026-09-18
+
+What: `docs/GTs.md` plus rail patches the takes found. Morning paper is now `docs/CARDS.md` and `docs/GTs.md`.
+
+Why: User. Force the work. Hierarchical: stories, then cards.
+
+How: Research pass. CSE, contained, GLBA, AIG, DIDMCA, Keating Five, Volcker Saturday. Dump after.
+
 ## Morning paper, 2026-09-18
 
 What: `docs/CARDS.md` is the rail on paper. 30 cards, both chairs, referee, buttons, overlays. Home copy at the top. History marked for the redline. The player never sees that label.

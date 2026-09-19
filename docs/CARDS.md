@@ -69,7 +69,7 @@ You sit a chair in 1979, before that crisis is a fact. Paul Volcker at the Feder
 
 ### Referee
 
-A savings and loan takes deposits from neighbors and makes thirty-year home loans. For decades the whole job was this: pay depositors 3 percent, lend at 6 percent, count the money on the golf course by 3 in the afternoon. People in the business called that 3-6-3. Paul Volcker, who runs the Federal Reserve, is killing inflation by making it expensive to borrow. If the rate you must pay depositors jumps to 11 percent while your old mortgages still pay 6, you lose money every day. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. The loans are still sitting in houses. Nobody from Washington has driven to them.
+A savings and loan takes deposits from neighbors and makes thirty-year home loans. For decades the whole job was this: pay depositors 3 percent, lend at 6 percent, count the money on the golf course by 3 in the afternoon. People in the business called that 3-6-3. It is slang, not a 1979 rate table. Paul Volcker, who runs the Federal Reserve, is killing inflation by making it expensive to borrow. On Saturday night, October 6, 1979, he does it. People later called that the Saturday Night Special. If the rate you must pay depositors jumps toward 11 percent while your old mortgages still pay 6, you lose money every day. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. The loans are still sitting in houses. Nobody from Washington has driven to them.
 
 ### Street
 
@@ -125,7 +125,7 @@ _Paul Volcker. He is in the room. He is not the chair._
 
 ### Referee
 
-A 1980 law, DIDMCA, raises federal deposit insurance from $40,000 to $100,000. Deposit insurance is a promise: if the bank dies, Washington pays the customer. The old caps on what you could pay a depositor start to die too. If you can pay any rate, and the government will make the depositor whole, you can buy money from a broker and gamble with it. A broker gathers cash from around the country and parks it in whichever bank pays the most. People call those brokered deposits. People later called the government backstop a put: a cheap option to dump the loss on the insurance fund.
+A 1980 law, DIDMCA, raises federal deposit insurance from $40,000 to $100,000, effective April 1. The $100,000 was a conference add, not in the original bills. Deposit insurance is a promise: if the bank dies, Washington pays the customer. The old caps on what you could pay a depositor start to die too. If you can pay any rate, and the government will make the depositor whole, you can buy money from a broker and gamble with it. A broker gathers cash from around the country and parks it in whichever bank pays the most. People call those brokered deposits. People later called the government backstop a put: a cheap option to dump the loss on the insurance fund.
 
 ### Street
 
@@ -333,7 +333,7 @@ The financials are clean. We signed them. We did not drive to Brooklyn at 2 a.m.
 
 ### Referee
 
-Five senators. About a million dollars in donations. San Francisco wants to seize Lincoln Savings. The senators want the examiners to forbear: leave the dying bank open a little longer. FSLIC, the insurance fund for savings and loans, is already broke. Forbearance is how the bill grows. People will call them the Keating Five.
+Five senators. Cranston, DeConcini, Glenn, McCain, Riegle. About a million dollars in donations. San Francisco wants to seize Lincoln Savings. The senators want the examiners to forbear: leave the dying bank open a little longer. They meet in April 1987. FSLIC, the insurance fund for savings and loans, is already broke. Forbearance is how the bill grows. People will call them the Keating Five.
 
 ### Street
 
@@ -385,7 +385,7 @@ These are constituents. The examiners are cowboys. Give Lincoln time.
 
 ### Referee
 
-FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Some jail. Keating will do time. We will call this competence. The next book will hear that we can clean this up.
+FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about $125 billion. Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next book will hear that we can clean this up.
 
 ### Street
 
@@ -613,7 +613,7 @@ _William McDonough, New York Fed. He is in the room. He is not the chair._
 
 ### Referee
 
-Gramm-Leach-Bliley, 1999. Glass-Steagall was a Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. This bill tears the wall down. The sentence in the room is: 1998 worked. Fourteen banks closed a hedge fund in a weekend. We can handle complexity.
+Gramm-Leach-Bliley, 1999. Glass-Steagall was a Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. The wall was already a screen door: the Fed had been letting bank affiliates trade for a decade. Citigroup already existed. This bill makes it legal. The sentence in the room is: 1998 worked. Fourteen banks closed a hedge fund in a weekend. We can handle complexity. The derivatives bill, CFMA, is next year. That one is not this one.
 
 ### Street
 
@@ -665,7 +665,7 @@ The room proved the system can close a book. Let the books get bigger.
 
 ### Referee
 
-Arthur Levitt, who runs the Securities and Exchange Commission, wants auditor independence: the accountant who signs that the books are true should not also be the accountant you pay for advice. Kenneth Lay of Enron writes the SEC to kill the idea. Arthur Andersen is Enron's auditor and its consultant. The cubicle is auditing the cubicle. Enron will pass every audit.
+Arthur Levitt, who runs the Securities and Exchange Commission, wants auditor independence: the accountant who signs that the books are true should not also be the accountant you pay for advice. Kenneth Lay of Enron writes the SEC on September 20, 2000, to kill the idea. Andersen helped write the letter. Arthur Andersen is Enron's auditor and its consultant. Levitt will later say the client was asking to let the auditor audit himself. The cubicle is auditing the cubicle. Enron will pass every audit.
 
 ### Street
 
@@ -879,16 +879,16 @@ We get paid by the people selling the stack. They pick us. We stamp it AAA. That
 
 ### Referee
 
-The SEC, the Securities and Exchange Commission, starts a Consolidated Supervised Entity program. The five big investment banks, Bear, Lehman, Merrill, Goldman, Morgan Stanley, may use their own math to decide how much of their own money they must hold. The old cap was about twelve dollars of bets per dollar of theirs. It becomes forty to one. Leverage is borrowed money piled on a bet. At forty to one, a 3 percent drop wipes you. The cubicle writes the rule for the cubicle.
+The SEC, the Securities and Exchange Commission, starts a Consolidated Supervised Entity program. The five big investment banks, Bear, Lehman, Merrill, Goldman, Morgan Stanley, may use their own math, Value at Risk models, to decide how much extra collateral they hold on trades. They do it so the holding companies will not sit in London. People later said a 12-to-1 cap became 40-to-1. The SEC said it never undid a leverage cap: the 12-to-1 was an old warning ratio for smaller brokers, and these five were already levered. What is not a fight: the cubicle writes the haircut for the cubicle, and seven people supervise five global firms. At forty to one, a 3 percent drop wipes you.
 
 ### Street
 
-You are the Street after Houston. The old capital rule, about twelve to one, is about to die. The houses are already a factory. Forty dollars of bets on every dollar of yours is a costume Sarbanes-Oxley does not see.
+You are the Street after Houston. The old haircut on trades is about to become your own math. The houses are already a factory. Forty dollars of bets on every dollar of yours is a costume Sarbanes-Oxley does not see. They will say Europe will take the holding company if you stay at the old rule.
 
 - **Lever the book** `ir-cse-yes` (HISTORY · hard)
   Forty dollars of bets on every dollar of yours. Borrowed money is the product.
 - **Stay at twelve to one** `ir-cse-no` (HINDSIGHT · walk)
-  Keep the old capital rule. One dollar of yours for every twelve of bets, not forty.
+  Keep the old prescribed haircuts. Do not let the cubicle write the model.
   Overlay title: Yes. That was the right thing to do.
   You kept the haircut. The other four did not. You have the point.
   
@@ -906,12 +906,12 @@ The old haircut, the capital rule, is for commercial banks. Long-Term already ta
 
 ### Washington
 
-The five investment banks want the CSE: permission to use their own models for how much of their own money they hold. Twelve dollars of bets per dollar of theirs becomes forty. Sarbanes-Oxley just made CEOs sign. This rule lets the signed book get bigger.
+The five investment banks want the CSE: permission to use their own models for how much extra collateral they hold. They say Europe will take the holding companies if you do not. People will later say twelve dollars of bets per dollar of theirs became forty. Sarbanes-Oxley just made CEOs sign. This rule lets the signed book get bigger.
 
 - **Let them use their own models** `us-cse` (HISTORY · deal)
-  The CSE. Internal math. Forty to one. The cubicle writes the rule for the cubicle.
+  The CSE. Internal math so they will not sit in London. The cubicle writes the haircut for the cubicle.
 - **Keep twelve to one** `us-keep-12` (HINDSIGHT · hard)
-  The old capital rule stays. Borrowed money does not get a new costume.
+  The old prescribed haircuts stay. Borrowed money does not get a new costume.
   Overlay title: Yes. That was the right thing to do.
   The haircut stayed. The houses still wanted to be AAA. You have the point.
   
@@ -1049,7 +1049,7 @@ A staff economist is nervous. The models are fine. 1998 was contained. This will
 
 ### Referee
 
-The Case-Shiller index of house prices peaks. New Century, a subprime lender, is already coughing. Countrywide is still a factory. The cubicle still prints AAA, the safest grade, on a stack of 620 FICO scores. A FICO around 620 is where lenders used to say no. Nobody has driven to Las Vegas. Friends of Angelo were the people who got the good rate at Countrywide because they knew Mozilo.
+The Case-Shiller index of house prices peaks. New Century, a subprime lender, is already coughing and will file in April 2007. Countrywide is still a factory. The cubicle still prints AAA, the safest grade, on a stack of 620 FICO scores. A FICO around 620 is where lenders used to say no. Nobody has driven to Las Vegas. Friends of Angelo were the people who got the good rate at Countrywide because they knew Mozilo.
 
 ### Street
 
@@ -1171,7 +1171,7 @@ A private dinner. Four grills and a salesman. Not a bank. The models still say a
 
 ### Referee
 
-August 2007. The 1998 sentence, said again: it is contained. Subprime, the weak-credit loans, is a sector, they say, not the country. SIVs, structured investment vehicles, are paper companies that hold mortgage bets off the bank's main books. An SPE in a new costume. Sarbanes-Oxley does not unwind them. Commercial paper, the short-term IOUs the factory uses as cash, stops rolling. Nobody drove to the houses.
+August 2007. The 1998 sentence, said again: it is contained. Ben Bernanke at the Federal Reserve said it in March: the weak-credit loans seemed likely to be contained. Hank Paulson at Treasury was still saying it in August, the week the cash died. Subprime, the weak-credit loans, is a sector, they say, not the country. SIVs, structured investment vehicles, are paper companies that hold mortgage bets off the bank's main books. An SPE in a new costume. Sarbanes-Oxley does not unwind them. Commercial paper, the short-term IOUs the factory uses as cash, stops rolling. BNP Paribas freezes three funds. Nobody drove to the houses.
 
 ### Street
 
@@ -1326,7 +1326,7 @@ History let Lehman file. This button keeps the name alive for a week. AIG is sti
 
 ### Referee
 
-AIG Financial Products. A credit default swap is a side bet that pays if the stack goes bad, sold as insurance. In 2005 the factory collected that premium and made more loans. AIG wrote a mountain of them on the AAA slices, including the second pile, the leftover stamped safe, without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. The discount window takes 79.9 percent of the firm.
+AIG Financial Products. A credit default swap is a side bet that pays if the stack goes bad, sold as insurance. In 2005 the factory collected that premium and made more loans. AIG wrote a mountain of them on the AAA slices, including the second pile, the leftover stamped safe, without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. AIG is not a bank. The discount window is for banks. They invent a credit line, $85 billion, and take 79.9 percent of the firm.
 
 ### Street
 
@@ -1345,7 +1345,7 @@ We cannot do Lehman twice in two days. The discount window is the buyer.
 
 ### Washington
 
-AIG Financial Products wrote side bets, credit default swaps, that pay if the AAA stacks of home loans go bad. Take 79.9 percent of the firm through the discount window, or watch every desk that bought that insurance go at once. Lehman was yesterday.
+AIG Financial Products wrote side bets, credit default swaps, that pay if the AAA stacks of home loans go bad. AIG is not a bank. The discount window is for banks. Invent a credit line, $85 billion, take 79.9 percent of the firm, or watch every desk that bought that insurance go at once. Lehman was yesterday.
 
 - **Take 79.9 percent** `us-aig-take` (HISTORY · hard)
   The discount window buys the firm. The insurance was the country.

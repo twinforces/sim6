@@ -189,14 +189,14 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "haircut",
     aliases: ["no haircut", "No haircut", "haircut", "haircuts"],
     definition:
-      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term's policy was to refuse it. Zero. Like a car that does not burn gas. Meriwether was popular, the letterhead said Nobel, and each new bank was told: if we give you one we have to give it to everyone, so nobody got one. Later the five investment banks asked the SEC for the same courtesy on the whole firm: kill the old twelve-to-one capital rule.",
+      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term's policy was to refuse it. Zero. Like a car that does not burn gas. Meriwether was popular, the letterhead said Nobel, and each new bank was told: if we give you one we have to give it to everyone, so nobody got one. Later the five investment banks asked the SEC for the same courtesy on the whole firm: let us write our own haircuts.",
   },
   {
     id: "leverage",
     term: "leverage",
     aliases: ["leverage", "Borrowed money", "forty to one", "40 to 1", "twelve to one", "12 to 1"],
     definition:
-      "Borrowed money piled on a bet. At twelve to one, the firm has $1 of its own for every $12 it has riding. At forty to one, a 3 percent drop wipes the $1. Leverage turns a wrong guess into a funeral.",
+      "Borrowed money piled on a bet. At twelve to one, the firm has $1 of its own for every $12 it has riding. At forty to one, a 3 percent drop wipes the $1. Leverage turns a wrong guess into a funeral. People later said the 2004 SEC program took the five banks from twelve to forty. The SEC said it never undid a leverage cap. The five were already levered. The cubicle still wrote the haircut.",
   },
   {
     id: "var",
@@ -210,7 +210,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "Glass-Steagall",
     aliases: ["Glass-Steagall"],
     definition:
-      "A Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. Gramm-Leach-Bliley tore the wall down in 1999, after the Long-Term Capital weekend had been sold as proof that complexity was safe.",
+      "A Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. The wall was already a screen door by the 1990s. Gramm-Leach-Bliley made that legal in 1999, after the Long-Term Capital weekend had been sold as proof that complexity was safe.",
   },
   {
     id: "enron",
