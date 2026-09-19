@@ -70,10 +70,10 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   },
   {
     id: "venezuela",
-    term: "AAA",
-    aliases: ["AAA", "Ratings"],
+    term: "Ratings",
+    aliases: ["AAA", "Ratings", "credit-rating", "credit-rating firm", "credit-rating firms", "rating firm", "the rating"],
     definition:
-      "The safest grade a credit-rating firm can stamp on a product. Triple-A used to mean a government or a fortress bank. In the housing years it got stamped on stacks of weak home loans. The firms get paid by the people who sell the product.",
+      "The credit-rating firms get paid by the people selling the product they are rating. Moody's, S&P, Fitch. The seller picks the firm. The firm stamps the seller's stack. AAA is the safest grade, the one that used to mean a government. In the housing years it got stamped on piles of weak home loans. That is the job.",
   },
   {
     id: "my-party",
@@ -166,9 +166,9 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "ltcm",
     term: "Long-Term Capital",
-    aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Greenwich"],
+    aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Scholes", "Merton"],
     definition:
-      "A hedge fund in Greenwich, Connecticut. Nobel Prize winners on the letterhead. A hedge fund is a private pool of bets for rich clients, often using huge borrowed money. Russia defaulted in 1998. Fourteen banks closed the fund in a weekend. No Treasury check. We called it private.",
+      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. When the gaps blew open, fourteen banks had to sit in a room.",
   },
   {
     id: "hedge-fund",

@@ -49,7 +49,7 @@ export const FACTION_BLURB: Record<FactionId, string> = {
   saudis: "Hearings, campaign cash, and the habit of waiting. Will not go first if closing a bank looks like a recession.",
   europeans: "The government promise on a bank deposit. FSLIC did this for savings and loans. FDIC does it for ordinary banks. Wait long enough and the fund itself goes broke.",
   china: "Buys the paper. Recycles a trade surplus into American mortgages, then into the next book.",
-  venezuela: "The credit-rating firms. They stamp AAA, the safest grade, on products. They get paid by the people who sell those products.",
+  venezuela: "The credit-rating firms get paid by the people selling the product they are rating. The seller picks the firm. The firm stamps the stack AAA.",
 };
 
 export function defaultBars(chair: Chair, party: Party): Bars {

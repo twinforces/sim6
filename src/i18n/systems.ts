@@ -66,7 +66,7 @@ const EN = {
     {
       bar: "Ratings",
       falls: "The safest grade, AAA, dies. The factory that packed weak loans into safe-looking stacks stops.",
-      spikes: "The credit-rating cubicle is the product. They get paid to keep stamping.",
+      spikes: "The credit-rating firms get paid by the people selling the product they are rating. Stamping is the product.",
     },
   ] satisfies SystemRow[],
   articles: [

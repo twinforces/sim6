@@ -63,7 +63,7 @@ const LEADERS: Record<LeaderId, Leader> = {
     youAre: "You are Meriwether",
     playing: "Playing Meriwether",
     name: "John Meriwether",
-    role: "Long-Term Capital, a hedge fund in Greenwich. Nobel Prize winners on the letterhead. Fourteen banks in a room have the real power this weekend.",
+    role: "Long-Term Capital, a hedge fund in Greenwich. You left Salomon. Scholes and Merton, Nobels, sit on the letterhead. Fourteen banks in a room have the real power this weekend.",
     portrait: "/leaders/meriwether.jpg",
     party: null,
     partyLabel: null,

@@ -24,7 +24,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/When_Genius_Failed",
     kind: "investigation",
     usedFor: ["ltcm-1998"],
-    note: "The LTCM weekend. Nobels, leverage, the room. Treat as the file on Greenwich, not a sermon.",
+    note: "The Greenwich file. Salomon, Nobels, convergence, 30 to 1, Russia, Buffett's fax, Bear's no, the room. Treat as the story, not a sermon. Wikipedia is the link. The book is the book.",
     truth: "mixed",
   },
   {

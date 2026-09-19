@@ -37,6 +37,14 @@ describe("glossary", () => {
     assert.equal(ids.includes("cia"), true);
   });
 
+  it("says the ratings firms get paid by the people selling the product", () => {
+    const ratings = glossaryById("venezuela");
+    assert.match(ratings?.definition ?? "", /paid by the people selling the product they are rating/);
+    const parts = linkify("The credit-rating firm stamps the stack AAA.");
+    const ids = parts.map((p) => p.id).filter(Boolean);
+    assert.equal(ids.includes("venezuela"), true);
+  });
+
   it("maps HUD clocks to teaching entries", () => {
     assert.equal(glossaryForClock("liberals")?.id, "duration-gap");
     assert.equal(glossaryForClock("holes")?.id, "cubicle");

@@ -2,7 +2,16 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Ratings paid by the seller. LTCM as a story, 2026-09-18
+
+What: The credit-rating firms get paid by the people selling the product they are rating. Long-Term Capital is a story now, not a nickname dump.
+
+Why: User correction. Also: do you have When Genius Failed? Not as a file. The beats are in the 1998 card.
+
+How: Bar, glossary, 2003 AAA teaching. 1995 Greenwich is the door. 1998 is the movie.
+
 ## Copy teaches, then hover, 2026-09-18
+
 
 What: First use of a term is a story on the card. Hover glossary catches the repeats. 3-6-3 is no longer a nickname without a sentence.
 

@@ -577,7 +577,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "The Resolution Trust Corporation winds down. Taxpayers ate the hole. Keating did time. We will say a sector can be cleaned up in public. Greenwich, Connecticut is already building a hedge fund that will treat this as a license: complicated books can be closed. A hedge fund is a private pool of bets for rich clients, often using huge borrowed money.",
+        "The Resolution Trust Corporation winds down. Taxpayers ate the hole. Keating did time. We will say a sector can be cleaned up in public. In Greenwich, Connecticut, John Meriwether, the old Salomon bond star, is already building a hedge fund: a private pool of bets for people who can put up millions, using a mountain of borrowed money, with mathematicians on the letterhead. They will treat the savings-and-loan cleanup as a license. Complicated books can be closed.",
       ],
       tags: ["LT", "IT"],
     },
@@ -607,7 +607,7 @@ const CARDS: Card[] = [
     situationUs:
       "Bush is gone. Clinton sits. The Resolution Trust Corporation is finishing. Declare the savings-and-loan crisis over, or keep a standing desk that hunts the next paper company sitting off the books.",
     situationIran:
-      "The dirt is sold. Keating is in a cell. You can stay with the residue or take the lesson to Greenwich, Connecticut, where a hedge fund is being built. The lesson they want is: we can close a book.",
+      "The dirt is sold. Keating is in a cell. You can stay with the residue, or you can go to Greenwich, Connecticut, where John Meriwether is building a hedge fund with mathematicians on the letterhead. A hedge fund is a private pool of bets. The lesson they want from the savings and loans is: we can close a book.",
     iranChoices: [
       {
         id: "ir-leave-dirt",
@@ -662,7 +662,8 @@ const CARDS: Card[] = [
     clocksOn: true,
     referee: {
       paragraphs: [
-        "Long-Term Capital Management. John Meriwether. Nobel Prize winners on the letterhead. A hedge fund in Greenwich, Connecticut: a private pool of bets, using huge borrowed money. The bets were convergence trades, math that said two similar prices would meet. Leverage is borrowed money piled on the bet. At this scale a small miss is a crater. Russia defaulted in August. Fourteen banks sat in a room at the New York Fed in September and put in cash so the fund would not dump its trades overnight. Bear Stearns said no. No check from the Treasury. We will call this private. We will call it a put anyway: a cheap option to dump the loss on someone else. This time the someone else was the other banks.",
+        "John Meriwether was the bond star at Salomon Brothers. He left, went to Greenwich, Connecticut, and in 1994 built a hedge fund: a private pool of bets. Ten million dollars just to get in. No look at the positions. Myron Scholes and Robert Merton, who won the Nobel Prize in 1997 for teaching the world how to price an option, sat on the letterhead. The trade was called convergence. Two almost-identical bonds sometimes trade at a tiny gap. The gap, they said, will close. Sit in the gap and collect the pennies. To make pennies worth a career they borrowed a mountain. Leverage is borrowed money piled on the bet. At the end of 1997 the fund owed about $30 for every $1 of its own. A cubicle model named Value at Risk claimed to say how much you could lose on a normal day. In 1997 they gave money back to investors because the bets were too good to share.",
+        "In August 1998 Russia defaulted on its debts. The gaps blew open instead of closing. The fund lost 44 percent that month. The model had not priced a country walking away from its own paper. On September 23, fourteen banks and brokerage firms put $3.6 billion into the fund at the New York Fed so it would not dump the trades overnight. Bear Stearns, which cleared the trades, said no. A group led by Warren Buffett faxed an offer to buy the partners for scraps and inject cash. The partners did not take it. The Fed lent none of its own money. We will call this private. We will call it a put anyway: a cheap option to dump the loss on someone else. This time the someone else was the other banks.",
       ],
       tags: ["LT", "IT"],
     },
@@ -670,24 +671,25 @@ const CARDS: Card[] = [
       {
         faction: "cia",
         audience: "us",
-        rant: "Not a bailout. A consortium: the banks on the other side of the trades put in cash. If Long-Term Capital fire-sales the book, every desk on the other side dies with them. Get them in a room.",
+        rant: "Not a bailout. A consortium: the banks on the other side of the trades put in cash. If Long-Term Capital dumps the book tonight, every desk on the other side dies with them. Get them in a room. There is no Treasury check.",
+        closer: "William McDonough, New York Fed. He is in the room. He is not the chair.",
       },
       {
         faction: "irgc",
         audience: "iran",
-        rant: "VaR said this could not happen. Value at Risk is a math model that claims to say how much you can lose on a normal day. It is a cubicle. Russia happened. The counterparties, the desks on the other side of your bets, have the real power.",
+        rant: "Value at Risk said this could not happen. Value at Risk is a math model that claims to say how much you can lose on a normal day. It is a cubicle. Russia was not a normal day. The counterparties, the desks on the other side of your bets, have the real power this weekend.",
         face: "meriwether",
       },
     ],
     situationUs:
-      "Clinton sits. Russia defaulted, and that blew a hole in a Greenwich hedge fund that had borrowed a mountain. Bill McDonough at the New York Fed wants fourteen banks in a room to recapitalize it: put in cash so it does not dump its trades. Bear Stearns will say no. Call it a recap, not a bailout. There is no Treasury check.",
+      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nJohn Meriwether left Salomon, hired Myron Scholes and Robert Merton, and built Long-Term Capital Management. The bet was convergence: tiny gaps between almost-identical bonds would close. They borrowed about $30 for every $1 of their own. In August, Russia defaulted. The gaps blew open. The fund lost 44 percent in a month. Value at Risk, the cubicle that claimed to know a normal day, had not priced that.\n\nBill McDonough at the New York Fed wants fourteen banks in a room to put in cash so the fund does not dump its trades overnight. Bear Stearns will say no. Warren Buffett sent a fax. There is no Treasury check. Call it a recap, not a bailout. We will call this private. The next book will call it a put.",
     situationIran:
-      "You are John Meriwether. The math model is the letterhead. Nobel Prize winners. The room of fourteen banks is about to own the book. Warren Buffett sent a fax. Bear Stearns will not come. Leverage, borrowed money piled on the bets, turned a miss into a crater.",
+      "You are John Meriwether. You were the bond star at Salomon Brothers. You left, went to Greenwich, and built a hedge fund: a private pool of bets for people who could put up ten million just to get in. Two of your partners, Myron Scholes and Robert Merton, won the Nobel Prize for teaching the world how to price an option. The pitch was simple. Two almost-identical bonds sometimes trade at a tiny gap. The gap will close. Sit in the gap, collect the pennies. They called that convergence.\n\nTo make pennies worth a career you borrowed a mountain. By the end of 1997 the fund owed about $30 for every $1 of its own. People call that leverage. A cubicle model named Value at Risk said how much you could lose on a normal day. You gave money back to investors in 1997 because the bets were too good to share. Then Russia defaulted on its debts in August. The gaps blew open. In one month the fund lost 44 percent. The model had not priced a country walking away from its own paper.\n\nFourteen banks are in a room at the New York Fed this weekend because if you dump the trades tonight, every desk on the other side dies with you. Warren Buffett sent a fax that would have bought the partners for scraps. Bear Stearns, the bank that clears your trades, will not put in a dollar. There is no Treasury check. They will call this private.",
     iranChoices: [
       {
         id: "ir-take-room",
         label: "Take the consortium",
-        summary: "Fourteen banks put in cash. You live. They own the book. We will call it private.",
+        summary: "Fourteen banks put in $3.6 billion. You live. They own 90 percent. We will call it private.",
         kind: "deal",
         historical: true,
         deltas: { irgc: 8, leader: -8, cia: 6 },
@@ -1034,7 +1036,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "The savings-and-loan housing sermon, louder. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Subprime means a loan to someone with weak credit, sold as inclusion. Countrywide. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. Sarbanes-Oxley does not unwind a mortgage.",
+        "The savings-and-loan housing sermon, louder. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Subprime means a loan to someone with weak credit, sold as inclusion. Countrywide. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. The seller picks the firm. The firm stamps the seller's stack. Sarbanes-Oxley does not unwind a mortgage.",
       ],
       tags: ["LT", "IT"],
     },
@@ -1050,11 +1052,16 @@ const CARDS: Card[] = [
         rant: "Originate. Sell. The SPE is now a trust. The rating is the product. Do not drive to the house.",
         face: "mozilo",
       },
+      {
+        faction: "venezuela",
+        audience: "us",
+        rant: "We get paid by the people selling the stack. They pick us. We stamp it AAA. That is the job. We did not drive to the house.",
+      },
     ],
     situationUs:
       "Ownership society: more families in houses, on purpose. Push Fannie Mae and Freddie Mac, the government-sponsored buyers of home loans, to take weaker files. The houses are not Enron. That is the sentence in the room. Subprime, loans to people with weak credit, is being sold as inclusion.",
     situationIran:
-      "You are Angelo Mozilo of Countrywide. A thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. The address is a family. The cubicle will not visit.",
+      "You are Angelo Mozilo of Countrywide. A thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.",
     iranChoices: [
       {
         id: "ir-originate-sell",
@@ -1204,7 +1211,7 @@ const CARDS: Card[] = [
       {
         faction: "venezuela",
         audience: "iran",
-        rant: "AAA. We ran the numbers in the cubicle. We did not drive to Las Vegas.",
+        rant: "AAA. We get paid by the people selling the stack. We ran the numbers in the cubicle. We did not drive to Las Vegas.",
       },
     ],
     situationUs:
@@ -1281,7 +1288,7 @@ const CARDS: Card[] = [
       {
         faction: "venezuela",
         audience: "us",
-        rant: "The structure is investment grade. We ran the numbers. We did not walk the cul-de-sac.",
+        rant: "The structure is investment grade. We get paid by the people selling it. We ran the numbers. We did not walk the cul-de-sac.",
       },
       {
         faction: "leader",

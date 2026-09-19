@@ -2,7 +2,19 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-18 Ratings get paid by the seller. LTCM is a story.
+
+What: Issuer-pays is the Ratings bar, not a trailing clause. The 1998 card is the Lowenstein story: Salomon, Nobels, pennies on $30 of debt per $1, Russia, Buffett's fax, Bear's no, then the room.
+
+Why: User correction on who pays the raters. LTCM was still a glossary dump. When Genius Failed is not in the sandbox. The beats are.
+
+How: Glossary, bar, 2003 housing card, Greenwich 1995 as the door, 1998 as the movie. No book file here. Wikipedia plus the Fed history essay for dates. The book remains the book.
+
+### What did not work
+Aliasing "Greenwich" to the whole LTCM entry. 1995 uses the town as a destination. Hover would have spoiled the weekend.
+
 ## 2026-09-18 Copy teaches, then hover
+
 
 What: Every finance term is a story on first use. Hover catches the repeats. 3-6-3 is pay depositors 3, lend at 6, golf by 3, then the nickname.
 
