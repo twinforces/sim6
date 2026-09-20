@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-19 Banner lockup: Past Performance
+
+What: "Past Performance" on the share card and the X banner. No tagline. The joke stays in the game.
+
+Why: User. Need the text on the banner. Do not give away the joke.
+
+How: Same dual-chair art. IBM Plex Serif. Banner lockup left, above the midline.
+
+### What did not work
+Baking the title in Imagine. The glyphs lie. Composite the words.
+
 ## 2026-09-19 Share card: two chairs
 
 What: New `og.jpg` and `x-banner.jpg`. Washington chair and Street chair in one room. Titleless.

@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Banner lockup, 2026-09-19
+
+What: "Past Performance" on the banner. No joke line.
+
+Why: User. Need the text. Do not give away the joke.
+
+How: Composite on the dual-chair art. Left, above the midline.
+
 ## Share cards, 2026-09-19
 
 What: New OG preview and X banner. Two empty chairs. No lettering.
