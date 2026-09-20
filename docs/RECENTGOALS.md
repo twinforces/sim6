@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## GTs acronyms, 2026-09-19
+
+What: Expand on first use in `docs/GTs.md`. Then the short form is earned.
+
+Why: User redline. Acronyms before introduction. Annoying AF.
+
+How: Morning paper. Not the player meters.
+
 ## Brooklyn rubes, 2026-09-19
 
 What: Crazy Eddie is Brooklyn, not New Jersey.

@@ -6,7 +6,9 @@ This file is hierarchical. Four stories first. Then each card in that story. If 
 
 Truth tags: LT is a date or a document. IT is the incentive reading. DK stays DK.
 
-Do not hand-edit this into the player HUD. The player still sits a chair. This is the morning paper next to the cards.
+Acronyms: expand on first use. Then the short form is earned. Do not make the reader guess.
+
+Do not paste this into the player meters. The player still sits a chair. This is the morning paper next to the cards.
 
 ---
 
@@ -16,14 +18,14 @@ Do not hand-edit this into the player HUD. The player still sits a chair. This i
 - `didmca-1980`: the $100,000 was a conference add.
 - `keating-1987`: names the five. Meetings in April 1987.
 - `rtc-1989`: taxpayers later eat about $125 billion. Keating's big convictions get reversed.
-- `glba-1999`: the wall was already a screen door. CFMA is next year, not this bill.
+- `glba-1999`: the wall was already a screen door. CFMA, the Commodity Futures Modernization Act, is next year, not this bill.
 - `levitt-2000`: letter is September 20, 2000. Andersen helped write it. Levitt: the auditor is auditing himself.
-- `sec-2004`: people later said 12 became 40. The SEC said it never undid a leverage cap. Europe was the lever. Seven people, five firms.
+- `sec-2004`: people later said 12 became 40. The SEC, the Securities and Exchange Commission, said it never undid a leverage cap. Europe was the lever. Seven people, five firms.
 - `peak-2006`: New Century files April 2007.
-- `contained-2007`: Bernanke said it in March. Paulson was still saying it in August, the week BNP froze the cash.
-- `aig-2008`: AIG is not a bank. They invent an $85 billion credit line because the window is for banks.
+- `contained-2007`: Bernanke said it in March. Paulson was still saying it in August, the week BNP Paribas froze the cash.
+- `aig-2008`: AIG, American International Group, is not a bank. They invent an $85 billion credit line because the window is for banks.
 
-What we did not do: invent a CFMA card. Invent a Wendy Gramm card. Make Crazy Eddie a thrift. Turn CSE into a sermon about how the NYT was wrong. The cubicle still wrote the haircut. That is the load-bearing sentence.
+What we did not do: invent a CFMA card. Invent a Wendy Gramm card. Make Crazy Eddie a thrift. Turn CSE, the Consolidated Supervised Entity program, into a sermon about how the New York Times was wrong. The cubicle still wrote the haircut. That is the load-bearing sentence.
 
 ---
 
@@ -33,27 +35,27 @@ What we did not do: invent a CFMA card. Invent a Wendy Gramm card. Make Crazy Ed
 
 What people think this is about: sleepy housing banks got greedy after Reagan deregulated them.
 
-What the machinery is actually doing: a government-chartered factory borrows short, insured, rate-capped money and lends it for thirty years. Volcker makes that book insolvent. Congress then recapitalizes the zombies with a bigger insurance stamp, brokered deposits, RAP accounting, and new bets, so they can "grow out of it." The RTC is the first nested success: a public cleanup that teaches the next desk that complicated books can be closed.
+What the machinery is actually doing: a government-chartered factory borrows short, insured, rate-capped money and lends it for thirty years. Volcker makes that book insolvent. Congress then recapitalizes the zombies with a bigger insurance stamp, brokered deposits, RAP, regulatory accounting principles, and new bets, so they can "grow out of it." The RTC, the Resolution Trust Corporation, is the first nested success: a public cleanup that teaches the next desk that complicated books can be closed.
 
 ### Observations
 
-1. 3-6-3 is real slang by 1978, not a 1979 rate table. Print: take money at 3, lend at 6, golf by 3. Richmond Fed later called the competitive version an urban myth. Keep the joke. Do not treat 3 and 6 as the 1979 book. (LT on the phrase. IT on the golf.)
-2. Saturday Night Special is October 6, 1979. Discount rate to 12 percent. Funds rate into the mid-teens, then 17.6 percent in April 1980. Fed files, not journalism. (LT)
-3. Cost of funds at FSLIC-insured S&Ls hits 10.92 percent in 1981 and 11.38 percent in 1982. Portfolio yield lags. Negative spread from 1981. The 6 percent is the old paper, not the whole 1979 stock. (LT)
-4. DIDMCA, March 31, 1980. Insurance $40,000 to $100,000, effective April 1. The $100,000 was a conference add, not in the original bills. Cranston wanted California thrifts to accept the rate-cap phase-out so they could buy brokered money. (LT)
-5. Garn-St Germain, October 15, 1982. Commercial loans, ARMs, net-worth certificates that count as capital. "Junk" and desert condos are the Act plus FHLBB plus state charters, especially California. Kane's word is zombie: still open, still taking insured deposits, still digging. (LT / IT)
+1. 3-6-3 is real slang by 1978, not a 1979 rate table. Print: take money at 3, lend at 6, golf by 3. Richmond Fed, the Federal Reserve Bank of Richmond, later called the competitive version an urban myth. Keep the joke. Do not treat 3 and 6 as the 1979 book. (LT on the phrase. IT on the golf.)
+2. Saturday Night Special is October 6, 1979. Discount rate to 12 percent. Funds rate into the mid-teens, then 17.6 percent in April 1980. Federal Reserve files, not journalism. (LT)
+3. Cost of funds at savings and loans insured by FSLIC, the Federal Savings and Loan Insurance Corporation, hits 10.92 percent in 1981 and 11.38 percent in 1982. Portfolio yield lags. Negative spread from 1981. The 6 percent is the old paper, not the whole 1979 stock. (LT)
+4. DIDMCA, the Depository Institutions Deregulation and Monetary Control Act, March 31, 1980. Insurance $40,000 to $100,000, effective April 1. The $100,000 was a conference add, not in the original bills. Cranston wanted California thrifts to accept the rate-cap phase-out so they could buy brokered money. (LT)
+5. Garn-St Germain, October 15, 1982. Commercial loans, ARMs, adjustable-rate mortgages, net-worth certificates that count as capital. "Junk" and desert condos are the Act plus FHLBB, the Federal Home Loan Bank Board, plus state charters, especially California. Kane's word is zombie: still open, still taking insured deposits, still digging. (LT / IT)
 6. FSLIC is insolvent by 1986. Reserves go from +$6.5 billion (1980) to about -$75 billion (1988). Forbearance is how the bill grows. (LT)
-7. Keating buys Lincoln February 1984, about $51 million. Assets $1.1 billion to $5.5 billion. Keating Five, April 1987: Cranston, DeConcini, Glenn, McCain, Riegle. Seized April 14, 1989. RTC marks the hole about $3.4 billion. The uninsured product sold in the branches is ACC bonds, pitched as if they were deposits. (LT)
-8. Crazy Eddie is not a thrift. November 6, 1987: the count finds tens of millions missing. The audit passed. That is why the card sits here. The carnival is the cubicle lesson, not the S&L machine. (LT on the fraud. IT on the placement.)
-9. FIRREA August 9, 1989. RTC 1989 to December 31, 1995. 747 thrifts. GAO 1996: about $124.6 billion taxpayer direct, about $160 billion all-in. Recovery on seized assets in the mid-80s of cents. (LT)
+7. Keating buys Lincoln February 1984, about $51 million. Assets $1.1 billion to $5.5 billion. Keating Five, April 1987: Cranston, DeConcini, Glenn, McCain, Riegle. Seized April 14, 1989. RTC marks the hole about $3.4 billion. The uninsured product sold in the branches is ACC bonds, American Continental Corporation paper, pitched as if they were deposits. (LT)
+8. Crazy Eddie is not a thrift. November 6, 1987: the count finds tens of millions missing. The audit passed. That is why the card sits here. The carnival is the cubicle lesson, not the savings-and-loan machine. (LT on the fraud. IT on the placement.)
+9. FIRREA, the Financial Institutions Reform, Recovery, and Enforcement Act, August 9, 1989. RTC 1989 to December 31, 1995. 747 thrifts. GAO, then the General Accounting Office, 1996: about $124.6 billion taxpayer direct, about $160 billion all-in. Recovery on seized assets in the mid-80s of cents. (LT)
 10. Keating did time. The big convictions were reversed. 1999 plea: time served, about five years. Hundreds of S&L indictments industry-wide. It is some jail, not a hanging. (LT)
 11. Sideways: the crisis is sold as deregulation. The sequence is a regulated duration mismatch, a regulated rate cap that broke, then a regulated insurance stamp raised so the dead could buy time with other people's money.
 
 ### Sides
 
-- Volcker / Fed: kill inflation. Not their fund.
+- Volcker / the Fed: kill inflation. Not their fund.
 - S&L owners after 1982: heads they grow, tails FSLIC.
-- Brokers: fee per $100,000 CD. No credit risk until FIRREA/FDICIA.
+- Brokers: fee per $100,000 CD, certificate of deposit. No credit risk until FIRREA and FDICIA, the 1991 Improvement Act for the Federal Deposit Insurance Corporation.
 - Congress: do not close the local thrift. Do not admit the fund is bust.
 - FHLBB / FSLIC: RAP hides the hole so they do not have to ask Treasury.
 - Keating: Lincoln as a deposit vacuum for ACC land.
@@ -80,7 +82,7 @@ RTC "worked" because it finally stopped the clock and sold the branches in publi
 
 ### What would falsify this read
 
-If 1981-82 S&Ls had a positive spread on the old book. If the $100,000 was in the original House bill. If Lincoln was a federal-powers story and not a California charter story.
+If 1981-82 savings and loans had a positive spread on the old book. If the $100,000 was in the original House bill. If Lincoln was a federal-powers story and not a California charter story.
 
 ### Card takes
 
@@ -164,7 +166,7 @@ Observations: FIRREA kills FSLIC, stands up RTC. Slow, public, some jail. About 
 
 Incentives: Bush needs daylight. Keating still sues.
 
-Falsify: if the RTC was a pause like TARP.
+Falsify: if the RTC was a pause like TARP, the Troubled Asset Relief Program.
 
 Card change: taxpayer number; convictions reversed coda.
 
@@ -176,7 +178,7 @@ Observations: sunset December 31, 1995. Greenwich is already being built. Meriwe
 
 Incentives: Clinton takes the win. Fed calls complexity private.
 
-Falsify: if a standing RTC desk would have caught SPEs. DK. The offramp still scores.
+Falsify: if a standing RTC desk would have caught SPEs, special-purpose entities. DK. The offramp still scores.
 
 Card change: none.
 
@@ -205,7 +207,7 @@ Lowenstein is in the sandbox. The numbers are his.
 1. More than 40 percent a year. Doubles in two years. They gave about $2.7 billion back at the end of 1997. Leverage 18 to 1 became 28 to 1. (LT)
 2. A hedge is both legs. They split the legs. Merrill saw one side. Policy was no haircut. Zero. Each new bank: if we give you one we have to give everyone. (LT)
 3. September 1998: about $100 billion of assets, almost all borrowed, more than a trillion of side bets. Not a trillion of cash. (LT)
-4. Russia defaulted August 17, 1998. Fund lost 44 percent that month. VaR had not priced a country walking away from its own paper. (LT)
+4. Russia defaulted August 17, 1998. Fund lost 44 percent that month. VaR, Value at Risk, had not priced a country walking away from its own paper. (LT)
 5. September 23: fourteen firms, $3.6 billion, New York Fed. Bear said no. Cayne had vowed to stop clearing under $500 million. Buffett faxed $250 million for the fund and would fire the partners. Partners did not take it. (LT)
 6. Consortium: stay three years, salary $250,000. Partners exploded. 140 lawyers at Skadden. Banks needed signatures. They paid. (LT)
 7. When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. Shape is the user's. Numbers are Lowenstein's book. (IT on the ladder. LT on the trillion.)
@@ -217,7 +219,7 @@ Lowenstein is in the sandbox. The numbers are his.
 - Meriwether / partners: keep the letterhead, keep a salary, do not be Buffett's help.
 - Fourteen banks: do not mark one side of a trillion at zero tonight.
 - Bear / Cayne: already the clearer, already enough risk.
-- McDonough / NY Fed: convene, lend none of the Fed's money.
+- McDonough / New York Fed: convene, lend none of the Fed's money.
 - Clinton: call it private.
 
 ### Rumsfeld
@@ -238,7 +240,7 @@ Evil: split the legs, refuse the haircut, give capital back, then hold the Stree
 
 ### Practical takeaway
 
-1998 worked. That sentence is the poison in GLBA, in CSE, in "contained."
+1998 worked. That sentence is the poison in GLBA, Gramm-Leach-Bliley, in CSE, in "contained."
 
 ### What would falsify this read
 
@@ -266,7 +268,7 @@ Card change: the quote now says half of Wall Street, not half the Street.
 
 Frame: tear down a Depression wall vs ratify a screen door because 1998 worked.
 
-Observations: GLBA repeals Glass-Steagall sections 20 and 32. Sections 16 and 21 live. Citigroup already existed. CFMA, December 2000, is the derivatives bill. LTCM is not in GLBA. It is in the sentence in the room.
+Observations: GLBA repeals Glass-Steagall sections 20 and 32. Sections 16 and 21 live. Citigroup already existed. CFMA, December 2000, is the derivatives bill. Long-Term is not in GLBA. It is in the sentence in the room.
 
 Incentives: banks want one letterhead. Congress wants 1998 as a license.
 
@@ -282,26 +284,26 @@ Card change: screen door. CFMA named as next year.
 
 What people think this is about: a Texas energy company that got greedy, Bush's buddy, Glass-Steagall, take your pick.
 
-What the machinery is actually doing: mark-to-model booked as earnings, paper companies that fail their own 3 percent test, a board that waived the ethics code so the CFO could sit on both sides of the trade, and an auditor who designed the vehicles, staffed the internal audit, and signed the opinion. SOX is what Congress writes after WorldCom makes inaction impossible. It signs the CEO. It does not lock the SPE door that SIVs walk through.
+What the machinery is actually doing: mark-to-model booked as earnings, paper companies that fail their own 3 percent test, a board that waived the ethics code so the CFO, the chief financial officer, could sit on both sides of the trade, and an auditor who designed the vehicles, staffed the internal audit, and signed the opinion. SOX, Sarbanes-Oxley, is what Congress writes after WorldCom makes inaction impossible. It signs the CEO, the chief executive. It does not lock the SPE door that SIVs, structured investment vehicles, walk through.
 
 ### Observations
 
-1. Lay letter to Levitt, September 20, 2000. Andersen helped write it. Levitt wanted to ban the auditor from also running internal audit. Congress threatened the SEC's funding. Final rule waters it: IT ban dropped, internal-audit cap. Levitt later: biggest mistake of the chairmanship. (LT)
+1. Lay letter to Levitt, September 20, 2000. Andersen helped write it. Levitt wanted to ban the auditor from also running internal audit. Congress threatened the SEC's funding. Final rule waters it: the consulting ban dropped, internal-audit cap. Levitt later: biggest mistake of the chairmanship. (LT)
 2. Andersen 2000 fees: about $25 million audit, $27 million other. Internal audit outsourced since 1993. February 2001 keep-or-drop meeting: keep, path to $100 million. Then a clean opinion. (LT)
-3. Chewco, LJM, Raptors. Fastow as GP. Board waived the code June 28 and October 12, 1999. Raptors "hedge" Enron investments with Enron stock. That is not a hedge. (LT)
+3. Chewco, LJM, Raptors. Fastow as GP, general partner. Board waived the code June 28 and October 12, 1999. Raptors "hedge" Enron investments with Enron stock. That is not a hedge. (LT)
 4. Mark-to-market: SEC staff no-objection 1992 for gas. Then 10-20 year contracts with no market. Comp on the model. (LT)
 5. Restatement October 2001. Shredders. Chapter 11 December 2, 2001. (LT)
-6. Andersen convicted June 15, 2002. SCOTUS reversed 2005. Firm already dead. (LT)
+6. Andersen convicted June 15, 2002. SCOTUS, the Supreme Court, reversed 2005. Firm already dead. (LT)
 7. Skilling: 292 months, later 168, about 12 years served. Lay died July 5, 2006, before sentencing. Fastow: 6 years. (LT)
 8. SOX July 30, 2002. House 423-3, Senate 99-0. CEO and CFO certify. WorldCom disclosed June 25, filed July 21. WorldCom is why the vote exists in that form. (LT)
-9. SOX discloses off-balance-sheet arrangements. It does not ban QSPEs. SIVs use that hole. Citigroup consolidates SIVs December 2007. FAS 166/167 is 2009. (LT)
+9. SOX discloses off-balance-sheet arrangements. It does not ban QSPEs, qualifying special-purpose entities. SIVs use that hole. Citigroup consolidates SIVs December 2007. FAS 166/167, Financial Accounting Standards 166 and 167, is 2009. (LT)
 10. Sideways: the gatekeeper was on commission. "Passed every audit" is the indictment, not the alibi.
 
 ### Sides
 
 - Lay: stock as scoreboard, political access, not the person who says no.
 - Fastow: fees from LJM while remaining CFO.
-- Skilling: asset-light, MTM as the product.
+- Skilling: asset-light, mark-to-market as the product.
 - Andersen / Duncan: keep Enron.
 - Levitt: independence. Loses in 2000, gets a statue in 2002 named SOX.
 - Congress: industry money, then cameras.
@@ -366,23 +368,23 @@ What people think this is about: poor people who should not have bought houses, 
 
 What the machinery is actually doing: originate-to-sell, issuer-pays ratings, leftover rolled into a second pile and stamped AAA, side bets that mint more bonds without a new house, a 1998 script that says contained, then a pause that is not an RTC. The shorts were not outside the machine. Without them the longs had nothing to buy.
 
-Lewis is in the sandbox for the dinner. FCIC is the 2011 file.
+Lewis is in the sandbox for the dinner. FCIC, the Financial Crisis Inquiry Commission, is the 2011 file.
 
 ### Observations
 
-1. Ownership society is 2002-2004 language on a Clinton-era homeownership machine. Private-label MBS share explodes 2003-2006 after Fannie/Freddie accounting scandals. That is the CDO feedstock. (LT / IT)
+1. Ownership society is 2002-2004 language on a Clinton-era homeownership machine. Private-label MBS, mortgage-backed securities, share explodes 2003-2006 after Fannie/Freddie accounting scandals. That is the CDO feedstock: a collateralized debt obligation, a bond of bonds. (LT / IT)
 2. Issuer-pays is 1970s. What is new: structured-finance fees as the profit center. Moody's about half of 2007 revenue from structured ratings. (LT)
 3. CSE, June 2004. Five: Bear, Lehman, Merrill, Goldman, Morgan Stanley. Alternative net capital using VaR. Europe/London is the lever. People later said 12 became 40. SEC (Sirri 2009): the Commission did not undo any leverage cap. Holding-company leverage was already extreme in the late 1990s. Seven people supervise five global firms. (LT on the program. IT on the cubicle. DK on 12-to-40 as the whole truth.)
-4. CDO issuance: $22 billion (2003) to $217 billion (2006). Mezz packed, top stamped AAA, leftover into CDO-squared. Synthetics after the 2005 ISDA template mean you do not need a new house. (LT)
+4. CDO issuance: $22 billion (2003) to $217 billion (2006). Mezzanine packed, top stamped AAA, the safest grade, leftover into CDO-squared. Synthetics after the 2005 ISDA template, International Swaps and Derivatives Association, mean you do not need a new house. (LT)
 5. Jackson Hole, August 2005. Rajan: the system is holding more risk, not less. Summers: slightly Luddite, misguided. The room is honoring Greenspan. (LT)
-6. Case-Shiller 20-city peaks July 2006. New Century files April 2, 2007. Friends of Angelo: VIPs at Countrywide. Mozilo internal emails call some products poison. SEC civil 2010. DOJ drops criminal February 2011. (LT)
-7. ASF, January 28-31, 2007, Venetian. Dinner at Okada, Wynn. Four hibachi islands. One shorter per grill, longs around them. Lippmann mixed the table because his shorts were in full flight. Wing Chau: without you I have nothing to buy. FrontPoint $300 million to $550 million. (LT, Lewis)
-8. Bernanke, March 28, 2007: subprime "seems likely to be contained." Paulson repeats contained through August 9, the day BNP freezes three funds for "complete evaporation of liquidity." August is the plumbing, not the original quote. (LT)
-9. Bear, March 2008. The bank that said no in 1998. JPM, Maiden Lane, Fed 13(3). $2 then $10. (LT)
-10. Lehman Chapter 11, September 15. AIG September 16: $85 billion, 79.9 percent. AIG is not a bank. The window is for banks. They invent a facility because AIGFP is the other side of every dealer's super-senior. (LT)
-11. TARP: House 205-228 on September 29. DJIA -777. Senate 74-25 October 1 with sweeteners. House 263-171 October 3. $700 billion authorized. Tool mutates from buy the ugly assets to capital injections. (LT)
+6. Case-Shiller 20-city peaks July 2006. New Century files April 2, 2007. Friends of Angelo: Countrywide's favored borrowers. Mozilo internal emails call some products poison. SEC civil 2010. DOJ, the Department of Justice, drops criminal February 2011. (LT)
+7. ASF, the American Securitization Forum, January 28-31, 2007, Venetian. Dinner at Okada, Wynn. Four hibachi islands. One shorter per grill, longs around them. Lippmann mixed the table because his shorts were in full flight. Wing Chau: without you I have nothing to buy. FrontPoint $300 million to $550 million. (LT, Lewis)
+8. Bernanke, March 28, 2007: subprime "seems likely to be contained." Paulson repeats contained through August 9, the day BNP Paribas freezes three funds for "complete evaporation of liquidity." August is the plumbing, not the original quote. (LT)
+9. Bear, March 2008. The bank that said no in 1998. JPMorgan, Maiden Lane, Fed 13(3), the emergency power for unusual and exigent circumstances. $2 then $10. (LT)
+10. Lehman Chapter 11, September 15. AIG September 16: $85 billion, 79.9 percent. AIG is not a bank. The window is for banks. They invent a facility because AIGFP, AIG Financial Products, is the other side of every dealer's super-senior. (LT)
+11. TARP: House 205-228 on September 29. The Dow, DJIA, -777. Senate 74-25 October 1 with sweeteners. House 263-171 October 3. $700 billion authorized. Tool mutates from buy the ugly assets to capital injections. (LT)
 12. McCain suspends September 24. Obama keeps campaigning: a president has to do more than one thing. McCain reverses September 26. Debate happens. TARP still happens. Obama still sits. (LT)
-13. FCIC, January 2011. Majority: avoidable. Dissents exist. Almost no housing C-suite criminal convictions. Skilling is Enron, 2006. You cannot jail a country is Irish-true and a dodge. (LT / IT)
+13. FCIC, January 2011. Majority: avoidable. Dissents exist. Almost no housing-executive criminal convictions. Skilling is Enron, 2006. You cannot jail a country is Irish-true and a dodge. (LT / IT)
 14. Sideways: the housing story is a ratings-and-funding story wearing a homeownership costume. 1998 contained a relative-value book. 2007 used the same word on the collateral of the US household.
 
 ### Sides
@@ -424,7 +426,7 @@ If 2006-07 private-label performed like prime. If synthetic CDO notional was a r
 
 Frame: the American Dream vs a 30-year note as a product you sell this week.
 
-Observations: originate-to-sell. Issuer-pays. GSEs. Subprime as inclusion. SOX does not unwind a mortgage.
+Observations: originate-to-sell. Issuer-pays. GSEs, government-sponsored enterprises: Fannie Mae and Freddie Mac. Subprime as inclusion. SOX does not unwind a mortgage.
 
 Card change: none. Ratings-paid-by-seller already on the card.
 
@@ -490,7 +492,7 @@ Frame: moral hazard vs the unwind that will not close.
 
 Observations: September 15. Barclays wants a clean name. No American backstop. AIG is Monday either way.
 
-Card change: none. AL on the save button already labelled.
+Card change: none. Artistic license on the save button already labelled.
 
 #### `aig-2008`
 
@@ -528,7 +530,7 @@ Card change: none.
 
 Frame: hangings vs a cubicle exam in daylight.
 
-Observations: SCAP stress tests. Accountants wrote it. Accountants take it. Of course they pass.
+Observations: SCAP, the Supervisory Capital Assessment Program, the 2009 stress tests. Accountants wrote it. Accountants take it. Of course they pass.
 
 Card change: none.
 
