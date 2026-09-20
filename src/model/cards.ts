@@ -31,12 +31,14 @@ function hindsight(story: string): Pick<Choice, "overlay" | "resultTitle" | "res
 
 function driveFirst(where: string): Pick<Choice, "overlay" | "resultTitle" | "result"> {
   return hindsight(
-    `You left the cubicle. You drove to ${where}. The invoice was a parking lot, or a warehouse that emptied at night, or a house nobody lived in. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave your cubicle and drive to the address on the invoice.`,
+    `You left the cubicle. You drove to ${where}. The invoice was a parking lot, or a warehouse that emptied at night, or a house nobody lived in. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave your cubicle and drive to the address on the invoice. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.`,
   );
 }
 
 function drive(where: string): Pick<Choice, "overlay" | "resultTitle" | "result"> {
-  return hindsight(`You left the cubicle. You drove to ${where}.`);
+  return hindsight(
+    `You left the cubicle. You drove to ${where}. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.`,
+  );
 }
 
 function moral(story: string): Pick<Choice, "epilogue" | "overlay" | "resultTitle" | "result"> {
@@ -360,7 +362,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "Crazy Eddie is an electronics chain from Brooklyn. Before the accountants arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.",
+        "Crazy Eddie is an electronics chain from Brooklyn. Before the auditors arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.",
       ],
       tags: ["LT", "IT"],
     },
@@ -533,7 +535,7 @@ const CARDS: Card[] = [
         kind: "walk",
         historical: true,
         deltas: { irgc: 8, leader: -15, street: -8 },
-        flags: { s_l_worked: true, iran_face: "meriwether" },
+        flags: { s_l_worked: true },
       },
       {
         id: "ir-fight-rtc",
@@ -605,7 +607,7 @@ const CARDS: Card[] = [
         faction: "leader",
         audience: "iran",
         rant: "Lincoln is a museum. You can stay a resolution man or you can sit Greenwich. The cubicle prefers Greenwich.",
-        face: "meriwether",
+        face: "keating",
       },
     ],
     situationUs:
@@ -665,7 +667,7 @@ const CARDS: Card[] = [
     branchPoint: true,
     referee: {
       paragraphs: [
-        "Long-Term Capital Management is beating the market by more than 40 percent a year. That doubles in two years. No losing stretches. The gaps they sit in are getting crowded. They gave about {cpi|$5.5 billion|$2.7 billion} back to investors at the end of 1997. That sounded like discipline. It left the same bets on less of their own money, so leverage, borrowed money piled on a bet, jumped from 18 to 1 to 28 to 1. They also stopped being a hedge. A hedge is both sides at once: you own one bond, the long side, and you have borrowed and sold a near twin, the short side. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. Long-Term put the long at one firm and the short at another. Merrill saw only one side of each trade. Then they talked each desk into no haircut at all. Zero. Meriwether was the public face, popular, and the name on the door said Nobel. Black-Scholes is a formula for pricing options, the right to buy or sell later. Scholes was a name on the door. Nobody on the Street had ever really understood that math. It is icky nerd math. Charging Scholes a haircut would mean admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. Each new bank was told: if we give you a haircut we have to give it to everyone. So nobody got one. Each broker had a one-sided bomb and thought they had a customer.",
+        "Long-Term Capital Management is beating the market by more than 40 percent a year. That doubles in two years. No losing stretches. The gaps they sit in are getting crowded. They gave about {cpi|$5.5 billion|$2.7 billion} back to investors at the end of 1997. That sounded like discipline. It left the same bets on less of their own money, so leverage, borrowed money piled on a bet, jumped from 18 to 1 to 28 to 1. They told every bank they were a hedge: every long balanced with a short, so they would always be solvent. A hedge is both sides at once. They never kept both legs at the same house. They did not trust the Street not to copy the trades and eat the pennies. Each bank saw one side and believed the other side lived somewhere else. Taking directional bets, merger books, one-way piles, makes that solvent story a lie.",
       ],
       tags: ["LT", "IT"],
     },
@@ -673,24 +675,24 @@ const CARDS: Card[] = [
       {
         faction: "irgc",
         audience: "iran",
-        rant: "The gaps are gone. Everyone else caught up. You nibble and the pennies vanish. Two doors. Stay a hedge and stay smaller, or stop hedging: merger bets, paired shares, directional books. The Nobel on the door will get you no haircut either way.",
+        rant: "The gaps are gone. Everyone else caught up. You nibble and the pennies vanish. Two doors. Stay a hedge and stay smaller, or stop hedging: merger bets, paired shares, directional books. You told the banks you were always solvent. Directional bets make that a lie.",
         face: "meriwether",
       },
       {
         faction: "cia",
         audience: "us",
-        rant: "A private fund in Greenwich. Not a bank. Forty percent is a success story. Haircuts on a hedge fund are not our problem.",
+        rant: "A private fund in Greenwich. Not a bank. Forty percent is a success story. Whether they are still a hedge is not our problem.",
       },
     ],
     situationUs:
-      "Clinton sits. A hedge fund in Greenwich is printing more than 40 percent a year. That doubles in two years. It is not a bank. It does not take insured deposits. The New York Fed has not asked what the haircuts look like: the extra collateral a broker keeps in case the customer dies.\n\nA real hedge is both sides at once. If a broker holds the long and the short, they only have net risk. If this fund has been splitting the legs across the Street, each desk has a bomb and thinks it has a customer. You can ask. Or you can call it private.",
+      "Clinton sits. A hedge fund in Greenwich is printing more than 40 percent a year. That doubles in two years. It is not a bank. It does not take insured deposits. They told the Street they were a hedge: every long balanced with a short, so they would always be solvent. They do not keep both legs at the same house. You can ask whether that is still true. Or you can call it private.",
     situationIran:
-      "You are John Meriwether. You are beating the market by more than 40 percent a year. That doubles in two years. You have more money than gaps. The pennies are getting crowded.\n\nA hedge is both sides at once. Long: you own it, you want it up. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. You have been putting the long at one firm and the short at another. Merrill sees only one side. Then you talk each of them into no haircut at all. Scholes is a name on the door. Black-Scholes is icky nerd math for pricing options. Nobody on the Street has ever really understood it. Charging Scholes a haircut would mean admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes.\n\nTwo doors. Stop taking money, stay a hedge, live with the pennies you can still find. Or stop being a hedge: merger bets, directional books, split legs, no haircut, and give some money back so the same book sits on less of your own cash. Guess which one the desk wants.",
+      "You are John Meriwether. You are beating the market by more than 40 percent a year. That doubles in two years. You have more money than gaps. The pennies are getting crowded.\n\nYou told the banks you were a hedge: every long balanced with a short, so you would always be solvent. You never keep both legs at the same house. You do not trust the Street not to mirror the trades. Each desk sees one side.\n\nTwo doors. Stop taking money, stay a hedge, live with the pennies you can still find. Or stop being a hedge: merger bets, directional books, and give some money back so the same book sits on less of your own cash. Guess which one the desk wants.",
     iranChoices: [
       {
         id: "ir-stop-hedge",
         label: "Stop being a hedge",
-        summary: "Merger bets. Directional books. Split the legs. No haircut. Give money back so the same book sits on less of your own cash.",
+        summary: "Merger bets. Directional books. Give money back so the same book sits on less of your own cash. The solvent story becomes a lie.",
         kind: "hard",
         historical: true,
         deltas: { irgc: -8, leader: 8, cia: 2 },
@@ -699,7 +701,7 @@ const CARDS: Card[] = [
       {
         id: "ir-stay-hedge",
         label: "Stay a hedge. Stop taking money.",
-        summary: "You already double in two years. The gaps are gone. Keep both legs at the same broker. Live with the pennies.",
+        summary: "You already double in two years. The gaps are gone. Keep being both sides. Live with the pennies.",
         kind: "walk",
         deltas: { irgc: 8, leader: -8 },
         ...hindsight("You stayed a hedge. Greenwich still split the legs."),
@@ -709,18 +711,18 @@ const CARDS: Card[] = [
       {
         id: "us-private-1997",
         label: "Call it private",
-        summary: "A hedge fund is not a bank. Forty percent is their problem. Haircuts are not your problem.",
+        summary: "A hedge fund is not a bank. Forty percent is their problem.",
         kind: "ignore",
         historical: true,
         deltas: { cia: 4, media: 2 },
       },
       {
         id: "us-ask-1997",
-        label: "Ask what the haircuts look like",
-        summary: "If they split the legs, each desk on the Street has a bomb. Ask what happens if they fold.",
+        label: "Ask if they are still a hedge",
+        summary: "They told the banks every long was balanced with a short. Ask whether that is still true.",
         kind: "hard",
         deltas: { cia: -4, drone_holes_known: 10, saudis: -4 },
-        ...hindsight("You asked about the haircuts in 1997. The weekend still came."),
+        ...hindsight("You asked if they were still a hedge. The weekend still came."),
       },
     ],
     sources: ["Lowenstein, When Genius Failed", "LTCM 1997 capital return"],
@@ -740,8 +742,8 @@ const CARDS: Card[] = [
     clocksOn: true,
     referee: {
       paragraphs: [
-        "By September 1998 the fund had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets: derivative contracts, not cash in a vault. Same slice of the economy today: about {gdp|$360 billion|$100 billion} of assets, about {gdp|$3.6 trillion|$1 trillion} of side bets. When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. If they defaulted, every bank in the room would be left holding one side of a contract whose other side no longer existed. That is why fourteen banks sat in a room. They had split the long and the short across the Street, with no haircut, because Meriwether was popular and the name on the door said Nobel. Charging Scholes a haircut would have meant admitting nobody understood the math. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk claims to say how much a desk can lose on a normal day. It is not Black-Scholes. Black-Scholes prices options. Same family of clean math. Same thin tails. Russia was not a normal day.",
-        "On September 23, fourteen firms put $3.6 billion into the fund at the New York Fed, about {gdp|$13 billion|$3.6 billion}, still lunch next to the side bets. Bear Stearns, which cleared the trades, said no. James Cayne had vowed to stop clearing if cash fell under $500 million. A group led by Warren Buffett faxed $250 million for the fund and would fire the partners. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. The consortium contract said stay three years, salary {cpi|$500,000|$250,000} a year. The partners exploded. They called it indentured servitude and threatened to let the fund blow and take seven-figure jobs. One hundred forty lawyers at Skadden. The banks needed signatures. They paid. We will call this private. We will call it a put anyway.",
+        "By September 1998 the fund had about {gdp|$360 billion|$100 billion} of assets, almost all borrowed, and more than {gdp|$3.6 trillion|$1 trillion} of side bets: derivative contracts, not cash in a vault. When you owe the bank a house, you have a problem. If you owe a bank a city, the bank has a problem. If you owe half of Wall Street {gdp|$3.6 trillion|$1 trillion} by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks sat in a room. They had been told every long was balanced with a short. It was not. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk claims to say how much a desk can lose on a normal day. It is not Black-Scholes. Black-Scholes prices options. Same family of clean math. Same thin tails. Russia was not a normal day.",
+        "On September 23, fourteen firms put {gdp|$13 billion|$3.6 billion} into the fund at the New York Fed, still lunch next to the side bets. Bear Stearns, which cleared the trades, said no. James Cayne had vowed to stop clearing if cash fell under {gdp|$1.8 billion|$500 million}. A group led by Warren Buffett faxed {gdp|$900 million|$250 million} for the fund and would fire the partners. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. The consortium contract said stay three years, salary {cpi|$500,000|$250,000} a year. The partners exploded. They called it indentured servitude and threatened to let the fund blow and take seven-figure jobs. One hundred forty lawyers at Skadden. The banks needed signatures. They paid. We will call this private. We will call it a put anyway.",
       ],
       tags: ["LT", "IT"],
     },
@@ -749,25 +751,25 @@ const CARDS: Card[] = [
       {
         faction: "cia",
         audience: "us",
-        rant: "Not a bailout. A consortium. If they dump a hundred billion of borrowed assets and a trillion of side bets tonight, every desk is left holding one side of a dead contract. You cannot unwind it without them. Get them in a room. There is no Treasury check.",
+        rant: "Not a bailout. A consortium. If they dump {gdp|$360 billion|$100 billion} of borrowed assets and {gdp|$3.6 trillion|$1 trillion} of side bets tonight, every desk is left holding one side of a dead contract. You cannot unwind it without them. Get them in a room. There is no Treasury check.",
         closer: "William McDonough, New York Fed. He is in the room. He is not the chair.",
       },
       {
         faction: "irgc",
         audience: "iran",
-        rant: "If you fold, the Street folds. A hundred billion borrowed, a trillion in side bets, long at one desk and short at another, no haircut, no one holding both legs. Value at Risk, the normal-day loss model, said this could not happen. Russia was not a normal day. They need your signatures to unwind it. They will name a salary.",
+        rant: "If you fold, the Street folds. {gdp|$360 billion|$100 billion} borrowed, {gdp|$3.6 trillion|$1 trillion} in side bets, and they were told you were always solvent. Value at Risk, the normal-day loss model, said this could not happen. Russia was not a normal day. They need your signatures to unwind it. They will name a salary.",
         face: "meriwether",
       },
     ],
     situationUs:
-      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nWhen you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. They split the long and the short across the Street. No haircut. Charging Scholes a haircut would have meant admitting nobody understood the math. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the economy today: about {gdp|$360 billion|$100 billion}, and about {gdp|$3.6 trillion|$1 trillion} of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.\n\nBill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at {cpi|$500,000|$250,000} a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next greed will call it a put.",
+      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nWhen you owe the bank a house, you have a problem. If you owe a bank a city, the bank has a problem. If you owe half of Wall Street {gdp|$3.6 trillion|$1 trillion} by Monday morning, the Secretary of the Treasury has a problem. They had been told every long was balanced with a short. It was not. About {gdp|$360 billion|$100 billion} of assets, almost all borrowed, and more than {gdp|$3.6 trillion|$1 trillion} of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.\n\nBill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed {gdp|$900 million|$250 million} for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at {cpi|$500,000|$250,000} a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next greed will call it a put.",
     situationIran:
-      "You are John Meriwether. Last year you stopped being a hedge. The long sat at one broker, the short at another. No haircut. Charging Scholes a haircut would have meant admitting they did not understand the math. You are the public face. Scholes and Merton are names on the door. You gave money back, which left the same bets on less of your own cash.\n\nRussia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. When you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks are in a room.\n\nThey cannot unwind it without you. The consortium contract will say stay three years, salary {cpi|$500,000|$250,000} a year. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed $250 million for the fund and would fire you. There is no Treasury check. They will call this private.",
+      "You are John Meriwether. Last year you stopped being a hedge. You had told the banks you were always solvent. You are the public face. Scholes and Merton are names on the door. You gave money back, which left the same bets on less of your own cash.\n\nRussia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about {gdp|$360 billion|$100 billion} of assets, almost all borrowed, and more than {gdp|$3.6 trillion|$1 trillion} of side bets. When you owe half of Wall Street {gdp|$3.6 trillion|$1 trillion} by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks are in a room.\n\nThey cannot unwind it without you. The consortium contract will say stay three years, salary {cpi|$500,000|$250,000} a year. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed {gdp|$900 million|$250 million} for the fund and would fire you. There is no Treasury check. They will call this private.",
     iranChoices: [
       {
         id: "ir-take-room",
         label: "Take the consortium",
-        summary: "Fourteen banks put in $3.6 billion. You live. They own 90 percent. We will call it private.",
+        summary: "Fourteen banks put in {gdp|$13 billion|$3.6 billion}. You live. They own 90 percent. We will call it private.",
         kind: "deal",
         historical: true,
         deltas: { irgc: 8, leader: -8, cia: 6 },
@@ -776,12 +778,12 @@ const CARDS: Card[] = [
       {
         id: "ir-file",
         label: "File for bankruptcy",
-        summary: "Dump a hundred billion of assets and a trillion of side bets tonight. Every Street firm on the other side dies with you.",
+        summary: "Dump {gdp|$360 billion|$100 billion} of assets and {gdp|$3.6 trillion|$1 trillion} of side bets tonight. Every Street firm on the other side dies with you.",
         kind: "walk",
         deltas: { irgc: -20, leader: -20 },
         ...adapts(
           "The fire sale",
-          "You filed. A hundred billion of assets and a trillion of side bets marked every desk overnight. The room still happens, uglier, without your name on the door. History still rides. AL on the ugliness, not on the hole.",
+          "You filed. {gdp|$360 billion|$100 billion} of assets and {gdp|$3.6 trillion|$1 trillion} of side bets marked every desk overnight. The room still happens, uglier, without your name on the door. History still rides. AL on the ugliness, not on the hole.",
         ),
       },
     ],
@@ -837,7 +839,7 @@ const CARDS: Card[] = [
       },
     ],
     situationUs:
-      "The 1998 weekend is already a success story: fourteen banks, no Treasury check, the system held. You paid the partners $250,000 a year to stay three years and unwind their own book. They exploded. You paid. Repeal Glass-Steagall, the Depression-era wall between deposit banks and trading floors. The models worked.",
+      "The 1998 weekend is already a success story: fourteen banks, no Treasury check, the system held. You paid the partners {cpi|$500,000|$250,000} a year to stay three years and unwind their own book. They exploded. You paid. Repeal Glass-Steagall, the Depression-era wall between deposit banks and trading floors. The models worked.",
     situationIran:
       "The wall between deposit banking and the trading floor is coming down. You can be everything: take deposits, underwrite, trade. The cubicle will call that synergy.",
     iranChoices: [
@@ -1039,7 +1041,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We called accounting fixed. The next greed will hide in a structured investment vehicle, an SIV, a paper company with a new name. Same costume as an SPE.",
+        "Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We called accounting fixed.",
       ],
       tags: ["LT", "IT"],
     },
@@ -1047,7 +1049,7 @@ const CARDS: Card[] = [
       {
         faction: "saudis",
         audience: "us",
-        rant: "Pass it 99-0. Sign it. Call it done. The houses are not Enron.",
+        rant: "Pass it 99-0. Sign it. Call it done.",
       },
       {
         faction: "leader",
@@ -1057,9 +1059,9 @@ const CARDS: Card[] = [
       },
     ],
     situationUs:
-      "Pass Sarbanes-Oxley: the CEO signs the books in his own name. WorldCom is the rhyme in the same year, another accounting hole, not its own movie. Call it done, or keep hunting the next paper company sitting off the books. The houses are already being packed.",
+      "Pass Sarbanes-Oxley: the CEO signs the books in his own name. WorldCom is the rhyme in the same year, another accounting hole, not its own movie. Call it done, or keep hunting the next paper company sitting off the books.",
     situationIran:
-      "The auditor who signed you is dead. Jeffrey Skilling is going to jail. A 2002 law will make the next CEO sign in his own name. The houses are already being packed as AAA, the safest grade, as if a stack of weak loans were the government.",
+      "The auditor who signed for you is dead. Jeffrey Skilling is going to jail. It is now your job to sign. Your head is in the noose. You get paid a lot.",
     iranChoices: [
       {
         id: "ir-sign-sox",
@@ -1083,7 +1085,7 @@ const CARDS: Card[] = [
       {
         id: "us-sox-done",
         label: "Pass SOX and call it done",
-        summary: "Accounting is fixed. The CEO signs. The houses are not Enron.",
+        summary: "Accounting is fixed. The CEO signs.",
         kind: "deal",
         historical: true,
         deltas: { media: 6, saudis: 8, drone_holes_known: 6 },
@@ -1091,12 +1093,12 @@ const CARDS: Card[] = [
       },
       {
         id: "us-sox-hunt",
-        label: "Pass SOX and hunt SIVs",
-        summary: "The next paper company has a new name. Same costume. Keep hunting.",
+        label: "Pass SOX and keep hunting",
+        summary: "The next paper company will have a new name. Keep hunting.",
         kind: "hard",
         deltas: { drone_holes_known: 16, saudis: -6, irgc: 4 },
         flags: { sox_worked: true },
-        ...hindsight("You passed the law and you kept hunting. The houses still wanted to be AAA."),
+        ...hindsight("You passed the law and you kept hunting. The next paper company still wanted a friendly accountant."),
       },
     ],
     sources: ["Sarbanes-Oxley Act 30 Jul 2002", "WorldCom 2002"],
@@ -1114,7 +1116,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "The savings-and-loan housing sermon, louder. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They will keep paying even if the house is worth less than the loan. That looks safer than a company that can walk away. People who hate risk will buy that paper. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Subprime means a loan to someone with weak credit, sold as inclusion. Countrywide. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. Sarbanes-Oxley does not unwind a mortgage.",
+        "The savings-and-loan housing sermon, louder. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They will keep paying even if the house is worth less than the loan. That looks safer than a company that can walk away. People who hate risk will buy that paper. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Fannie Mae goes back to 1938, a Roosevelt answer to the last time the housing market nearly died. Freddie Mac, 1970. Bush did not invent them. He told them to buy weaker files. Subprime means a loan to someone with weak credit, sold as inclusion. Angelo Mozilo at Countrywide is the poster child for origination, making the loan and selling it this week. He is not the ratings firms. He is not the leftover stamp. He is not the insurance on the pile. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. Sarbanes-Oxley does not unwind a mortgage.",
       ],
       tags: ["LT", "IT"],
     },
@@ -1137,9 +1139,9 @@ const CARDS: Card[] = [
       },
     ],
     situationUs:
-      "Ownership society: more families in houses, on purpose. Push Fannie Mae and Freddie Mac, the government-sponsored buyers of home loans, to take weaker files. The houses are not Enron. That is the sentence in the room. Subprime, loans to people with weak credit, is being sold as inclusion.",
+      "Ownership society: more families in houses, on purpose. Push Fannie Mae and Freddie Mac, the government-sponsored buyers of home loans, to take weaker files. Fannie Mae is a 1938 Roosevelt shop. Freddie Mac is 1970. They were not invented for this sermon. Subprime, loans to people with weak credit, is being sold as inclusion.",
     situationIran:
-      "You are Angelo Mozilo of Countrywide. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They pay even if the house is worth less than the loan. Safe-looking paper for people who hate risk.\n\nA thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.",
+      "You are Angelo Mozilo of Countrywide. A thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.",
     iranChoices: [
       {
         id: "ir-originate-sell",
@@ -1508,7 +1510,7 @@ const CARDS: Card[] = [
     referee: {
       paragraphs: [
         "January 2007, the American Securitization Forum, Las Vegas. House prices have already peaked. The people who shorted the home-loan stack, betting it dies, have been paying a premium every month for a credit default swap, a side bet sold as insurance. The stack has not died. Some of them want to quit. Greg Lippmann at Deutsche Bank is afraid they will.",
-        "He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than {cpi|$500 million|$300 million} short going in, {cpi|$900 million|$550 million} coming out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. Michael Lewis, The Big Short, is the file.",
+        "He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than {cpi|$500 million|$300 million} short going in, {cpi|$900 million|$550 million} coming out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. It may be the most expensive teppanyaki dinner in history. Michael Lewis, The Big Short, is the file.",
       ],
       tags: ["LT", "IT"],
     },
@@ -1782,13 +1784,13 @@ const CARDS: Card[] = [
       {
         id: "us-lehman-save",
         label: "Do Bear again",
-        summary: "Backstop a buyer. Own it in public. AIG is still Monday.",
+        summary: "Backstop a buyer. Own it in public.",
         kind: "deal",
         deltas: { cia: 4, media: -10, street: 4, saudis: -8 },
         artisticLicense: "lehman-save",
         ...adapts(
-          "AIG is still Monday",
-          "You saved Lehman. AIG Financial Products is still the other book. The unwind still will not close. AL on Lehman living. Not on the hole. History still rides.",
+          "The next desk is still Monday",
+          "You saved Lehman. The unwind still will not close. AL on Lehman living. Not on the hole. History still rides.",
         ),
       },
     ],
@@ -1796,7 +1798,7 @@ const CARDS: Card[] = [
       {
         id: "lehman-save",
         title: "Saving Lehman",
-        body: "History let Lehman file. This button keeps the name alive for a week. AIG is still the next card. Labelled AL.",
+        body: "History let Lehman file. This button keeps the name alive for a week. The next card is still Monday. Labelled AL.",
       },
     ],
     sources: ["Lehman bankruptcy 15 Sep 2008"],
@@ -1889,7 +1891,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about {gdp|$1.5 trillion|$700 billion}. The House of Representatives says no. The pile is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.",
+        "TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to {gdp|$1.5 trillion|$700 billion} into banks, or buy the ugly assets, so the banks do not die this week. The House of Representatives says no. The pile is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.",
       ],
       tags: ["LT"],
     },
@@ -1961,15 +1963,16 @@ const CARDS: Card[] = [
     electionYear: true,
     referee: {
       paragraphs: [
-        "John McCain suspends his campaign and goes to Washington. Barack Obama looks at the polls and keeps campaigning. Presidents have to deal with more than one thing. That is the sentence. Country over ambition is the offramp. Historical for the winner is keep campaigning. Obama still sits in January. TARP still happens. Suspend is a victory point.",
+        "John McCain suspends his campaign and goes to Washington. Barack Obama looks at the polls, which say people trust Democrats more on the economy, and keeps campaigning. McCain looks tired. Obama looks young. DK whether the wait made a difference. It was not the weekend. Historical for the winner is keep campaigning. Obama still sits in January. TARP still happens. Suspend is a victory point.",
+        "Hank Paulson at Treasury was Goldman. That is Bush's Treasury. The next Treasury is Timothy Geithner, who ran the New York Fed, the room that weekend. DK whether that is the same as needing the person who can defuse the bomb. Put as DK. Not a button.",
       ],
-      tags: ["LT", "IT"],
+      tags: ["LT", "IT", "DK"],
     },
     briefings: [
       {
         faction: "media",
         audience: "us",
-        rant: "McCain looks serious. Obama looks like a president who can walk and chew. The polls like the chew.",
+        rant: "McCain looks tired. Obama looks young. The polls trust Democrats on the economy. Keep talking.",
       },
       {
         faction: "street",
@@ -1978,7 +1981,7 @@ const CARDS: Card[] = [
       },
     ],
     situationUs:
-      "You are still Bush. The nominees are the country's other desk this week. John McCain wants to suspend his campaign and go to Washington. Barack Obama looks at the polls and wants to keep campaigning. Historical for the winner is keep campaigning. Country over ambition is the offramp. You still sit until January. TARP still happens.",
+      "You are Barack Obama. The country is tanking. Polls say people trust Democrats more on the economy than McCain. McCain looks tired. You look young. He wants to suspend and go to Washington. You can keep campaigning and let the ticker do the work, or suspend with him. Historical is keep campaigning. DK whether the wait made a difference. It is not the weekend. Bush still sits until January. TARP still happens.",
     situationIran: "Washington is having a civics play about whether to pause a campaign. Your book is still open. TARP, the cash injection, is still a second vote.",
     iranChoices: [
       {
@@ -2002,7 +2005,7 @@ const CARDS: Card[] = [
       {
         id: "us-keep-campaign",
         label: "Keep campaigning",
-        summary: "Presidents juggle. Obama's move. The polls like a candidate who can walk and chew.",
+        summary: "The polls trust Democrats on the economy. McCain looks tired. You look young. Keep talking.",
         kind: "hard",
         historical: true,
         deltas: { media: 6, my_party: 4, opposing_party: -2 },
@@ -2014,7 +2017,7 @@ const CARDS: Card[] = [
         kind: "deal",
         deltas: { media: -4, street: 4, saudis: 4 },
         ...hindsight(
-          "You suspended. McCain's move. Country over ambition. Obama still sits in January. TARP still happens.",
+          "You suspended. McCain's move. Country over ambition. DK whether it changed the hole. Obama still sits in January. TARP still happens.",
         ),
       },
     ],
@@ -2046,7 +2049,7 @@ const CARDS: Card[] = [
       {
         faction: "leader",
         audience: "iran",
-        rant: "You will take the money. You will say you did not need it. The window has the guns.",
+        rant: "You will take the money. You will say you did not need it. The window has the cash.",
         face: "blankfein",
       },
     ],

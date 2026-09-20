@@ -2,6 +2,18 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-20 Street redline: hash-swap, History, faces, letter gate
+
+What: Hash-swap doors per card. Street URL is `chair=street`. History is open. Overlay button matches the greed continues closer. Eddie auditors. Warehouse drives stay on the rail and teach inspector hiring. Keating sits until Greenwich. LTCM is the hedge lie, not a haircut sermon, 2026 money only. Dual plate guns are cash/keys. SOX does not name the houses. Skilling hovers. Mozilo is origination, not the whole machine. Hibachi is the most expensive teppanyaki dinner. TARP is one 2026 number. Campaign sits Obama, DK on the wait, Geithner is the room. Letter waits for both rails and talks like a bill, not a game. Fannie is 1938. Lehman does not name AIG on the historical path.
+
+Why: User played the Street rail in order.
+
+How: Viewmodel hash. Search alias. Copy. Finished-chairs localStorage. Model tests 39/39.
+
+### What did not work
+Authored history-first with no swap. Sitting Meriwether on Leave the dirt. Printing then-dollars next to the 2026 mark. The letter on the first cup.
+
+
 ## 2026-09-20 Hygiene, republish
 
 What: Dump matches. Playable hash was still `81867da`. Model tests 36/36.

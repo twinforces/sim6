@@ -24,11 +24,12 @@ export function PlayView({
   const [tick, setTick] = useState(0);
   const [alId, setAlId] = useState<string | null>(null);
   const [calendarYear, setCalendarYear] = useState<number | null>(null);
+  const [cardOverride, setCardOverride] = useState<string | undefined>(initialCard);
   const party: Party = "D";
   const vm = useMemo(() => {
     if (!chair) return null;
-    return new TrainViewModel(chair, party, initialCard);
-  }, [chair, party, initialCard]);
+    return new TrainViewModel(chair, party, cardOverride);
+  }, [chair, party, cardOverride]);
   void tick;
 
   useEffect(() => {
@@ -55,12 +56,15 @@ export function PlayView({
   const flank = ui.imam ?? ui.grave;
   const dual = Boolean(flank);
   const holdEnding = ui.endingId === "boring_bank" || ui.endingId === "marked_the_book";
+  const waitingOther = Boolean(ui.otherChair);
   const historyEnding = ui.endingId === "none";
   const endingKicker = holdEnding
     ? t("successfulPath")
-    : historyEnding
-      ? t("railHold")
-      : t("endOfChair");
+    : waitingOther
+      ? t("endOfChair")
+      : historyEnding
+        ? t("railHold")
+        : t("endOfChair");
   const endingClass = holdEnding
     ? "hold-panel"
     : historyEnding
@@ -82,6 +86,7 @@ export function PlayView({
             setChair(null);
             setAlId(null);
             setCalendarYear(null);
+            setCardOverride(undefined);
           }}
         >
           {t("sitDifferent")}
@@ -145,7 +150,7 @@ export function PlayView({
                 </p>
               ))}
               {ui.card.referee.length > 0 ? (
-                <details className="mt-2">
+                <details className="mt-2" open>
                   <summary className="cursor-pointer font-mono text-2xs uppercase tracking-wide text-ink/55">
                     {t("refereeNotes")}
                   </summary>
@@ -195,6 +200,19 @@ export function PlayView({
                   <GlossText text={para} />
                 </p>
               ))}
+              {waitingOther ? (
+                <Button
+                  className="mt-3"
+                  onClick={() => {
+                    setCardOverride(undefined);
+                    setAlId(null);
+                    setCalendarYear(null);
+                    setChair(ui.otherChair);
+                  }}
+                >
+                  {ui.otherChair === "us" ? t("sitOtherWashington") : t("sitOtherStreet")}
+                </Button>
+              ) : null}
             </article>
           ) : null}
 
@@ -273,7 +291,7 @@ export function PlayView({
                 : ui.lastResult.kind === "adapts"
                   ? t("railContinues")
                   : ui.lastResult.kind === "hindsight"
-                    ? t("railContinues")
+                    ? t("greedContinues")
                     : t("iranContinues")}
             </Button>
           </div>

@@ -74,18 +74,8 @@ Applied 2026-09-20. Overlay was already greed. Street noun retags that were Prop
 | `nukesCounter` / `exitNukes` | the book fired / hit zero | Seizure museum | Keep, or **the pile hit zero** |
 | `csoMahsa` | paused the book | Walked during TARP | **You paused origination** |
 
-## Button sides (open)
+## Button sides (shipped)
 
-Victory is always the right-hand tile. History is always the left. The engine authors `historical: true` as choice[0], and the view prints that array left to right.
+Victory is not always the right-hand tile. The engine authors `historical: true` as choice[0]. The viewmodel hash-swaps left and right from a hash of the card id. Stable on reload. Different cards, different sides.
 
 Do not stamp HISTORY on the button. The freeze said the golden path is never labelled.
-
-| Scheme | What it does | Tell? |
-| --- | --- | --- |
-| Hash-swap per card | Viewmodel swaps left/right from a hash of the card id. Stable on reload. Different cards, different sides. | No side-tell. Best. |
-| Stack them | One above the other. No left/right. | No side-tell. Slightly less "two doors." |
-| Hindsight always left | Hunt first. History is the skip. | New pattern. Same problem, mirrored. |
-| Paint the hunt | Gold border on the offramp. | A color-tell is still a tell. |
-| Shuffle each visit | Random every time you open the card. | Breaks save. Cheap. |
-
-Recommendation: hash-swap in the viewmodel. The rail stays authored as history-first. The player cannot learn "right is the point." Waiting on a pick. Do not ship a swap until we pick.

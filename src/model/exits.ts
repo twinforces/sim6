@@ -139,3 +139,61 @@ export function memoryMuseumStore(seed: Iterable<string> = []): MuseumStore {
     },
   };
 }
+
+export const CHAIRS_KEY = "htu-finished-chairs";
+
+export interface FinishedStore {
+  load(): Set<Chair>;
+  save(finished: ReadonlySet<Chair>): void;
+}
+
+export function parseFinished(raw: string | null | undefined): Set<Chair> {
+  if (!raw) return new Set();
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return new Set();
+    const ids = new Set<Chair>();
+    for (const item of parsed) {
+      if (item === "us" || item === "iran") ids.add(item);
+    }
+    return ids;
+  } catch {
+    return new Set();
+  }
+}
+
+export function serializeFinished(finished: ReadonlySet<Chair>): string {
+  return JSON.stringify([...finished].sort());
+}
+
+export function localFinishedStore(): FinishedStore {
+  return {
+    load() {
+      if (typeof window === "undefined") return new Set();
+      try {
+        return parseFinished(window.localStorage.getItem(CHAIRS_KEY));
+      } catch {
+        return new Set();
+      }
+    },
+    save(finished) {
+      if (typeof window === "undefined") return;
+      try {
+        window.localStorage.setItem(CHAIRS_KEY, serializeFinished(finished));
+      } catch {
+        /* private mode */
+      }
+    },
+  };
+}
+
+export function memoryFinishedStore(seed: Iterable<Chair> = []): FinishedStore {
+  const bag = new Set<Chair>(seed);
+  return {
+    load: () => new Set(bag),
+    save(finished) {
+      bag.clear();
+      for (const id of finished) bag.add(id);
+    },
+  };
+}

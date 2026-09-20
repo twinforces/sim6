@@ -28,7 +28,7 @@ export function HomeView() {
       <section className="grid gap-4 sm:grid-cols-2">
         <Link
           to="/play"
-          search={{ chair: "iran" }}
+          search={{ chair: "street" }}
           className="chair-card chair-card-iran no-underline"
         >
           <img src={CHAIR_ART.iran} alt="" className="chair-card-art" />

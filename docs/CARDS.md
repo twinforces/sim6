@@ -67,7 +67,7 @@ You sit a chair in 1979, before that crisis is a fact. Paul Volcker at the Feder
 - Tags: LT, IT
 - Sources: Volcker 1979 Saturday night special; 3-6-3 banking
 
-### Referee
+### History
 
 A savings and loan takes deposits from neighbors and makes thirty-year home loans. For decades the whole job was this: pay depositors 3 percent, lend at 6 percent, count the money on the golf course by 3 in the afternoon. People in the business called that 3-6-3. It is slang, not a 1979 rate table. Paul Volcker, who runs the Federal Reserve, is killing inflation by making it expensive to borrow. On Saturday night, October 6, 1979, he does it. People later called that the Saturday Night Special. If the rate you must pay depositors jumps toward 11 percent while your old mortgages still pay 6, you lose money every day. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. The loans are still sitting in houses. Nobody from Washington has driven to them.
 
@@ -123,7 +123,7 @@ _Paul Volcker. He is in the room. He is not the chair._
 - Tags: LT
 - Sources: DIDMCA 1980
 
-### Referee
+### History
 
 A 1980 law, DIDMCA, raises federal deposit insurance from $160,000 (was $40,000 then, adjusted to 2026 CPI) to $410,000 (was $100,000 then, adjusted to 2026 CPI), effective April 1. The $410,000 (was $100,000 then, adjusted to 2026 CPI) was a conference add, not in the original bills. Deposit insurance is a promise: if the bank dies, Washington pays the customer. The old caps on what you could pay a depositor start to die too. If you can pay any rate, and the government will make the depositor whole, you can buy money from a broker and gamble with it. A broker gathers cash from around the country and parks it in whichever bank pays the most. People call those brokered deposits. People later called the government backstop a put: a cheap option to dump the loss on the insurance fund.
 
@@ -175,7 +175,7 @@ Raise the insurance cap or watch a run: people pulling cash because they are sca
 - Tags: LT, IT
 - Sources: Garn-St Germain Depository Institutions Act 1982
 
-### Referee
+### History
 
 Garn-St Germain, 1982. A law that lets savings and loans make commercial loans, adjustable-rate mortgages, and other new bets. The insolvent are told to grow out of the hole. Forbearance is the name of the habit: Washington looks at a bank that is already broke and decides not to close it yet. A zombie is what you get: still open, still taking deposits the government insures, still digging. If they lose, FSLIC, the insurance fund for savings and loans, will pay. They buy junk bonds, high-interest loans to shaky companies, and desert condos. This is how you try to grow out of a duration gap. It works, until it does not.
 
@@ -227,7 +227,7 @@ Close them now and you own a recession in an election year. Give them time. They
 - Tags: LT
 - Sources: Lincoln Savings, Keating 1984
 
-### Referee
+### History
 
 Charles Keating, a Phoenix developer, buys Lincoln Savings, a California savings and loan. Insured deposits in. Junk bonds and Arizona dirt out. The old 3-6-3 men are gone. Examiners in San Francisco, the people whose job is to look at the loans, are about to get a letter from five senators.
 
@@ -279,9 +279,9 @@ A constituent with a savings and loan. Do not let the San Francisco examiners ge
 - Tags: LT, IT
 - Sources: Crazy Eddie fraud, Sam Antar, inventory carnival
 
-### Referee
+### History
 
-Crazy Eddie is an electronics chain from Brooklyn. Before the accountants arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.
+Crazy Eddie is an electronics chain from Brooklyn. Before the auditors arrive, staff move inventory at night from store to store so every warehouse looks full. People called it the carnival. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. Enron's audit will pass the same way. The office where one accountant checks another accountant's file is not a detective. To catch this you leave the cubicle and drive to the address on the invoice.
 
 ### Street
 
@@ -292,7 +292,7 @@ You are not Crazy Eddie. You are the savings and loan next door, watching an ele
 - **Drive to the warehouse at night** `ir-drive-warehouse` (HINDSIGHT · hard)
   The address on the invoice. See if the boxes are actually there.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the warehouse at 2 a.m. The invoice was a parking lot, or a warehouse that emptied at night, or a house nobody lived in. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave your cubicle and drive to the address on the invoice.
+  You left the cubicle. You drove to the warehouse at 2 a.m. The invoice was a parking lot, or a warehouse that emptied at night, or a house nobody lived in. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave your cubicle and drive to the address on the invoice. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -311,7 +311,7 @@ A retailer just became a case file. Crazy Eddie, Brooklyn. Wall Street thought t
 - **Send someone to the loading dock** `us-drive-eddie` (HINDSIGHT · covert)
   Leave the cubicle. Drive to Brooklyn at 2 a.m.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the Crazy Eddie warehouse. The invoice was a parking lot, or a warehouse that emptied at night, or a house nobody lived in. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave your cubicle and drive to the address on the invoice.
+  You left the cubicle. You drove to the Crazy Eddie warehouse. The invoice was a parking lot, or a warehouse that emptied at night, or a house nobody lived in. Enron passed every audit. So did Crazy Eddie. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave your cubicle and drive to the address on the invoice. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -331,7 +331,7 @@ The financials are clean. We signed them. We did not drive to Brooklyn at 2 a.m.
 - Tags: LT, IT
 - Sources: Keating Five 1987; FSLIC insolvency 1987
 
-### Referee
+### History
 
 Five senators. Cranston, DeConcini, Glenn, McCain, Riegle. About $3 million (was $1 million then, adjusted to 2026 CPI) in donations. San Francisco wants to seize Lincoln Savings. The senators want the examiners to forbear: leave the dying bank open a little longer. They meet in April 1987. FSLIC, the insurance fund for savings and loans, is already broke. Forbearance is how the bill grows. People will call them the Keating Five.
 
@@ -383,7 +383,7 @@ These are constituents. The examiners are cowboys. Give Lincoln time.
 - Tags: LT, IT
 - Sources: FIRREA 1989; Resolution Trust Corporation
 
-### Referee
+### History
 
 FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about $720 billion (was $125 billion then, scaled to 2026 GDP). Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next greed will hear that we can clean this up.
 
@@ -431,7 +431,7 @@ Stand up the RTC. Sell the dirt. Do it in daylight. The insurance fund is gone. 
 - Tags: LT, IT
 - Sources: RTC sunset 1995; Keating convictions
 
-### Referee
+### History
 
 The Resolution Trust Corporation winds down. Taxpayers ate the hole. Keating did time. We will say a sector can be cleaned up in public. In Greenwich, Connecticut, John Meriwether, the old Salomon bond star, is already building a hedge fund: a private pool of bets for people who can put up millions, using a mountain of borrowed money, with mathematicians on the door. They will treat the savings-and-loan cleanup as a license. Complicated books can be closed.
 
@@ -454,7 +454,7 @@ Street briefings
 
 The duration gap is a resolved case file. The next greed is a math model. Models do not need a warehouse.
 
-**The desk · meriwether**
+**The desk · keating**
 
 Lincoln is a museum. You can stay a resolution man or you can sit Greenwich. The cubicle prefers Greenwich.
 
@@ -491,22 +491,22 @@ A sector died in daylight. Markets learned. Complexity is now a private problem.
 - Tags: LT, IT
 - Sources: Lowenstein, When Genius Failed; LTCM 1997 capital return
 
-### Referee
+### History
 
-Long-Term Capital Management is beating the market by more than 40 percent a year. That doubles in two years. No losing stretches. The gaps they sit in are getting crowded. They gave about $5.5 billion (was $2.7 billion then, adjusted to 2026 CPI) back to investors at the end of 1997. That sounded like discipline. It left the same bets on less of their own money, so leverage, borrowed money piled on a bet, jumped from 18 to 1 to 28 to 1. They also stopped being a hedge. A hedge is both sides at once: you own one bond, the long side, and you have borrowed and sold a near twin, the short side. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. Long-Term put the long at one firm and the short at another. Merrill saw only one side of each trade. Then they talked each desk into no haircut at all. Zero. Meriwether was the public face, popular, and the name on the door said Nobel. Black-Scholes is a formula for pricing options, the right to buy or sell later. Scholes was a name on the door. Nobody on the Street had ever really understood that math. It is icky nerd math. Charging Scholes a haircut would mean admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. Each new bank was told: if we give you a haircut we have to give it to everyone. So nobody got one. Each broker had a one-sided bomb and thought they had a customer.
+Long-Term Capital Management is beating the market by more than 40 percent a year. That doubles in two years. No losing stretches. The gaps they sit in are getting crowded. They gave about $5.5 billion (was $2.7 billion then, adjusted to 2026 CPI) back to investors at the end of 1997. That sounded like discipline. It left the same bets on less of their own money, so leverage, borrowed money piled on a bet, jumped from 18 to 1 to 28 to 1. They told every bank they were a hedge: every long balanced with a short, so they would always be solvent. A hedge is both sides at once. They never kept both legs at the same house. They did not trust the Street not to copy the trades and eat the pennies. Each bank saw one side and believed the other side lived somewhere else. Taking directional bets, merger books, one-way piles, makes that solvent story a lie.
 
 ### Street
 
 You are John Meriwether. You are beating the market by more than 40 percent a year. That doubles in two years. You have more money than gaps. The pennies are getting crowded.
 
-A hedge is both sides at once. Long: you own it, you want it up. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. If a broker holds both legs, they only have net risk, and the extra collateral they keep, the haircut, stays small. You have been putting the long at one firm and the short at another. Merrill sees only one side. Then you talk each of them into no haircut at all. Scholes is a name on the door. Black-Scholes is icky nerd math for pricing options. Nobody on the Street has ever really understood it. Charging Scholes a haircut would mean admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes.
+You told the banks you were a hedge: every long balanced with a short, so you would always be solvent. You never keep both legs at the same house. You do not trust the Street not to mirror the trades. Each desk sees one side.
 
-Two doors. Stop taking money, stay a hedge, live with the pennies you can still find. Or stop being a hedge: merger bets, directional books, split legs, no haircut, and give some money back so the same book sits on less of your own cash. Guess which one the desk wants.
+Two doors. Stop taking money, stay a hedge, live with the pennies you can still find. Or stop being a hedge: merger bets, directional books, and give some money back so the same book sits on less of your own cash. Guess which one the desk wants.
 
 - **Stop being a hedge** `ir-stop-hedge` (HISTORY · hard)
-  Merger bets. Directional books. Split the legs. No haircut. Give money back so the same book sits on less of your own cash.
+  Merger bets. Directional books. Give money back so the same book sits on less of your own cash. The solvent story becomes a lie.
 - **Stay a hedge. Stop taking money.** `ir-stay-hedge` (HINDSIGHT · walk)
-  You already double in two years. The gaps are gone. Keep both legs at the same broker. Live with the pennies.
+  You already double in two years. The gaps are gone. Keep being both sides. Live with the pennies.
   Overlay title: Yes. That was the right thing to do.
   You stayed a hedge. Greenwich still split the legs.
   
@@ -516,20 +516,18 @@ Street briefings
 
 **The book · meriwether**
 
-The gaps are gone. Everyone else caught up. You nibble and the pennies vanish. Two doors. Stay a hedge and stay smaller, or stop hedging: merger bets, paired shares, directional books. The Nobel on the door will get you no haircut either way.
+The gaps are gone. Everyone else caught up. You nibble and the pennies vanish. Two doors. Stay a hedge and stay smaller, or stop hedging: merger bets, paired shares, directional books. You told the banks you were always solvent. Directional bets make that a lie.
 
 ### Washington
 
-Clinton sits. A hedge fund in Greenwich is printing more than 40 percent a year. That doubles in two years. It is not a bank. It does not take insured deposits. The New York Fed has not asked what the haircuts look like: the extra collateral a broker keeps in case the customer dies.
-
-A real hedge is both sides at once. If a broker holds the long and the short, they only have net risk. If this fund has been splitting the legs across the Street, each desk has a bomb and thinks it has a customer. You can ask. Or you can call it private.
+Clinton sits. A hedge fund in Greenwich is printing more than 40 percent a year. That doubles in two years. It is not a bank. It does not take insured deposits. They told the Street they were a hedge: every long balanced with a short, so they would always be solvent. They do not keep both legs at the same house. You can ask whether that is still true. Or you can call it private.
 
 - **Call it private** `us-private-1997` (HISTORY · ignore)
-  A hedge fund is not a bank. Forty percent is their problem. Haircuts are not your problem.
-- **Ask what the haircuts look like** `us-ask-1997` (HINDSIGHT · hard)
-  If they split the legs, each desk on the Street has a bomb. Ask what happens if they fold.
+  A hedge fund is not a bank. Forty percent is their problem.
+- **Ask if they are still a hedge** `us-ask-1997` (HINDSIGHT · hard)
+  They told the banks every long was balanced with a short. Ask whether that is still true.
   Overlay title: Yes. That was the right thing to do.
-  You asked about the haircuts in 1997. The weekend still came.
+  You asked if they were still a hedge. The weekend still came.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -537,7 +535,7 @@ Washington briefings
 
 **The Fed**
 
-A private fund in Greenwich. Not a bank. Forty percent is a success story. Haircuts on a hedge fund are not our problem.
+A private fund in Greenwich. Not a bank. Forty percent is a success story. Whether they are still a hedge is not our problem.
 
 ## 10. 1998 · `ltcm-1998`
 
@@ -549,40 +547,40 @@ A private fund in Greenwich. Not a bank. Forty percent is a success story. Hairc
 - Tags: LT, IT
 - Sources: Lowenstein, When Genius Failed; NY Fed LTCM meeting 23 Sep 1998; Russia default 17 Aug 1998
 
-### Referee
+### History
 
-By September 1998 the fund had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets: derivative contracts, not cash in a vault. Same slice of the economy today: about $360 billion (was $100 billion then, scaled to 2026 GDP) of assets, about $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets. When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. If they defaulted, every bank in the room would be left holding one side of a contract whose other side no longer existed. That is why fourteen banks sat in a room. They had split the long and the short across the Street, with no haircut, because Meriwether was popular and the name on the door said Nobel. Charging Scholes a haircut would have meant admitting nobody understood the math. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk claims to say how much a desk can lose on a normal day. It is not Black-Scholes. Black-Scholes prices options. Same family of clean math. Same thin tails. Russia was not a normal day.
+By September 1998 the fund had about $360 billion (was $100 billion then, scaled to 2026 GDP) of assets, almost all borrowed, and more than $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets: derivative contracts, not cash in a vault. When you owe the bank a house, you have a problem. If you owe a bank a city, the bank has a problem. If you owe half of Wall Street $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks sat in a room. They had been told every long was balanced with a short. It was not. Russia had defaulted in August. The gaps blew open. The fund lost 44 percent that month. Value at Risk claims to say how much a desk can lose on a normal day. It is not Black-Scholes. Black-Scholes prices options. Same family of clean math. Same thin tails. Russia was not a normal day.
 
-On September 23, fourteen firms put $3.6 billion into the fund at the New York Fed, about $13 billion (was $3.6 billion then, scaled to 2026 GDP), still lunch next to the side bets. Bear Stearns, which cleared the trades, said no. James Cayne had vowed to stop clearing if cash fell under $500 million. A group led by Warren Buffett faxed $250 million for the fund and would fire the partners. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. The consortium contract said stay three years, salary $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. The partners exploded. They called it indentured servitude and threatened to let the fund blow and take seven-figure jobs. One hundred forty lawyers at Skadden. The banks needed signatures. They paid. We will call this private. We will call it a put anyway.
+On September 23, fourteen firms put $13 billion (was $3.6 billion then, scaled to 2026 GDP) into the fund at the New York Fed, still lunch next to the side bets. Bear Stearns, which cleared the trades, said no. James Cayne had vowed to stop clearing if cash fell under $1.8 billion (was $500 million then, scaled to 2026 GDP). A group led by Warren Buffett faxed $900 million (was $250 million then, scaled to 2026 GDP) for the fund and would fire the partners. The partners did not take it. The Fed lent none of its own money. The banks could not unwind the book without the people who built it. The consortium contract said stay three years, salary $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. The partners exploded. They called it indentured servitude and threatened to let the fund blow and take seven-figure jobs. One hundred forty lawyers at Skadden. The banks needed signatures. They paid. We will call this private. We will call it a put anyway.
 
 ### Street
 
-You are John Meriwether. Last year you stopped being a hedge. The long sat at one broker, the short at another. No haircut. Charging Scholes a haircut would have meant admitting they did not understand the math. You are the public face. Scholes and Merton are names on the door. You gave money back, which left the same bets on less of your own cash.
+You are John Meriwether. Last year you stopped being a hedge. You had told the banks you were always solvent. You are the public face. Scholes and Merton are names on the door. You gave money back, which left the same bets on less of your own cash.
 
-Russia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. When you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks are in a room.
+Russia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about $360 billion (was $100 billion then, scaled to 2026 GDP) of assets, almost all borrowed, and more than $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets. When you owe half of Wall Street $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks are in a room.
 
-They cannot unwind it without you. The consortium contract will say stay three years, salary $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed $250 million for the fund and would fire you. There is no Treasury check. They will call this private.
+They cannot unwind it without you. The consortium contract will say stay three years, salary $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed $900 million (was $250 million then, scaled to 2026 GDP) for the fund and would fire you. There is no Treasury check. They will call this private.
 
 - **Take the consortium** `ir-take-room` (HISTORY · deal)
-  Fourteen banks put in $3.6 billion. You live. They own 90 percent. We will call it private.
+  Fourteen banks put in $13 billion (was $3.6 billion then, scaled to 2026 GDP). You live. They own 90 percent. We will call it private.
 - **File for bankruptcy** `ir-file` (ADAPTS · walk)
-  Dump a hundred billion of assets and a trillion of side bets tonight. Every Street firm on the other side dies with you.
+  Dump $360 billion (was $100 billion then, scaled to 2026 GDP) of assets and $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets tonight. Every Street firm on the other side dies with you.
   Overlay title: The fire sale
-  You filed. A hundred billion of assets and a trillion of side bets marked every desk overnight. The room still happens, uglier, without your name on the door. History still rides. AL on the ugliness, not on the hole.
+  You filed. $360 billion (was $100 billion then, scaled to 2026 GDP) of assets and $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets marked every desk overnight. The room still happens, uglier, without your name on the door. History still rides. AL on the ugliness, not on the hole.
 
 Street briefings
 
 **The book · meriwether**
 
-If you fold, the Street folds. A hundred billion borrowed, a trillion in side bets, long at one desk and short at another, no haircut, no one holding both legs. Value at Risk, the normal-day loss model, said this could not happen. Russia was not a normal day. They need your signatures to unwind it. They will name a salary.
+If you fold, the Street folds. $360 billion (was $100 billion then, scaled to 2026 GDP) borrowed, $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) in side bets, and they were told you were always solvent. Value at Risk, the normal-day loss model, said this could not happen. Russia was not a normal day. They need your signatures to unwind it. They will name a salary.
 
 ### Washington
 
 Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.
 
-When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. They split the long and the short across the Street. No haircut. Charging Scholes a haircut would have meant admitting nobody understood the math. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the economy today: about $360 billion (was $100 billion then, scaled to 2026 GDP), and about $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.
+When you owe the bank a house, you have a problem. If you owe a bank a city, the bank has a problem. If you owe half of Wall Street $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) by Monday morning, the Secretary of the Treasury has a problem. They had been told every long was balanced with a short. It was not. About $360 billion (was $100 billion then, scaled to 2026 GDP) of assets, almost all borrowed, and more than $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.
 
-Bill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next greed will call it a put.
+Bill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $900 million (was $250 million then, scaled to 2026 GDP) for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next greed will call it a put.
 
 - **Get them in a room** `us-room` (HISTORY · deal)
   Not a bailout. Fourteen banks, their cash, no Treasury check. We will call it private.
@@ -597,7 +595,7 @@ Washington briefings
 
 **The Fed**
 
-Not a bailout. A consortium. If they dump a hundred billion of borrowed assets and a trillion of side bets tonight, every desk is left holding one side of a dead contract. You cannot unwind it without them. Get them in a room. There is no Treasury check.
+Not a bailout. A consortium. If they dump $360 billion (was $100 billion then, scaled to 2026 GDP) of borrowed assets and $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets tonight, every desk is left holding one side of a dead contract. You cannot unwind it without them. Get them in a room. There is no Treasury check.
 
 _William McDonough, New York Fed. He is in the room. He is not the chair._
 
@@ -611,7 +609,7 @@ _William McDonough, New York Fed. He is in the room. He is not the chair._
 - Tags: LT, IT
 - Sources: Gramm-Leach-Bliley Act 1999
 
-### Referee
+### History
 
 Gramm-Leach-Bliley, 1999. Glass-Steagall was a Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. The wall was already a screen door: the Fed had been letting bank affiliates trade for a decade. Citigroup already existed. This bill makes it legal. The sentence in the room is: 1998 worked. Fourteen banks closed a hedge fund in a weekend. We can handle complexity.
 
@@ -636,7 +634,7 @@ You lived. The put, the belief that someone will catch a falling desk, is now a 
 
 ### Washington
 
-The 1998 weekend is already a success story: fourteen banks, no Treasury check, the system held. You paid the partners $250,000 a year to stay three years and unwind their own book. They exploded. You paid. Repeal Glass-Steagall, the Depression-era wall between deposit banks and trading floors. The models worked.
+The 1998 weekend is already a success story: fourteen banks, no Treasury check, the system held. You paid the partners $500,000 (was $250,000 then, adjusted to 2026 CPI) a year to stay three years and unwind their own book. They exploded. You paid. Repeal Glass-Steagall, the Depression-era wall between deposit banks and trading floors. The models worked.
 
 - **Repeal the wall** `us-glba` (HISTORY · deal)
   Gramm-Leach-Bliley. Glass-Steagall dies. 1998 is treated as a license.
@@ -663,7 +661,7 @@ The room proved the system can close a book. Let the piles get bigger.
 - Tags: LT, IT
 - Sources: Lay letter to Levitt on auditor independence; Arthur Andersen dual role
 
-### Referee
+### History
 
 Arthur Levitt, who runs the Securities and Exchange Commission, wants auditor independence: the accountant who signs that the books are true should not also be the accountant you pay for advice. Kenneth Lay of Enron writes the SEC on September 20, 2000, to kill the idea. Andersen helped write the letter. Arthur Andersen is Enron's auditor and its consultant. Levitt will later say the client was asking to let the auditor audit himself. The cubicle is auditing the cubicle. Enron will pass every audit.
 
@@ -715,7 +713,7 @@ Independence is expensive. Enron finds the current setup cheaper. That is a quot
 - Tags: LT, IT
 - Sources: Enron bankruptcy 2 Dec 2001; SPE restatement Oct 2001; Andersen shredding
 
-### Referee
+### History
 
 October restatement. Shredders. December 2 bankruptcy. Mark-to-market means writing today's price onto a contract and booking the gain as profit, even if nobody has paid you yet. Honest when the thing trades every morning. A lie when there is no market, only a model, and the model is yours. A special purpose entity, an SPE, is a paper company that sits next to the real firm so the ugly bets do not show on the main books. Chewco, LJM, Raptors. Andrew Fastow, the CFO, has the real power. The audit passed. Every year. To catch this you leave the cubicle and drive to the vehicle.
 
@@ -728,7 +726,7 @@ You are Kenneth Lay. Andrew Fastow built the vehicles, the SPEs, the paper compa
 - **Drive to the SPE** `ir-drive-spe` (HINDSIGHT · hard)
   Name Fastow. Mark the vehicles. The Cayman address is on the invoice.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the Cayman address on the Raptor invoice.
+  You left the cubicle. You drove to the Cayman address on the Raptor invoice. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -747,7 +745,7 @@ Bush sits. Enron is restating its earnings: the old numbers were a story. The au
 - **Send someone to the SPE** `us-drive-enron` (HINDSIGHT · covert)
   Leave the cubicle. A paper company in the Caymans has an address.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the SPE.
+  You left the cubicle. You drove to the SPE. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -767,13 +765,13 @@ Enron. A campaign. An energy book. The filing is clean until it is not. Nobody h
 - Tags: LT, IT
 - Sources: Sarbanes-Oxley Act 30 Jul 2002; WorldCom 2002
 
-### Referee
+### History
 
-Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We called accounting fixed. The next greed will hide in a structured investment vehicle, an SIV, a paper company with a new name. Same costume as an SPE.
+Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We called accounting fixed.
 
 ### Street
 
-The auditor who signed you is dead. Jeffrey Skilling is going to jail. A 2002 law will make the next CEO sign in his own name. The houses are already being packed as AAA, the safest grade, as if a stack of weak loans were the government.
+The auditor who signed for you is dead. Jeffrey Skilling is going to jail. It is now your job to sign. Your head is in the noose. You get paid a lot.
 
 - **Sign the next book** `ir-sign-sox` (HISTORY · deal)
   The law is a ritual. You sign. The warehouse does not get a visit.
@@ -792,14 +790,14 @@ Andersen is dead. You will sign the next book yourself. The cubicle just got a l
 
 ### Washington
 
-Pass Sarbanes-Oxley: the CEO signs the books in his own name. WorldCom is the rhyme in the same year, another accounting hole, not its own movie. Call it done, or keep hunting the next paper company sitting off the books. The houses are already being packed.
+Pass Sarbanes-Oxley: the CEO signs the books in his own name. WorldCom is the rhyme in the same year, another accounting hole, not its own movie. Call it done, or keep hunting the next paper company sitting off the books.
 
 - **Pass SOX and call it done** `us-sox-done` (HISTORY · deal)
-  Accounting is fixed. The CEO signs. The houses are not Enron.
-- **Pass SOX and hunt SIVs** `us-sox-hunt` (HINDSIGHT · hard)
-  The next paper company has a new name. Same costume. Keep hunting.
+  Accounting is fixed. The CEO signs.
+- **Pass SOX and keep hunting** `us-sox-hunt` (HINDSIGHT · hard)
+  The next paper company will have a new name. Keep hunting.
   Overlay title: Yes. That was the right thing to do.
-  You passed the law and you kept hunting. The houses still wanted to be AAA.
+  You passed the law and you kept hunting. The next paper company still wanted a friendly accountant.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -807,7 +805,7 @@ Washington briefings
 
 **Congress**
 
-Pass it 99-0. Sign it. Call it done. The houses are not Enron.
+Pass it 99-0. Sign it. Call it done.
 
 ## 15. 2003 · `dream-2003`
 
@@ -819,22 +817,20 @@ Pass it 99-0. Sign it. Call it done. The houses are not Enron.
 - Tags: LT, IT
 - Sources: American Dream Downpayment Act 2003; GSE affordable housing goals
 
-### Referee
+### History
 
-The savings-and-loan housing sermon, louder. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They will keep paying even if the house is worth less than the loan. That looks safer than a company that can walk away. People who hate risk will buy that paper. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Subprime means a loan to someone with weak credit, sold as inclusion. Countrywide. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. Sarbanes-Oxley does not unwind a mortgage.
+The savings-and-loan housing sermon, louder. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They will keep paying even if the house is worth less than the loan. That looks safer than a company that can walk away. People who hate risk will buy that paper. GSEs, government-sponsored enterprises, are Fannie Mae and Freddie Mac: they buy home loans from banks so the banks can make more. Fannie Mae goes back to 1938, a Roosevelt answer to the last time the housing market nearly died. Freddie Mac, 1970. Bush did not invent them. He told them to buy weaker files. Subprime means a loan to someone with weak credit, sold as inclusion. Angelo Mozilo at Countrywide is the poster child for origination, making the loan and selling it this week. He is not the ratings firms. He is not the leftover stamp. He is not the insurance on the pile. Originate-to-sell: make the loan, sell it this week, do not keep the risk. The cubicle will rate a stack of 620 FICO scores as AAA, the safest grade. The credit-rating firms get paid by the people selling the product they are rating. Sarbanes-Oxley does not unwind a mortgage.
 
 ### Street
 
-You are Angelo Mozilo of Countrywide. Bundling home loans into a bond seems like genius. A mortgage is a debt people live in. They pay even if the house is worth less than the loan. Safe-looking paper for people who hate risk.
-
-A thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.
+You are Angelo Mozilo of Countrywide. A thirty-year home loan is a product you sell this week, not a loan you keep. Originate-to-sell: make it, sell it, keep the fee, dump the risk. A credit-rating firm will stamp the stack AAA, the safest grade. That firm is paid by you, the people selling the stack. You pick the firm. The firm stamps the product. The address is a family. Nobody from that cubicle will visit.
 
 - **Make the loan and sell it** `ir-originate-sell` (HISTORY · hard)
   Originate-to-sell. The house leaves your book this week. You keep the fee, not the risk.
 - **Drive to the house** `ir-drive-house` (HINDSIGHT · hard)
   See if anyone lives there. Keep the loan on your own book until you have looked.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the house on the note.
+  You left the cubicle. You drove to the house on the note. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -846,7 +842,7 @@ Originate. Sell. The SPE is now a trust. The rating is the product. Do not drive
 
 ### Washington
 
-Ownership society: more families in houses, on purpose. Push Fannie Mae and Freddie Mac, the government-sponsored buyers of home loans, to take weaker files. The houses are not Enron. That is the sentence in the room. Subprime, loans to people with weak credit, is being sold as inclusion.
+Ownership society: more families in houses, on purpose. Push Fannie Mae and Freddie Mac, the government-sponsored buyers of home loans, to take weaker files. Fannie Mae is a 1938 Roosevelt shop. Freddie Mac is 1970. They were not invented for this sermon. Subprime, loans to people with weak credit, is being sold as inclusion.
 
 - **Push homeownership** `us-ownership` (HISTORY · deal)
   Fannie, Freddie, subprime as inclusion. More families in houses. The last cleanup worked.
@@ -877,7 +873,7 @@ We get paid by the people selling the stack. They pick us. We stamp it AAA. That
 - Tags: LT, IT
 - Sources: SEC CSE program 2004; Net capital exemption
 
-### Referee
+### History
 
 The SEC, the Securities and Exchange Commission, starts a Consolidated Supervised Entity program. The five big investment banks, Bear, Lehman, Merrill, Goldman, Morgan Stanley, may use their own math, Value at Risk models, to decide how much extra collateral they hold on trades. Value at Risk is not Black-Scholes. Black-Scholes prices options. Value at Risk claims to say how much a desk can lose on a normal day. Same family of clean math. Same thin tails. Long-Term Capital Management already met a day that was not normal. They do it so the holding companies will not sit in London. People later said a 12-to-1 cap became 40-to-1. The SEC said it never undid a leverage cap: the 12-to-1 was an old warning ratio for smaller brokers, and these five were already levered. What is not a fight: the cubicle writes the haircut for the cubicle, and seven people supervise five global firms. At forty to one, a 3 percent drop wipes you.
 
@@ -937,7 +933,7 @@ Holding companies at the Fed. Broker-dealers at the SEC. The gap is the book. Fi
 - Tags: LT, IT
 - Sources: Lewis, The Big Short; CDO mezzanine machine 2004-2007
 
-### Referee
+### History
 
 Once home loans are a bond, you can build a bond of bonds. A CDO, a collateralized debt obligation, is that second pile: slices of the first pile, stacked again. Slice the first bond into good credit, medium credit, leftover. Good credit pays less interest and looks safer. Medium pays more. Nobody wants the leftover, so you roll the leftover into a new bond. The credit-rating firm, paid by the people selling the product they are rating, stamps the top of that new pile AAA, as if trash plus trash were the government.
 
@@ -995,7 +991,7 @@ The top of the second pile is AAA. We ran the numbers on the first pile, then on
 - Tags: LT, IT
 - Sources: Raghuram Rajan Jackson Hole 2005
 
-### Referee
+### History
 
 Raghuram Rajan, an economist, stands up at the Federal Reserve's Jackson Hole conference in Wyoming. He says the system is holding more risk, not less. The room mostly does not want to hear it. 1998 worked. Sarbanes-Oxley worked. The houses are not a paper company. The Great Moderation is the name they give the calm: low inflation, steady growth, the models behaving. A scold is inconvenient.
 
@@ -1047,7 +1043,7 @@ A staff economist is nervous. The models are fine. 1998 was contained. This will
 - Tags: LT, IT
 - Sources: Case-Shiller peak 2006; New Century 2006-2007; Friends of Angelo
 
-### Referee
+### History
 
 The Case-Shiller index of house prices peaks. New Century, a subprime lender, is already coughing and will file in April 2007. Countrywide is still a factory. The cubicle still prints AAA, the safest grade, on a stack of 620 FICO scores. A FICO around 620 is where lenders used to say no. Nobody has driven to Las Vegas. Friends of Angelo were the people who got the good rate at Countrywide because they knew Mozilo.
 
@@ -1060,7 +1056,7 @@ You are Angelo Mozilo. Friends of Angelo got the good rate because they knew you
 - **Drive to Las Vegas** `ir-drive-vegas` (HINDSIGHT · hard)
   See who lives there. A cul-de-sac of empty houses with AAA on the tape.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to a cul-de-sac of empty houses with AAA on the tape.
+  You left the cubicle. You drove to a cul-de-sac of empty houses with AAA on the tape. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -1083,7 +1079,7 @@ House prices have stopped going up. The Street says a plateau. The invoices stil
 - **Send someone to the houses** `us-drive-peak` (HINDSIGHT · covert)
   Leave the cubicle. Drive to Las Vegas. See if a family opens the door.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to Las Vegas in 2006.
+  You left the cubicle. You drove to Las Vegas in 2006. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -1107,11 +1103,11 @@ The structure is investment grade. We get paid by the people selling it. We ran 
 - Tags: LT, IT
 - Sources: Lewis, The Big Short; American Securitization Forum Jan 2007
 
-### Referee
+### History
 
 January 2007, the American Securitization Forum, Las Vegas. House prices have already peaked. The people who shorted the home-loan stack, betting it dies, have been paying a premium every month for a credit default swap, a side bet sold as insurance. The stack has not died. Some of them want to quit. Greg Lippmann at Deutsche Bank is afraid they will.
 
-He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than $500 million (was $300 million then, adjusted to 2026 CPI) short going in, $900 million (was $550 million then, adjusted to 2026 CPI) coming out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. Michael Lewis, The Big Short, is the file.
+He rents the teppanyaki room at Okada, inside the Wynn. Four islands, each a cast-iron hibachi with a chef. Around each grill: one hedge fund that shorted the stack, and a ring of longs. He wants the shorts to see how stupid the other side is. After they talk to a CDO manager named Wing Chau they double: a bit less than $500 million (was $300 million then, adjusted to 2026 CPI) short going in, $900 million (was $550 million then, adjusted to 2026 CPI) coming out. Chau told them he loved the shorts. Without them he had nothing to buy. The side bets were being used to mint more bonds. They needed the shorts to keep the machine running. Steve Eisman: whatever that guy is buying, I want to short it. Sight unseen. It may be the most expensive teppanyaki dinner in history. Michael Lewis, The Big Short, is the file.
 
 ### Street
 
@@ -1169,7 +1165,7 @@ A private dinner. Four grills and a salesman. Not a bank. The models still say a
 - Tags: LT, IT
 - Sources: Bernanke 2007 subprime contained; August 2007 commercial paper freeze
 
-### Referee
+### History
 
 August 2007. The 1998 sentence, said again: it is contained. Ben Bernanke at the Federal Reserve said it in March: the weak-credit loans seemed likely to be contained. Hank Paulson at Treasury was still saying it in August, the week the cash died. Subprime, the weak-credit loans, is a sector, they say, not the country. SIVs, structured investment vehicles, are paper companies that hold mortgage bets off the bank's main books. An SPE in a new costume. Sarbanes-Oxley does not unwind them. Commercial paper, the short-term IOUs the factory uses as cash, stops rolling. BNP Paribas freezes three funds. Nobody drove to the houses.
 
@@ -1182,7 +1178,7 @@ Countrywide is the weather. The AAA stamp is melting. Commercial paper, your cas
 - **Tell the truth about the housing book** `ir-mark-2007` (HINDSIGHT · hard)
   Drive to the houses. Mark the loans as what they are. Empty, or close.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to a street of empty houses with AAA on the tape.
+  You left the cubicle. You drove to a street of empty houses with AAA on the tape. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -1221,7 +1217,7 @@ Contained. The models say the rest of the book is fine. 1998 was a weekend. This
 - Tags: LT
 - Sources: Bear Stearns sale to JPMorgan March 2008
 
-### Referee
+### History
 
 Bear Stearns. The bank that would not put money into the Long-Term Capital Management rescue in 1998. JPMorgan, the discount window, a weekend. The discount window is the Federal Reserve's emergency counter, where a bank can borrow cash overnight. The rhyme is the point: the bank that said no to the room dies on a Friday, and the window is the only buyer.
 
@@ -1269,7 +1265,7 @@ Do Bear. Show that a weekend still works. Lehman is watching.
 - Tags: LT, IT
 - Sources: Lehman bankruptcy 15 Sep 2008
 
-### Referee
+### History
 
 Lehman Brothers. Barclays wants a clean name, a buyer without the ugly bits. Washington will not do Bear twice in public. Counterparties are the other desks on the other side of your bets: if you die overnight, they all take a hole at once. This is the unwind that will not close. Moral hazard, the fear that saving someone teaches them to build closer to the fire, is the sentence in the room.
 
@@ -1297,10 +1293,10 @@ Sunday. Barclays wants to buy Lehman if Washington backstops the ugly bits, the 
 - **Let Lehman file** `us-lehman-file` (HISTORY · hard)
   Moral hazard. Saving Bear taught the next desk that a weekend would come. Not this time.
 - **Do Bear again** `us-lehman-save` (ADAPTS · AL · deal)
-  Backstop a buyer. Own it in public. AIG is still Monday.
+  Backstop a buyer. Own it in public.
   AL: lehman-save
-  Overlay title: AIG is still Monday
-  You saved Lehman. AIG Financial Products is still the other book. The unwind still will not close. AL on Lehman living. Not on the hole. History still rides.
+  Overlay title: The next desk is still Monday
+  You saved Lehman. The unwind still will not close. AL on Lehman living. Not on the hole. History still rides.
 
 Washington briefings
 
@@ -1312,7 +1308,7 @@ No more Bear. Moral hazard. The rest of the book is not Lehman. Contained, again
 
 **Saving Lehman** (`lehman-save`)
 
-History let Lehman file. This button keeps the name alive for a week. AIG is still the next card. Labelled AL.
+History let Lehman file. This button keeps the name alive for a week. The next card is still Monday. Labelled AL.
 
 ## 24. Sep 2008 · `aig-2008`
 
@@ -1324,7 +1320,7 @@ History let Lehman file. This button keeps the name alive for a week. AIG is sti
 - Tags: LT
 - Sources: AIG rescue 16 Sep 2008
 
-### Referee
+### History
 
 AIG Financial Products. A credit default swap is a side bet that pays if the stack goes bad, sold as insurance. In 2005 the factory collected that premium and made more loans. AIG wrote a mountain of them on the AAA slices, including the second pile, the leftover stamped safe, without holding the cash an insurer would. The insurance was the leverage. Sarbanes-Oxley does not unwind a derivative. AIG is not a bank. The discount window is for banks. They invent a credit line, $190 billion (was $85 billion then, scaled to 2026 GDP), and take 79.9 percent of the firm.
 
@@ -1370,9 +1366,9 @@ If AIG Financial Products fails, every desk that bought the insurance is naked. 
 - Tags: LT
 - Sources: TARP first House vote 29 Sep 2008
 
-### Referee
+### History
 
-TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about $1.5 trillion (was $700 billion then, scaled to 2026 GDP). The House of Representatives says no. The pile is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.
+TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $1.5 trillion (was $700 billion then, scaled to 2026 GDP) into banks, or buy the ugly assets, so the banks do not die this week. The House of Representatives says no. The pile is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.
 
 ### Street
 
@@ -1419,12 +1415,14 @@ My caucus will not vote a bailout. They drove to their districts. The districts 
 - Shared: Country or ambition
 - Era: Housing
 - playable · election · next:tarp-pass-2008
-- Tags: LT, IT
+- Tags: LT, IT, DK
 - Sources: McCain suspends campaign Sep 2008; Obama keeps campaigning
 
-### Referee
+### History
 
-John McCain suspends his campaign and goes to Washington. Barack Obama looks at the polls and keeps campaigning. Presidents have to deal with more than one thing. That is the sentence. Country over ambition is the offramp. Historical for the winner is keep campaigning. Obama still sits in January. TARP still happens. Suspend is a victory point.
+John McCain suspends his campaign and goes to Washington. Barack Obama looks at the polls, which say people trust Democrats more on the economy, and keeps campaigning. McCain looks tired. Obama looks young. DK whether the wait made a difference. It was not the weekend. Historical for the winner is keep campaigning. Obama still sits in January. TARP still happens. Suspend is a victory point.
+
+Hank Paulson at Treasury was Goldman. That is Bush's Treasury. The next Treasury is Timothy Geithner, who ran the New York Fed, the room that weekend. DK whether that is the same as needing the person who can defuse the bomb. Put as DK. Not a button.
 
 ### Street
 
@@ -1447,14 +1445,14 @@ They will campaign. The book does not vote.
 
 ### Washington
 
-You are still Bush. The nominees are the country's other desk this week. John McCain wants to suspend his campaign and go to Washington. Barack Obama looks at the polls and wants to keep campaigning. Historical for the winner is keep campaigning. Country over ambition is the offramp. You still sit until January. TARP still happens.
+You are Barack Obama. The country is tanking. Polls say people trust Democrats more on the economy than McCain. McCain looks tired. You look young. He wants to suspend and go to Washington. You can keep campaigning and let the ticker do the work, or suspend with him. Historical is keep campaigning. DK whether the wait made a difference. It is not the weekend. Bush still sits until January. TARP still happens.
 
 - **Keep campaigning** `us-keep-campaign` (HISTORY · hard)
-  Presidents juggle. Obama's move. The polls like a candidate who can walk and chew.
+  The polls trust Democrats on the economy. McCain looks tired. You look young. Keep talking.
 - **Suspend and go to Washington** `us-suspend` (HINDSIGHT · deal)
   Country over ambition. McCain's move. You still sit until January. TARP still happens.
   Overlay title: Yes. That was the right thing to do.
-  You suspended. McCain's move. Country over ambition. Obama still sits in January. TARP still happens.
+  You suspended. McCain's move. Country over ambition. DK whether it changed the hole. Obama still sits in January. TARP still happens.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -1462,7 +1460,7 @@ Washington briefings
 
 **Press**
 
-McCain looks serious. Obama looks like a president who can walk and chew. The polls like the chew.
+McCain looks tired. Obama looks young. The polls trust Democrats on the economy. Keep talking.
 
 ## 27. Oct 2008 · `tarp-pass-2008`
 
@@ -1474,7 +1472,7 @@ McCain looks serious. Obama looks like a president who can walk and chew. The po
 - Tags: LT, IT
 - Sources: TARP signed 3 Oct 2008; Capital Purchase Program
 
-### Referee
+### History
 
 TARP, the Troubled Asset Relief Program, passes on the second vote. Up to $1.5 trillion (was $700 billion then, scaled to 2026 GDP). Capital injections: Washington forces cash into the big banks. The discount window has the real power. This is not a cleanup. It is a pause. Sarbanes-Oxley did not do this. The Resolution Trust Corporation was a cleanup: seize, sell in public, take years, some jail. This is a hold. The name on the door stays.
 
@@ -1493,7 +1491,7 @@ Street briefings
 
 **The desk · blankfein**
 
-You will take the money. You will say you did not need it. The window has the guns.
+You will take the money. You will say you did not need it. The window has the cash.
 
 ### Washington
 
@@ -1524,7 +1522,7 @@ Force the capital into the big nine. Do not ask. The RTC took years. We have day
 - Tags: LT
 - Sources: SCAP stress tests 2009
 
-### Referee
+### History
 
 Obama sits. Stress tests: Washington writes an exam that asks what happens if house prices fall, and the banks take it. The cubicle, again, with a new name, in daylight. Some new capital. Not much jail. The houses are still the book. Main street wanted the warehouse.
 
@@ -1537,7 +1535,7 @@ The exam is a cubicle. You will pass. Accountants wrote it. Accountants take it.
 - **Show them the houses** `ir-show-houses` (HINDSIGHT · hard)
   Drive. The REO list, the houses you already took back, has addresses.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the REO list.
+  You left the cubicle. You drove to the REO list. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -1556,7 +1554,7 @@ You sit. Stress tests: Geithner at Treasury writes an exam for the banks, what i
 - **Make them drive the foreclosures** `us-drive-reo` (HINDSIGHT · hard)
   The address on the note. The houses the banks already took back.
   Overlay title: Yes. That was the right thing to do.
-  You left the cubicle. You drove to the foreclosure list.
+  You left the cubicle. You drove to the foreclosure list. Home inspectors who find too many problems do not get hired by mortgage lenders. Auditors who find problems do not get hired either.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -1576,7 +1574,7 @@ Publish the stress tests. Make the cubicle a show of force. Do not drive to ever
 - Tags: LT, IT
 - Sources: FCIC report 2011; S&L vs 2008 prosecution comparison
 
-### Referee
+### History
 
 Keating went to jail. Skilling went to jail. 2011: the housing book did not. The cubicle prosecuted nobody who designed the factory. The Resolution Trust Corporation was a cleanup. TARP was a pause. The pause held. Main street still has the houses. You cannot jail a country. That is the sentence. It is also an excuse.
 
@@ -1628,7 +1626,7 @@ Keating did time. This book was the country. You cannot jail a country. That is 
 - Tags: LT, AL
 - Sources: 3-6-3 rule of thumb
 
-### Referee
+### History
 
 It is good to be a savings and loan. You pay depositors 3 percent. You make thirty-year home loans at 6 percent. You count the money on the golf course by 3 in the afternoon. People in the business called that 3-6-3. This is the world Paul Volcker is about to kill. The cubicle is a teller window. The invoice is a house someone lives in.
 

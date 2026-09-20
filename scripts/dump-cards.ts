@@ -100,7 +100,7 @@ function dumpCard(card: Card, index: number): string {
     `- Tags: ${card.referee.tags.join(", ") || "none"}`,
     `- Sources: ${card.sources.join("; ") || "none"}`,
     "",
-    "### Referee",
+    "### History",
     "",
     card.referee.paragraphs.join("\n\n"),
     "",

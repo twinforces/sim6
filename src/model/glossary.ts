@@ -161,7 +161,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "Crazy Eddie",
     aliases: ["Crazy Eddie"],
     definition:
-      "An electronics chain from Brooklyn. Before the accountants arrived, staff moved inventory at night from store to store so every warehouse looked full. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The lesson for Enron: accountants are not detectives.",
+      "An electronics chain from Brooklyn. Before the auditors arrived, staff moved inventory at night from store to store so every warehouse looked full. The audit passed. Every year. Wall Street thought they were taking Brooklyn rubes for a ride. Instead, the rubes took them for a ride. Cons do not work on the honest. The lesson for Enron: accountants are not detectives.",
   },
   {
     id: "ltcm",
@@ -182,7 +182,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "a hedge",
     aliases: ["a hedge", "the hedge", "Stay a hedge", "stay a hedge", "being a hedge", "both legs", "long side", "short side", "the longs"],
     definition:
-      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb. Long-Term did that, then talked them into no haircut at all.",
+      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. Long-Term told the banks every long was balanced with a short, so they would always be solvent. They never kept both legs at the same house. They did not trust the Street not to copy the trades. A directional bet makes that solvent story a lie.",
   },
   {
     id: "haircut",
@@ -217,7 +217,14 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "Enron",
     aliases: ["Enron", "Lay", "Fastow", "Raptor", "Raptors"],
     definition:
-      "An energy firm. It booked today's profit on contracts that had no real market, and hid the losses in paper companies. Passed every audit. The CFO, Andrew Fastow, ran the vehicles. Kenneth Lay was the name on the door. The dress rehearsal for the mortgage stacks.",
+      "An energy firm. It booked today's profit on contracts that had no real market, and hid the losses in paper companies. Passed every audit. Jeffrey Skilling was the CEO, the operating brain, and went to prison. Kenneth Lay was the chairman, the name on the door. Andrew Fastow, the CFO, ran the vehicles. The dress rehearsal for the mortgage stacks.",
+  },
+  {
+    id: "skilling",
+    term: "Jeffrey Skilling",
+    aliases: ["Jeffrey Skilling", "Skilling"],
+    definition:
+      "Enron's CEO, the operating brain. Kenneth Lay was the chairman, the name on the door. Andrew Fastow was the CFO who built the paper companies. Skilling went to prison. Lay died before sentencing. Fastow cooperated and did time. The audit had passed every year.",
   },
   {
     id: "spe",
@@ -315,7 +322,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "GSE",
     aliases: ["GSE", "GSEs", "Fannie", "Freddie", "Fannie Mae", "Freddie Mac"],
     definition:
-      "Government-sponsored enterprises: Fannie Mae and Freddie Mac. They buy home loans from banks so the banks can make more. Not quite the government, until they are. In the 2000s they were told that buying weaker loans was a way to spread homeownership.",
+      "Government-sponsored enterprises: Fannie Mae and Freddie Mac. They buy home loans from banks so the banks can make more. Not quite the government, until they are. Fannie Mae goes back to 1938, a Roosevelt answer to the last time the housing market nearly died. Freddie Mac, 1970. Bush did not invent them. In the 2000s they were told that buying weaker loans was a way to spread homeownership.",
   },
   {
     id: "originate-to-sell",

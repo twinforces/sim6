@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import { TrainViewModel } from "./TrainViewModel.ts";
-import { memoryMuseumStore } from "../model/exits.ts";
+import { memoryMuseumStore, memoryFinishedStore } from "../model/exits.ts";
+import { CARDS } from "../model/cards.ts";
 
 describe("TrainViewModel", () => {
   it("presents Washington 1979 without labelling historical", () => {
@@ -44,21 +45,33 @@ describe("TrainViewModel", () => {
     assert.equal(ui.museum.usFound, 0);
   });
 
-  it("the cup drafts a letter from found offramps, not from riding history", () => {
-    const seeded = new TrainViewModel("us", "D", "jail-2011", {
-      museum: memoryMuseumStore(["us-back-levitt", "us-close-now", "us-drive-eddie"]),
-    });
-    seeded.hydrateMuseum();
-    seeded.choose("us-hold-2011");
-    const withFinds = seeded.getState();
-    assert.equal(withFinds.phase, "ended");
-    assert.ok(withFinds.letter);
-    const ids = withFinds.letter?.asks.map((a) => a.id) ?? [];
+  it("the letter waits until both chairs have finished the cup", () => {
+    const finished = memoryFinishedStore();
+    const museum = memoryMuseumStore(["us-back-levitt", "us-close-now", "us-drive-eddie"]);
+    const first = new TrainViewModel("us", "D", "jail-2011", { museum, finished });
+    first.hydrateMuseum();
+    first.choose("us-hold-2011");
+    const waiting = first.getState();
+    assert.equal(waiting.phase, "ended");
+    assert.equal(waiting.letter, null);
+    assert.equal(waiting.otherChair, "iran");
+
+    const second = new TrainViewModel("iran", "R", "jail-2011", { museum, finished });
+    second.hydrateMuseum();
+    second.choose("ir-hold-2011");
+    const both = second.getState();
+    assert.ok(both.letter);
+    assert.equal(both.otherChair, null);
+    const ids = both.letter?.asks.map((a) => a.id) ?? [];
     assert.equal(ids.includes("levitt"), true);
     assert.equal(ids.includes("close-now"), true);
     assert.equal(ids.includes("invoice"), true);
 
-    const history = new TrainViewModel("us", "D", "jail-2011", { museum: memoryMuseumStore() });
+    const history = new TrainViewModel("us", "D", "jail-2011", {
+      museum: memoryMuseumStore(),
+      finished: memoryFinishedStore(["iran"]),
+    });
+    history.hydrateMuseum();
     history.choose("us-hold-2011");
     assert.equal(history.getState().letter?.asks.length, 0);
   });
@@ -67,5 +80,32 @@ describe("TrainViewModel", () => {
     const vm = new TrainViewModel("iran", "R", "volcker-1979", { museum: memoryMuseumStore(["us-back-levitt"]) });
     vm.hydrateMuseum();
     assert.equal(vm.getState().letter, null);
+  });
+
+  it("hash-swaps two doors from the card id, and does not stamp historical", () => {
+    const firstOf = (id: string) => {
+      const vm = new TrainViewModel("us", "D", id, { museum: memoryMuseumStore() });
+      const ui = vm.getState();
+      assert.equal(
+        ui.choices.some((c) => c.label.toLowerCase().includes("historical")),
+        false,
+        id,
+      );
+      return ui.choices.map((c) => c.id);
+    };
+    assert.deepEqual(firstOf("volcker-1979"), firstOf("volcker-1979"));
+    const samples = CARDS.filter((c) => !c.secret).slice(0, 12).map((c) => c.id);
+    let swapped = 0;
+    let authored = 0;
+    for (const id of samples) {
+      const card = CARDS.find((c) => c.id === id);
+      const hist = card?.usChoices.find((c) => c.historical)?.id;
+      if (!hist) continue;
+      const first = firstOf(id)[0];
+      if (first === hist) authored += 1;
+      else swapped += 1;
+    }
+    assert.ok(swapped > 0, "some cards should swap doors");
+    assert.ok(authored > 0, "some cards should keep authored order");
   });
 });

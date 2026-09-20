@@ -72,7 +72,7 @@ const EN = {
   articles: [
     {
       title: "The cubicle",
-      body: "Enron passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the accountants. People committing financial crimes are accountants. The people who check them are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave the office and drive to the address printed on the invoice. That drive is a hindsight point. History still rides.",
+      body: "Enron passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the auditors. People committing financial crimes are accountants. The people who check them are also accountants. Accountants know how to lie to other accountants. To catch a criminal you have to leave the office and drive to the address printed on the invoice. That drive is a hindsight point. History still rides.",
     },
     {
       title: "Hindsight",

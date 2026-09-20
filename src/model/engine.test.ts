@@ -89,6 +89,15 @@ describe("hard to unwind engine", () => {
     assert.equal(s.phase, "ended");
   });
 
+  it("Street sits Keating until they leave for Greenwich", () => {
+    const seized = applyChoice(newGame({ chair: "iran", party: "R", cardId: "rtc-1989" }), "ir-seized");
+    assert.equal(seized.cardId, "rtc-1995");
+    assert.equal(iranFaceOf(seized), "keating");
+    const left = applyChoice(newGame({ chair: "iran", party: "R", cardId: "rtc-1995" }), "ir-leave-dirt");
+    assert.equal(iranFaceOf(left), "meriwether");
+    assert.equal(left.cardId, "ltcm-1997");
+  });
+
   it("historical is never labelled as an overlay", () => {
     for (const card of CARDS) {
       for (const c of [...card.usChoices, ...card.iranChoices]) {
@@ -105,6 +114,7 @@ describe("hard to unwind engine", () => {
     assert.equal(s.flags.offramps, 1);
     assert.equal(s.lastResult?.kind, "hindsight");
     assert.match(s.lastResult?.body ?? "", /Accountants know how to lie/);
+    assert.match(s.lastResult?.body ?? "", /Home inspectors/);
     assert.equal(s.cardId, "keating-1987");
     assert.equal(s.phase, "playing");
     assert.equal(detectExits(s).includes("us-drive-eddie"), true);
@@ -114,6 +124,7 @@ describe("hard to unwind engine", () => {
     const later = cardById("peak-2006")?.usChoices.find((c) => c.id.includes("drive"))?.result ?? "";
     assert.match(later, /You left the cubicle/);
     assert.equal(/Accountants know how to lie/.test(later), false);
+    assert.match(later, /Home inspectors/);
   });
 
   it("hindsight closer is a victory point, and cards do not say you have the point", () => {

@@ -2,6 +2,15 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Street rail redline, 2026-09-20
+
+What: Hash-swap. History open. Street URL. Overlay greed continues. Faces, money, SOX, campaign Obama, both-chairs letter.
+
+Why: User redlined the Street rail in order.
+
+How: Copy and chrome. Dump. Tests 39/39.
+
+
 ## Hygiene, republish, 2026-09-20
 
 What: Playable hash `cb4d954`. Dump matches.

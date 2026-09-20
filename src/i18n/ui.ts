@@ -47,7 +47,7 @@ const EN = {
   unitedStates: "Washington",
   iran: "The Street",
   sitDifferent: "Sit a different chair",
-  refereeNotes: "Referee notes",
+  refereeNotes: "History",
   successfulPath: "Successful path",
   railHold: "Rail hold",
   endOfChair: "End of this chair",
@@ -62,9 +62,10 @@ const EN = {
   youCapitulate: "You capitulate",
   mapAnswers: "The map answers",
   railContinues: "The rail continues",
+  greedContinues: "The greed continues",
   artisticLicense: "Artistic license",
   close: "Close",
-  theImam: "The guns",
+  theImam: "The other desk",
   branch: "branch",
   election: "election",
   statusPlayable: "playable",
@@ -93,7 +94,7 @@ const EN = {
   noteP1:
     "If you are reading a crash and one side looks like the only villain, you are reading a campaign ad.",
   noteP2:
-    "Savings and loans paid depositors a little and lent to families for thirty years. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. Paul Volcker at the Federal Reserve crushed inflation by raising rates, which also crushed that gap. Washington then let dying thrifts gamble with insured deposits because the insurance fund would pay if they lost. The Resolution Trust Corporation later sold the wreckage in public, slowly, and some people went to jail. We called that competence. A hedge fund in Greenwich, Connecticut took the lesson and built a mathematical bet. Fourteen banks closed that bet in a weekend, with no check from the Treasury. We called that private. Enron passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the accountants. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you leave the office and drive to the address on the invoice. In 2002 a law made the CEO personally sign the books. We called accounting fixed. Then the mortgage factories took every lesson at once. The book was the country. It would not close.",
+    "Savings and loans paid depositors a little and lent to families for thirty years. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. Paul Volcker at the Federal Reserve crushed inflation by raising rates, which also crushed that gap. Washington then let dying thrifts gamble with insured deposits because the insurance fund would pay if they lost. The Resolution Trust Corporation later sold the wreckage in public, slowly, and some people went to jail. We called that competence. A hedge fund in Greenwich, Connecticut took the lesson and built a mathematical bet. Fourteen banks closed that bet in a weekend, with no check from the Treasury. We called that private. Enron passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the auditors. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you leave the office and drive to the address on the invoice. In 2002 a law made the CEO personally sign the books. We called accounting fixed. Then the mortgage factories took every lesson at once. The book was the country. It would not close.",
   noteP3:
     "The number you see is 2026 money. Hover the cart for a paycheck or an insurance cap, grocery money, CPI. Hover the bank for a hole in the system, the same slice of GDP. The original is underneath. The savings-and-loan cleanup is about {gdp|$720 billion|$125 billion}. TARP is about {gdp|$1.5 trillion|$700 billion}. It was huge at the time.",
   noteP4:
@@ -194,10 +195,14 @@ const EN = {
   csoGreen: "You stayed small",
   csoMahsa: "You paused origination",
   csoMoscow: "You asked for Chapter 11",
-  csoFace: "The desk did not have the guns",
+  csoFace: "The desk did not have the cash",
   csoSideline: "Sidelined twice",
   csoPurge: "The book seized the desk",
   memoirsFound: "The other party took the chair",
+  firstChairCup:
+    "You rode this rail. Sit the other chair. The letter waits until you have sat both.",
+  sitOtherStreet: "Sit the Street",
+  sitOtherWashington: "Sit Washington",
   letterKicker: "The museum writes",
   letterTitle: "A letter to your CongressCritter",
   letterLead:

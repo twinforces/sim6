@@ -69,6 +69,15 @@ describe("glossary", () => {
     assert.equal(money[1]?.money?.ruler, "gdp");
   });
 
+  it("marks Skilling as Enron's CEO who went to prison", () => {
+    const skill = glossaryById("skilling");
+    assert.match(skill?.definition ?? "", /CEO/);
+    assert.match(skill?.definition ?? "", /prison/);
+    const parts = linkify("Jeffrey Skilling is going to jail. Skilling ran Enron.");
+    const ids = parts.map((p) => p.id).filter(Boolean);
+    assert.equal(ids.includes("skilling"), true);
+  });
+
   it("says Long-Term paid no haircut, and names the borrowed pile versus the side bets", () => {
     const hair = glossaryById("haircut");
     assert.match(hair?.definition ?? "", /Zero/);

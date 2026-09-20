@@ -7,9 +7,12 @@ describe("leaders", () => {
     assert.equal(leaderFor({ chair: "us", year: 1979, iranFace: "thrift" }).id, "carter");
     assert.equal(leaderFor({ chair: "us", year: 1982, iranFace: "thrift" }).id, "reagan");
     assert.equal(leaderFor({ chair: "us", year: 2008, iranFace: "fuld" }).id, "bush43");
+    assert.equal(leaderFor({ chair: "us", year: 2008, iranFace: "fuld", cardId: "campaign-2008" }).id, "obama");
     assert.equal(leaderFor({ chair: "us", year: 2009, iranFace: "blankfein" }).id, "obama");
     assert.equal(partyForUsYear(1979), "D");
     assert.equal(partyForUsYear(1981), "R");
+    assert.equal(partyForUsYear(2008), "R");
+    assert.equal(partyForUsYear(2008, "campaign-2008"), "D");
   });
 
   it("Street faces sit, dual plate is not the player", () => {
@@ -20,6 +23,8 @@ describe("leaders", () => {
     assert.equal(imamFor({ chair: "us", iranFace: "lay" }), null);
     assert.equal(imamFor({ chair: "iran", iranFace: "keating", year: 1984 }), null);
     assert.equal(imamFor({ chair: "iran", iranFace: "keating", year: 1989 })?.id, "rtc");
+    assert.equal(imamFor({ chair: "iran", iranFace: "meriwether", year: 1997 }), null);
     assert.equal(imamFor({ chair: "iran", iranFace: "meriwether", year: 1998 })?.id, "room");
+    assert.equal(imamFor({ chair: "iran", iranFace: "meriwether", year: 1999 }), null);
   });
 });

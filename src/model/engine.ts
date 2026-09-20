@@ -254,7 +254,7 @@ export interface NewGameOpts {
 }
 
 function isolationStreetFace(cardId: string): IranFace {
-  if (cardId === "rtc-1995" || cardId.startsWith("ltcm") || cardId === "glba-1999") return "meriwether";
+  if (cardId.startsWith("ltcm") || cardId === "glba-1999") return "meriwether";
   if (cardId.startsWith("enron") || cardId === "levitt-2000" || cardId === "sox-2002") return "lay";
   if (
     cardId === "dream-2003" ||
@@ -282,16 +282,17 @@ function isolationStreetFace(cardId: string): IranFace {
     cardId === "lincoln-1984" ||
     cardId === "eddie-1987" ||
     cardId === "keating-1987" ||
-    cardId === "rtc-1989"
+    cardId === "rtc-1989" ||
+    cardId === "rtc-1995"
   ) {
     return "keating";
   }
   return "thrift";
 }
 
-function seatUsParty(state: GameState, year: number): void {
+function seatUsParty(state: GameState, year: number, cardId?: string): void {
   if (state.chair !== "us") return;
-  const nextParty = partyForUsYear(year);
+  const nextParty = partyForUsYear(year, cardId);
   if (nextParty === state.party) return;
   const mine = state.bars.my_party;
   state.bars.my_party = state.bars.opposing_party;
@@ -304,7 +305,7 @@ export function newGame(opts: NewGameOpts): GameState {
   const cardId = opts.cardId ?? FIRST_CARD_ID;
   const card = cardById(cardId);
   if (!card) throw new Error(`Unknown card: ${cardId}`);
-  const party = opts.chair === "us" ? partyForUsYear(card.year) : opts.party;
+  const party = opts.chair === "us" ? partyForUsYear(card.year, cardId) : opts.party;
   const bars = defaultBars(opts.chair, party);
   const clocks = defaultClocks();
   if (card.clocksOn && clocks.nuke_breakout_months === null) {
@@ -418,7 +419,7 @@ export function applyChoice(state: GameState, choiceId: string): GameState {
       if (next.chair === "iran") {
         next.flags.iran_face = isolationStreetFace(upcoming.id);
       }
-      seatUsParty(next, upcoming.year);
+      seatUsParty(next, upcoming.year, upcoming.id);
     } else if (upcoming) {
       next.phase = "ended";
       next.ending = {

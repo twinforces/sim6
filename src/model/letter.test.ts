@@ -28,7 +28,7 @@ describe("congress letter", () => {
     assert.match(text, /^Dear Senator Wyden,/);
     assert.match(text, new RegExp(LETTER_HOST));
     assert.match(text, /Auditor independence/);
-    assert.match(text, /Close insolvent books now/);
+    assert.match(text, /Close a bank when it is already broke/);
     assert.match(text, /Prevention is worth trillions in cure, I guess/);
     assert.match(text, /especially if they do not write their congressman/);
     assert.match(text, /Sincerely,\nGrumpy Tech Bro$/);

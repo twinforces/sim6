@@ -63,7 +63,7 @@ const LEADERS: Record<LeaderId, Leader> = {
     youAre: "You are Meriwether",
     playing: "Playing Meriwether",
     name: "John Meriwether",
-    role: "Long-Term Capital Management, a hedge fund in Greenwich. You left Salomon. Scholes and Merton, Nobels, are names on the door. Fourteen banks in a room have the real power this weekend.",
+    role: "Long-Term Capital Management, a hedge fund in Greenwich. You left Salomon. Scholes and Merton, Nobels, are names on the door.",
     portrait: "/leaders/meriwether.jpg",
     party: null,
     partyLabel: null,
@@ -140,7 +140,7 @@ const LEADERS: Record<LeaderId, Leader> = {
   },
   rtc: {
     id: "rtc",
-    youAre: "The RTC has the guns",
+    youAre: "The RTC has the keys",
     playing: "The RTC",
     name: "Resolution Trust Corporation",
     role: "The cleanup that worked. Slow. Public. Expensive. Some jail. Taxpayers ate the hole.",
@@ -150,7 +150,7 @@ const LEADERS: Record<LeaderId, Leader> = {
   },
   room: {
     id: "room",
-    youAre: "The room has the guns",
+    youAre: "The room has the cash",
     playing: "The room",
     name: "The consortium",
     role: "Fourteen banks. No check from the Treasury. We will call this private, and we will still call it a rescue.",
@@ -160,7 +160,7 @@ const LEADERS: Record<LeaderId, Leader> = {
   },
   window: {
     id: "window",
-    youAre: "The window has the guns",
+    youAre: "The window has the cash",
     playing: "The window",
     name: "The discount window",
     role: "The Federal Reserve's emergency counter. TARP is a pause, not a cleanup. You are still the CEO.",
@@ -239,7 +239,8 @@ function usLeaderId(year: number): LeaderId {
   return "carter";
 }
 
-export function partyForUsYear(year: number): Party {
+export function partyForUsYear(year: number, cardId?: string): Party {
+  if (cardId === "campaign-2008") return "D";
   const id = usLeaderId(year);
   return LEADERS[id].party ?? "R";
 }
@@ -272,18 +273,27 @@ export function leaderFor(opts: {
   year: number;
   iranFace: IranFace;
   generic?: boolean;
+  cardId?: string;
 }): Leader {
-  if (opts.chair === "us") return LEADERS[usLeaderId(opts.year)];
+  if (opts.chair === "us") {
+    if (opts.cardId === "campaign-2008") {
+      return {
+        ...LEADERS.obama,
+        role: "The Democratic nominee. Polls say people trust Democrats more on the economy. McCain looks tired. You look young.",
+      };
+    }
+    return LEADERS[usLeaderId(opts.year)];
+  }
   if (opts.generic) return LEADERS.replacement;
   return LEADERS[STREET_LEADERS[opts.iranFace]];
 }
 
-/** Dual plate: who actually has the guns this year. Never the player. */
+/** Dual plate: who actually has the cash this year. Never the player. */
 export function imamFor(opts: { chair: Chair; iranFace: IranFace; year?: number }): Leader | null {
   if (opts.chair !== "iran") return null;
   if (opts.iranFace === "lay") return LEADERS.fastow;
   if (opts.iranFace === "keating" && (opts.year ?? 0) >= 1989) return LEADERS.rtc;
-  if (opts.iranFace === "meriwether") return LEADERS.room;
+  if (opts.iranFace === "meriwether" && (opts.year ?? 0) === 1998) return LEADERS.room;
   if (opts.iranFace === "blankfein" || opts.iranFace === "fuld" || opts.iranFace === "cayne") {
     return LEADERS.window;
   }

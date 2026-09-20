@@ -32,6 +32,6 @@ Offramps are found-once chrome in the ViewModel, persisted in localStorage (`htu
 
 ## Play
 
-Chair first. Then the situation, two buttons, then advisors. Dual plate is who has the guns: Fastow on Lay, the room on Meriwether, RTC after FIRREA, the window in 2008. You never sit the guns.
+Chair first. Then the situation, two buttons, then advisors. Dual plate is who has the cash: Fastow on Lay, the room on Meriwether in 1998, RTC after FIRREA, the window in 2008. You never sit the other desk.
 
 Copy freeze: `docs/NEXT-SIM.md`.

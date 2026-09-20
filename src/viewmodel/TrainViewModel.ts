@@ -20,6 +20,8 @@ import {
   type Leader,
   localMuseumStore,
   type MuseumStore,
+  localFinishedStore,
+  type FinishedStore,
   newGame,
   otherParty,
   countKind,
@@ -149,6 +151,7 @@ export interface TrainViewState {
   endingBody: string | null;
   endingId: string | null;
   letter: PresentedLetter | null;
+  otherChair: Chair | null;
   lastResult: { title: string; body: string; kind: OverlayKind } | null;
   canBackOne: boolean;
   canBackBranch: boolean;
@@ -335,9 +338,18 @@ function presentClocks(state: GameState, card: Card, locale: Locale): PresentedC
   return row;
 }
 
+function hashSwapDoors(cardId: string): boolean {
+  let h = 2166136261;
+  for (let i = 0; i < cardId.length; i += 1) {
+    h ^= cardId.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0) % 2 === 1;
+}
+
 function presentChoices(state: GameState, card: Card, locale: Locale): PresentedChoice[] {
   const fa = locale === "fa" ? cardFa(card.id) : undefined;
-  return choicesFor(state, card).map((c) => {
+  const presented = choicesFor(state, card).map((c) => {
     const hit = fa?.choices?.[c.id];
     return {
       id: c.id,
@@ -349,6 +361,10 @@ function presentChoices(state: GameState, card: Card, locale: Locale): Presented
       artisticLicenseId: c.artisticLicense ?? null,
     };
   });
+  if (presented.length === 2 && hashSwapDoors(card.id)) {
+    return [presented[1]!, presented[0]!];
+  }
+  return presented;
 }
 
 const EXIT_CAPTION: Record<string, UiKey> = {
@@ -416,8 +432,12 @@ function cupEnding(phase: GameState["phase"], endingId: string | null): boolean 
   return endingId === "none" || endingId === "boring_bank" || endingId === "marked_the_book";
 }
 
-function presentLetter(found: ReadonlySet<string>, phase: GameState["phase"], endingId: string | null): PresentedLetter | null {
-  if (!cupEnding(phase, endingId)) return null;
+function jailCup(state: GameState): boolean {
+  return cupEnding(state.phase, state.ending?.id ?? null) && state.cardId === "jail-2011";
+}
+
+function presentLetter(found: ReadonlySet<string>, bothChairs: boolean, state: GameState): PresentedLetter | null {
+  if (!jailCup(state) || !bothChairs) return null;
   return {
     asks: asksFor(found).map((ask) => ({ id: ask.id, headline: ask.headline, ask: ask.ask })),
   };
@@ -451,20 +471,34 @@ export class TrainViewModel {
   private state: GameState;
   private readonly museumStore: MuseumStore;
   private found: Set<string>;
+  private readonly finishedStore: FinishedStore;
+  private finished: Set<Chair>;
 
-  constructor(chair: Chair = "us", party: Party = "R", cardId?: string, opts?: { museum?: MuseumStore }) {
+  constructor(
+    chair: Chair = "us",
+    party: Party = "R",
+    cardId?: string,
+    opts?: { museum?: MuseumStore; finished?: FinishedStore },
+  ) {
     this.state = newGame({ chair, party, cardId });
     this.museumStore = opts?.museum ?? localMuseumStore();
     this.found = new Set();
+    this.finishedStore = opts?.finished ?? localFinishedStore();
+    this.finished = new Set();
   }
 
   hydrateMuseum(): boolean {
     const loaded = this.museumStore.load();
-    if (loaded.size === 0) return false;
+    const chairs = this.finishedStore.load();
     let dirty = false;
     for (const id of loaded) {
       if (this.found.has(id)) continue;
       this.found.add(id);
+      dirty = true;
+    }
+    for (const id of chairs) {
+      if (this.finished.has(id)) continue;
+      this.finished.add(id);
       dirty = true;
     }
     return dirty;
@@ -482,6 +516,7 @@ export class TrainViewModel {
         year: card.year,
         iranFace: face,
         generic: Boolean(this.state.flags.letterhead_generic),
+        cardId: card.id,
       }),
       locale,
     );
@@ -493,6 +528,9 @@ export class TrainViewModel {
     const grave = satrap && this.state.chair === "us" ? satrap : null;
     const faCard = locale === "fa" ? cardFa(card.id) : undefined;
     const endingId = this.state.ending?.id ?? null;
+    const bothChairs = this.finished.has("us") && this.finished.has("iran");
+    const waitingOther = jailCup(this.state) && !bothChairs;
+    const otherChair: Chair | null = waitingOther ? (this.state.chair === "us" ? "iran" : "us") : null;
     const endingFa = locale === "fa" && endingId && endingId !== "none" ? ENDINGS_FA[endingId] : undefined;
     const choiceFa = this.state.lastChoiceId ? faCard?.choices?.[this.state.lastChoiceId] : undefined;
     let lastResult = this.state.lastResult;
@@ -514,15 +552,20 @@ export class TrainViewModel {
       museum: presentMuseum(this.found, locale),
       bleed: localizeBleed(this.state.lastBleed, locale, this.state.clocks.nuke_breakout_months),
       endingTitle:
-        locale === "fa"
-          ? (choiceFa?.resultTitle ?? endingFa?.title ?? this.state.ending?.title ?? null)
-          : (this.state.ending?.title ?? null),
+        waitingOther
+          ? ui(locale, "endOfChair")
+          : locale === "fa"
+            ? (choiceFa?.resultTitle ?? endingFa?.title ?? this.state.ending?.title ?? null)
+            : (this.state.ending?.title ?? null),
       endingBody:
-        locale === "fa"
-          ? (choiceFa?.result ?? endingFa?.body ?? this.state.ending?.referee ?? null)
-          : (this.state.ending?.referee ?? null),
+        waitingOther
+          ? ui(locale, "firstChairCup")
+          : locale === "fa"
+            ? (choiceFa?.result ?? endingFa?.body ?? this.state.ending?.referee ?? null)
+            : (this.state.ending?.referee ?? null),
       endingId,
-      letter: presentLetter(this.found, this.state.phase, endingId),
+      letter: presentLetter(this.found, bothChairs, this.state),
+      otherChair,
       lastResult,
       canBackOne: travel.backOne,
       canBackBranch: travel.backToBranch,
@@ -541,6 +584,7 @@ export class TrainViewModel {
   choose(choiceId: string): void {
     this.state = applyChoice(this.state, choiceId);
     this.collectExits();
+    this.collectFinished();
   }
 
   private collectExits(): void {
@@ -553,6 +597,13 @@ export class TrainViewModel {
       dirty = true;
     }
     if (dirty) this.museumStore.save(this.found);
+  }
+
+  private collectFinished(): void {
+    if (!jailCup(this.state)) return;
+    if (this.finished.has(this.state.chair)) return;
+    this.finished.add(this.state.chair);
+    this.finishedStore.save(this.finished);
   }
 
   dismissResult(): void {
