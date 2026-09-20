@@ -9,6 +9,7 @@ const EN = {
   navPlay: "Play",
   navReceipts: "Receipts",
   navNote: "Author's Note",
+  navQuants: "Quants",
   navDesign: "Design",
   langEn: "EN",
   langFa: "فا",
@@ -70,7 +71,7 @@ const EN = {
   errorTitle: "Something went wrong",
   errorFallback: "An unexpected error occurred. Try reloading the page.",
   actionPrompt: "What do you want to do?",
-  greyGuards: "The book will not send that cable.",
+  greyGuards: "That button does not leave this desk.",
   systemsKicker: "Systems",
   systemsTitle: "Bars, clocks, graves",
   systemsLead:
@@ -86,20 +87,31 @@ const EN = {
   receiptsKicker: "Receipts",
   receiptsTitle: "Annotated bibliography",
   receiptsLead:
-    "Standing rule: if we used it, it lives here. LT is the date or the document. IT is the incentive reading. DK stays DK. AL is labelled on the card, not laundered into the referee. Then-dollars stay: they are the file. A paycheck or an insurance cap is also in 2026 grocery money, because that is what a person felt. A hole in the system is also the same slice of the economy in 2026 dollars, because inflation still makes 1989 look like lunch. GDP does not.",
+    "Standing rule: if we used it, it lives here. LT is the date or the document. IT is the incentive reading. DK stays DK. AL is labelled on the card, not laundered into the referee. The number you see is 2026 money. Hover the cart for grocery money, CPI. Hover the bank for a hole scaled to GDP. The original is underneath.",
   noteKicker: "A GrumpyTechBro joint",
   noteTitle: "Author's Note",
   noteP1:
     "If you are reading a crash and one side looks like the only villain, you are reading a campaign ad.",
   noteP2:
-    "Savings and loans paid depositors a little and lent to families for thirty years. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. Paul Volcker at the Federal Reserve crushed inflation by raising rates, which also crushed that gap. Washington then let dying thrifts gamble with insured deposits because the insurance fund would pay if they lost. The Resolution Trust Corporation later sold the wreckage in public, slowly, and some people went to jail. We called that competence. A hedge fund in Greenwich, Connecticut took the lesson and built a mathematical bet. Fourteen banks closed that bet in a weekend, with no check from the Treasury. We called that private. Enron in Houston passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the accountants. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you leave the office and drive to the address on the invoice. In 2002 a law made the CEO personally sign the books. We called accounting fixed. Then the mortgage factories took every lesson at once. The book was the country. It would not close.",
+    "Savings and loans paid depositors a little and lent to families for thirty years. That mismatch is a duration gap: you borrowed money that can leave tomorrow, and you lent it for three decades. Paul Volcker at the Federal Reserve crushed inflation by raising rates, which also crushed that gap. Washington then let dying thrifts gamble with insured deposits because the insurance fund would pay if they lost. The Resolution Trust Corporation later sold the wreckage in public, slowly, and some people went to jail. We called that competence. A hedge fund in Greenwich, Connecticut took the lesson and built a mathematical bet. Fourteen banks closed that bet in a weekend, with no check from the Treasury. We called that private. Enron passed every audit. So did Crazy Eddie, an electronics chain that moved inventory at night ahead of the accountants. People committing financial crimes are accountants. Auditors are also accountants. Accountants know how to lie to other accountants. To catch a criminal you leave the office and drive to the address on the invoice. In 2002 a law made the CEO personally sign the books. We called accounting fixed. Then the mortgage factories took every lesson at once. The book was the country. It would not close.",
   noteP3:
-    "The then-dollars stay on the page. They are the file. A paycheck or an insurance cap we also restated in 2026 grocery money, because that is what a person felt. A hole in the system we restated as the same slice of the economy, because inflation still makes 1989 look like lunch. GDP does not. The savings-and-loan cleanup was about $125 billion then, about $720 billion of today's economy. TARP was $700 billion then, about $1.5 trillion of today's. It was huge at the time.",
+    "The number you see is 2026 money. Hover the cart for a paycheck or an insurance cap, grocery money, CPI. Hover the bank for a hole in the system, the same slice of GDP. The original is underneath. The savings-and-loan cleanup is about {gdp|$720 billion|$125 billion}. TARP is about {gdp|$1.5 trillion|$700 billion}. It was huge at the time.",
   noteP4:
-    "Hindsight is 20/20. There are no time machines in real life. This one is a gift. You get a point for getting off the train. History still rides.",
+    "Hindsight is 20/20. There are no time machines in real life. This one is a gift. You find a victory point for getting off the train. History still rides.",
   noteP5:
     "Playing toward a boring bank is trivial from both chairs. It is hard from one. I do not let you play both. That is life.",
   noteP6: "Is that a slightly cynical view? I am Grumpy Tech Bro, not Happy Go Lucky Tech Bro. Deal with it.",
+  quantsKicker: "A GrumpyTechBro joint",
+  quantsTitle: "The bell curve is a lie",
+  quantsP1:
+    "All of probability is based on the so called Normal Distribution, also known as the Bell Curve. That is what defines marbles falling in a pinboard. The nice thing about the Normal Distribution is that the math resolves cleanly. Mathematicians like clean math. Clean math is easier. Unclean math has icky infinities in it, and if they wanted to work with infinity, they would be black hole physicists.",
+  quantsP2:
+    "The bad thing about the Normal Distribution is that it is impossible in real life. The pin board has boundaries. The marbles cannot go infinitely either way. Bad things happen more than they are supposed to. Same with good things. Real distributions show skew. Mathematicians gloss over this with the Central Limit Theorem, which says that if you add up a bunch of random numbers, you will still get a normal distribution, so you do not have to worry, you can use the clean simple math, and it will all be good.",
+  quantsP3:
+    "This does not work. The probability distribution that does match the real world is the Stable Paretian, but mathematicians and Wall Street do not want to talk about the Stable Paretian, because it is not clean math. The tails do not converge to zero. Pesky infinities poke their head. But that is life. Crazy people fly airplanes into buildings. You can lose infinite money on a bad short, but you can only lose your buy price on a bad long.",
+  quantsP4:
+    "But if we all pretend that the market can be modeled with the Normal Distribution, then we can all get jobs on Wall Street as quants at beaucoup dollars, we can win Nobel prizes for proving that the market is efficient, and we can skate closer to the edge than the old rules of thumb derived empirically: twelve times is solvency, more than twelve times is bankruptcy, and we can go to forty times, because we have computers now.",
+  quantsP5: "Sorry, but practice beats theory.",
   mixed: "mixed",
   mixedBlurb: "Some of this is a date or a document. Some of it is argued. Read the note.",
   kindPrimary: "Primary",
@@ -153,7 +165,7 @@ const EN = {
   iranExits: "Street",
   usExits: "Washington",
   nukesCounter: "The book fired",
-  exitsHunt: "Hindsight is 20/20. You get a point. History still rides. Can you find them?",
+  exitsHunt: "Hindsight is 20/20. You find a victory point. History still rides. Can you find them?",
   nukesNotYet: "Not yet.",
   exitHinterland: "You closed the zombies in 1982",
   exitLimits: "You marked the SPE",
@@ -168,7 +180,7 @@ const EN = {
     "You left. A stick figure sits. It is a moral victory. But the machinery grinds on.",
   csoCounter: "Walked out",
   csoBlurb:
-    "Letterhead that would not sign a book they had not driven to. The graves count if you walked out. Seizure is not a walk. It is a moral victory. But the machinery grinds on.",
+    "A name on the door that would not sign a book they had not driven to. The graves count if you walked out. Seizure is not a walk. It is a moral victory. But the machinery grinds on.",
   memoirsCounter: "Best selling memoirs",
   memoirsBlurb:
     "Presidents who have to leave office early write best selling memoirs. It is a moral victory. But the machinery grinds on.",

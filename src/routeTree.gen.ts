@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as DesignRouteImport } from './routes/design'
 import { Route as NoteRouteImport } from './routes/note'
 import { Route as PlayRouteImport } from './routes/play'
+import { Route as QuantsRouteImport } from './routes/quants'
 import { Route as RailRouteImport } from './routes/rail'
 import { Route as ReceiptsRouteImport } from './routes/receipts'
 import { Route as SystemsRouteImport } from './routes/systems'
@@ -37,6 +38,11 @@ const PlayRoute = PlayRouteImport.update({
   path: '/play',
   getParentRoute: () => rootRouteImport,
 } as any)
+const QuantsRoute = QuantsRouteImport.update({
+  id: '/quants',
+  path: '/quants',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RailRoute = RailRouteImport.update({
   id: '/rail',
   path: '/rail',
@@ -58,6 +64,7 @@ export interface FileRoutesByFullPath {
   '/design': typeof DesignRoute
   '/note': typeof NoteRoute
   '/play': typeof PlayRoute
+  '/quants': typeof QuantsRoute
   '/rail': typeof RailRoute
   '/receipts': typeof ReceiptsRoute
   '/systems': typeof SystemsRoute
@@ -67,6 +74,7 @@ export interface FileRoutesByTo {
   '/design': typeof DesignRoute
   '/note': typeof NoteRoute
   '/play': typeof PlayRoute
+  '/quants': typeof QuantsRoute
   '/rail': typeof RailRoute
   '/receipts': typeof ReceiptsRoute
   '/systems': typeof SystemsRoute
@@ -77,6 +85,7 @@ export interface FileRoutesById {
   '/design': typeof DesignRoute
   '/note': typeof NoteRoute
   '/play': typeof PlayRoute
+  '/quants': typeof QuantsRoute
   '/rail': typeof RailRoute
   '/receipts': typeof ReceiptsRoute
   '/systems': typeof SystemsRoute
@@ -84,15 +93,31 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/design' | '/note' | '/play' | '/rail' | '/receipts' | '/systems'
+    | '/'
+    | '/design'
+    | '/note'
+    | '/play'
+    | '/quants'
+    | '/rail'
+    | '/receipts'
+    | '/systems'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/design' | '/note' | '/play' | '/rail' | '/receipts' | '/systems'
+  to:
+    | '/'
+    | '/design'
+    | '/note'
+    | '/play'
+    | '/quants'
+    | '/rail'
+    | '/receipts'
+    | '/systems'
   id:
     | '__root__'
     | '/'
     | '/design'
     | '/note'
     | '/play'
+    | '/quants'
     | '/rail'
     | '/receipts'
     | '/systems'
@@ -103,6 +128,7 @@ export interface RootRouteChildren {
   DesignRoute: typeof DesignRoute
   NoteRoute: typeof NoteRoute
   PlayRoute: typeof PlayRoute
+  QuantsRoute: typeof QuantsRoute
   RailRoute: typeof RailRoute
   ReceiptsRoute: typeof ReceiptsRoute
   SystemsRoute: typeof SystemsRoute
@@ -138,6 +164,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PlayRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/quants': {
+      id: '/quants'
+      path: '/quants'
+      fullPath: '/quants'
+      preLoaderRoute: typeof QuantsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rail': {
       id: '/rail'
       path: '/rail'
@@ -167,6 +200,7 @@ const rootRouteChildren: RootRouteChildren = {
   DesignRoute: DesignRoute,
   NoteRoute: NoteRoute,
   PlayRoute: PlayRoute,
+  QuantsRoute: QuantsRoute,
   RailRoute: RailRoute,
   ReceiptsRoute: ReceiptsRoute,
   SystemsRoute: SystemsRoute,

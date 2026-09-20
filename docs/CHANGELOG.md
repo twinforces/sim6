@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-20 Redline: book table, cubicle once, money hover
+
+What: `docs/BOOK.md` is the table. Overlay is now a victory point, the greed continues. Inner "You have the point" stripped so the helper is the only closer. Cubicle sermon once, then you left. 2026 money on the page, hover the cart or the bank for then-dollars. Long-Term Capital Management. Short is free cash for a long. VaR taught on the 1998 weekend, not as a synonym for Black-Scholes. No CFMA before its card. Enron, not Houston. Charter is the next guy's problem. Advisors dump as Fed/Ratings/Congress, not cia/venezuela. Quants page is the bell curve rant.
+
+Why: User finished the redline.
+
+How: Helper, money marks, glossary, dump labels, `/quants`. Book noun stays on the HUD until we retag row by row.
+
+### What did not work
+Baking "the book continues on" as both the Street pile and the overlay. Mentioning CFMA on GLBA. Repeating the cubicle paragraph on every warehouse.
+
 ## 2026-09-19 Banner lockup: Past Performance
 
 What: "Past Performance" on the share card and the X banner. No tagline. The joke stays in the game.

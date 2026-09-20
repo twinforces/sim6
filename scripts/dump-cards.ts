@@ -4,7 +4,9 @@
  */
 import { writeFileSync } from "node:fs";
 import { ui } from "../src/i18n/ui.ts";
+import { FACTION_LABEL } from "../src/model/constants.ts";
 import { CARDS, FIRST_CARD_ID } from "../src/model/cards.ts";
+import { expandMoneyMarks } from "../src/model/glossary.ts";
 import type { Briefing, Card, Choice } from "../src/model/types.ts";
 
 const ERA: Record<Card["era"], string> = {
@@ -57,9 +59,9 @@ function dumpBriefings(card: Card, audience: "iran" | "us"): string {
   return rows
     .map((b) => {
       const face = faceOf(b.face);
-      const who = face ? `${b.faction} · ${face}` : b.faction;
+      const who = face ? `${FACTION_LABEL[b.faction]} · ${face}` : FACTION_LABEL[b.faction];
       const closer = b.closer ? `\n\n_${b.closer}_` : "";
-      return `**${who}**\n\n${b.rant}${closer}`;
+      return `**${who}**\n\n${expandMoneyMarks(b.rant)}${closer}`;
     })
     .join("\n\n");
 }
@@ -163,7 +165,8 @@ function main() {
     "",
   ].join("\n");
 
-  writeFileSync("docs/CARDS.md", home.endsWith("\n") ? home : `${home}\n`);
+  const body = home.endsWith("\n") ? home : `${home}\n`;
+  writeFileSync("docs/CARDS.md", expandMoneyMarks(body));
 }
 
 main();

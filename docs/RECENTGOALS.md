@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Redline, 2026-09-20
+
+What: Book table. Victory point. Cubicle once. Money hover. LTCM full name. No foreshadowing. Enron not Houston. Quants page.
+
+Why: User finished the redline.
+
+How: `docs/BOOK.md`. Overlay greed. Money marks. `/quants`.
+
 ## Banner lockup, 2026-09-19
 
 What: "Past Performance" on the banner. No joke line.

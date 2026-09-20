@@ -104,16 +104,34 @@ describe("hard to unwind engine", () => {
     s = applyChoice(s, "us-drive-eddie");
     assert.equal(s.flags.offramps, 1);
     assert.equal(s.lastResult?.kind, "hindsight");
+    assert.match(s.lastResult?.body ?? "", /Accountants know how to lie/);
     assert.equal(s.cardId, "keating-1987");
     assert.equal(s.phase, "playing");
     assert.equal(detectExits(s).includes("us-drive-eddie"), true);
+  });
+
+  it("later warehouse drives do not repeat the cubicle sermon", () => {
+    const later = cardById("peak-2006")?.usChoices.find((c) => c.id.includes("drive"))?.result ?? "";
+    assert.match(later, /You left the cubicle/);
+    assert.equal(/Accountants know how to lie/.test(later), false);
+  });
+
+  it("hindsight closer is a victory point, and cards do not say you have the point", () => {
+    for (const card of CARDS) {
+      for (const c of [...card.usChoices, ...card.iranChoices]) {
+        if (c.overlay !== "hindsight") continue;
+        assert.match(c.result ?? "", /victory point/, card.id);
+        assert.equal(/You have the point/.test(c.result ?? ""), false, card.id);
+        assert.equal(/The book continues on/.test(c.result ?? ""), false, card.id);
+      }
+    }
   });
 
   it("McCain suspend is hindsight and Obama still sits later", () => {
     let s = newGame({ chair: "us", party: "R", cardId: "campaign-2008" });
     s = applyChoice(s, "us-suspend");
     assert.equal(s.lastResult?.kind, "hindsight");
-    assert.match(s.lastResult?.body ?? "", /You have the point/);
+    assert.match(s.lastResult?.body ?? "", /victory point/);
     assert.equal(s.cardId, "tarp-pass-2008");
   });
 

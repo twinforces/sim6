@@ -21,7 +21,7 @@ const EN = {
     {
       bar: "The desk",
       falls: "Two bad seasons in a row and you are not the CEO, or not the president.",
-      spikes: "Pride in the letterhead. Walking away gets harder.",
+      spikes: "Pride in the name on the door. Walking away gets harder.",
     },
     {
       bar: "Main street",

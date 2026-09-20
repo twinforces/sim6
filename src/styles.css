@@ -377,7 +377,8 @@
     color: var(--color-accent);
   }
 
-  .gloss-term {
+  .gloss-term,
+  .gloss-money {
     display: inline;
     margin: 0;
     padding: 0;
@@ -392,9 +393,11 @@
     text-decoration-color: color-mix(in oklab, currentColor 50%, transparent);
     text-underline-offset: 0.18em;
     cursor: help;
+    white-space: nowrap;
   }
 
-  abbr.gloss-term {
+  abbr.gloss-term,
+  abbr.gloss-money {
     font-style: inherit;
     text-decoration: underline dotted;
     text-decoration-color: color-mix(in oklab, currentColor 50%, transparent);

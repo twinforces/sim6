@@ -26,13 +26,13 @@ Chair ids are the fork: `us` is Washington, `iran` is the Street. Relabel in the
 
 Distinct from `moral` (7-Eleven, you leave, the regime continues without you).
 
-Hindsight: you picked the right thing. That is not what happened. You keep the chair. The golden path continues. You get a point.
+Hindsight: you picked the right thing. That is not what happened. You keep the chair. The golden path continues. You find a victory point.
 
 Template copy:
 
 > Yes. That was the right thing to do. That is not what happened.
 >
-> Hindsight is 20/20. You have the point. The book continues on.
+> Hindsight is 20/20. You have found a victory point. The greed continues.
 
 Museum counter: offramps. Found-once. Unfound names stay off the chrome. Do not gate later cards on the score. Hunt, not a win screen.
 
@@ -57,9 +57,9 @@ Single firm, not a sector. The book *was* unwound: bankruptcy, the auditor gone,
 
 What it is in this engine:
 
-- Off-balance-sheet is the book. Chewco, LJM, Raptors. The CDO/SIV joke, earlier, in Houston.
+- Off-balance-sheet is the book. Chewco, LJM, Raptors. The CDO/SIV joke, earlier, at Enron.
 - Mark-to-market on a thing with no market. Same lie as AAA on a stack of 620 FICOs.
-- Dual plate inside the firm: Lay/Skilling are letterhead. Fastow has the SPEs.
+- Dual plate inside the firm: Lay/Skilling are the names on the door. Fastow has the SPEs.
 - Andersen is supposed to have the guns of the books. Andersen is a consultant. Dual plate in the audit.
 - Levitt's auditor-independence fight, 2000. Lay writes the SEC to kill it. Hindsight offramp: back Levitt. Historical is the watered rule.
 - SOX, July 2002. CEOs sign the books. We fixed accounting. Flag `sox_worked`. Every later housing card that hides a SIV in an off-balance-sheet vehicle is this flag rotting.
@@ -109,4 +109,4 @@ If you finish the rail, the museum drafts a letter from the hindsight offramps y
 
 Chair select. Garn-St Germain 1982. LTCM weekend 1998. Enron/SOX 2001-2002. Contained Aug 2007. Sep 2008 campaign card. Quiet years: RTC sunset 1995, CSE 2004, housing peak 2006.
 
-Copy still obeys this freeze. Do not let Houston eat 2006-2008.
+Copy still obeys this freeze. Say Enron, not Houston as a synonym. Do not mention a later bill before its card.

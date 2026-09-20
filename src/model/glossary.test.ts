@@ -57,6 +57,18 @@ describe("glossary", () => {
     assert.equal(ids.includes("haircut"), true);
   });
 
+  it("marks 2026 grocery money and GDP holes", () => {
+    const parts = linkify(
+      "Insurance rose to {cpi|$410,000|$100,000}. The hole is {gdp|$720 billion|$125 billion}.",
+    );
+    const money = parts.filter((p) => p.money);
+    assert.equal(money.length, 2);
+    assert.equal(money[0]?.text, "$410,000");
+    assert.equal(money[0]?.money?.ruler, "cpi");
+    assert.equal(money[0]?.money?.then, "$100,000");
+    assert.equal(money[1]?.money?.ruler, "gdp");
+  });
+
   it("says Long-Term paid no haircut, and names the borrowed pile versus the side bets", () => {
     const hair = glossaryById("haircut");
     assert.match(hair?.definition ?? "", /Zero/);
@@ -80,6 +92,13 @@ describe("glossary", () => {
     const ids = parts.map((p) => p.id).filter(Boolean);
     assert.equal(ids.includes("shorting"), true);
     assert.equal(ids.includes("a-hedge"), true);
+  });
+
+  it("marks Value at Risk as not Black-Scholes", () => {
+    const varEntry = glossaryById("var");
+    assert.match(varEntry?.definition ?? "", /not Black-Scholes/);
+    const parts = linkify("Value at Risk claims a normal day.");
+    assert.equal(parts.some((p) => p.id === "var"), true);
   });
 
   it("maps HUD clocks to teaching entries", () => {

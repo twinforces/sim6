@@ -24,7 +24,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://fred.stlouisfed.org/series/GDP",
     kind: "reference",
     usedFor: ["didmca-1980", "rtc-1989", "ltcm-1998", "tarp-pass-2008", "aig-2008"],
-    note: "Then-dollars stay. They are the file. Grocery money uses CPI-U, August 2026 near 335 on the 1982-84=100 index. System holes use the same slice of nominal GDP, 2026 economy about $32.5 trillion. Inflation still makes 1989 look like lunch. GDP does not.",
+    note: "The number you see is 2026 money. Hover the cart for grocery money, CPI. Hover the bank for a hole scaled to GDP. Grocery uses CPI-U, August 2026 near 335 on the 1982-84=100 index. System holes use the same slice of nominal GDP, 2026 economy about $32.5 trillion.",
     truth: "LT",
   },
   {
@@ -34,7 +34,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/When_Genius_Failed",
     kind: "investigation",
     usedFor: ["ltcm-1997", "ltcm-1998"],
-    note: "The book is in the sandbox this pass. More than 40 percent a year. Gave $2.7 billion back, leverage 18 to 28. Policy was no haircut. Charging Scholes a haircut would have meant admitting nobody understood Black-Scholes. Merrill saw only one side. $100 billion borrowed, more than a trillion in side bets: about $360 billion and $3.6 trillion of the 2026 economy. Fold and each bank holds one side of a dead contract. When you owe half of Wall Street a trillion by Monday, Treasury has a problem. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. Consortium: stay three years, salary $250,000, about $500,000 in 2026 grocery money. Partners exploded. Banks needed signatures. Wikipedia is the public link. The file is the book.",
+    note: "The book is in the sandbox this pass. More than 40 percent a year. Gave {cpi|$5.5 billion|$2.7 billion} back, leverage 18 to 28. Policy was no haircut. Charging Scholes a haircut would have meant admitting nobody understood Black-Scholes. Merrill saw only one side. {gdp|$360 billion|$100 billion} borrowed, {gdp|$3.6 trillion|$1 trillion} in side bets. Fold and each bank holds one side of a dead contract. When you owe half of Wall Street a trillion by Monday, Treasury has a problem. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. Consortium: stay three years, salary {cpi|$500,000|$250,000}. Partners exploded. Banks needed signatures. Wikipedia is the public link. The file is the book.",
     truth: "LT",
   },
   {
@@ -44,7 +44,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://en.wikipedia.org/wiki/The_Big_Short",
     kind: "investigation",
     usedFor: ["dream-2003", "slices-2005", "peak-2006", "hibachi-2007", "aig-2008"],
-    note: "The book is in the sandbox this pass. Bundling, leftover, stamp AAA. January 2007: Okada at the Wynn, four hibachi islands, one shorter per grill and a ring of longs. Lippmann mixed the table because his shorts wanted to quit. They left at under $300 million short and came back at $550 million, about $500 million and $900 million in 2026 grocery money. Without the shorts the longs had nothing to buy. Wikipedia is the public link. The file is the book.",
+    note: "The book is in the sandbox this pass. Bundling, leftover, stamp AAA. January 2007: Okada at the Wynn, four hibachi islands, one shorter per grill and a ring of longs. Lippmann mixed the table because his shorts wanted to quit. They left at under {cpi|$500 million|$300 million} short and came back at {cpi|$900 million|$550 million}. Without the shorts the longs had nothing to buy. Wikipedia is the public link. The file is the book.",
     truth: "LT",
   },
   {
@@ -64,7 +64,7 @@ export const RECEIPTS: readonly Receipt[] = [
     url: "https://www.fdic.gov/bank/historical/history/",
     kind: "timeline",
     usedFor: ["garn-1982", "keating-1987", "rtc-1989"],
-    note: "The unwind that worked. Slow, public, some jail. Taxpayers about $125 billion then, about $720 billion of the 2026 economy.",
+    note: "The unwind that worked. Slow, public, some jail. Taxpayers about {gdp|$720 billion|$125 billion}.",
     truth: "LT",
   },
   {

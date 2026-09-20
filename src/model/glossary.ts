@@ -165,10 +165,10 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   },
   {
     id: "ltcm",
-    term: "Long-Term Capital",
-    aliases: ["Long-Term Capital", "LTCM", "Meriwether", "Black-Scholes", "Scholes", "Merton"],
+    term: "Long-Term Capital Management",
+    aliases: ["Long-Term Capital Management", "Long-Term Capital", "LTCM", "Meriwether", "Black-Scholes", "Scholes", "Merton"],
     definition:
-      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, sat on the letterhead. Black-Scholes is icky nerd math for pricing options. Nobody on the Street had ever really understood it. Charging Scholes a haircut would have meant admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the 2026 economy: about $360 billion, and about $3.6 trillion of side bets. Fourteen banks had to sit in a room.",
+      "John Meriwether left Salomon Brothers, the bond desk that made him famous, and built a hedge fund in Greenwich, Connecticut. Myron Scholes and Robert Merton, who won the Nobel for pricing options, were names on the door. Black-Scholes is icky nerd math for pricing options. Nobody on the Street had ever really understood it. Charging Scholes a haircut would have meant admitting that. The Street used rules of thumb that worked, instead of fancy math that could make you bankrupt. The Wall Street emperors had no clothes. The bet was pennies: sit in a tiny gap between two almost-identical bonds and wait for the gap to close. They borrowed about $30 for every $1 of their own to make those pennies a fortune. They split the legs and paid no haircut. When the gaps blew open they had about {gdp|$360 billion|$100 billion} of assets, almost all borrowed, and more than {gdp|$3.6 trillion|$1 trillion} of side bets. Fourteen banks had to sit in a room.",
   },
   {
     id: "hedge-fund",
@@ -182,14 +182,14 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "a hedge",
     aliases: ["a hedge", "the hedge", "Stay a hedge", "stay a hedge", "being a hedge", "both legs", "long side", "short side", "the longs"],
     definition:
-      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, you want the price down. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb. Long-Term did that, then talked them into no haircut at all.",
+      "Both sides at once. Long: you own it, you want the price up. Short: you borrowed it and sold it, giving you free cash for a long. You want it down so you can return it cheap. If a broker holds both legs, they only have net risk. Split the legs across two brokers and each of them has a bomb. Long-Term did that, then talked them into no haircut at all.",
   },
   {
     id: "haircut",
     term: "haircut",
     aliases: ["no haircut", "No haircut", "haircut", "haircuts"],
     definition:
-      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term's policy was to refuse it. Zero. Like a car that does not burn gas. Meriwether was popular, the letterhead said Nobel, and each new bank was told: if we give you one we have to give it to everyone, so nobody got one. Later the five investment banks asked the SEC for the same courtesy on the whole firm: let us write our own haircuts.",
+      "Extra collateral, a cushion in case you die. A broker takes one on a trade. If they hold your long and your short, the net is small and so is the haircut. Long-Term's policy was to refuse it. Zero. Like a car that does not burn gas. Meriwether was popular, the name on the door said Nobel, and each new bank was told: if we give you one we have to give it to everyone, so nobody got one. Later the five investment banks asked the SEC for the same courtesy on the whole firm: let us write our own haircuts.",
   },
   {
     id: "leverage",
@@ -201,23 +201,23 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
   {
     id: "var",
     term: "VaR",
-    aliases: ["VaR", "value at risk"],
+    aliases: ["VaR", "Value at Risk", "value at risk"],
     definition:
-      "Value at Risk. A math model that claims to say how much a desk can lose on a normal day. It is a cubicle. It does not price a Russian default, or a country that stops buying houses.",
+      "Value at Risk. A math model that claims to say how much a desk can lose on a normal day. It is not Black-Scholes. Black-Scholes prices options. Value at Risk prices a normal day. Both are clean math about thin tails. Neither prices a Russian default, or a country that stops buying houses. It is a cubicle.",
   },
   {
     id: "glass-steagall",
     term: "Glass-Steagall",
     aliases: ["Glass-Steagall"],
     definition:
-      "A Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. The wall was already a screen door by the 1990s. Gramm-Leach-Bliley made that legal in 1999, after the Long-Term Capital weekend had been sold as proof that complexity was safe.",
+      "A Depression-era law that split ordinary banks, which take deposits, from investment banks, which underwrite and trade. The wall was already a screen door by the 1990s. Gramm-Leach-Bliley made that legal in 1999, after the Long-Term Capital Management weekend had been sold as proof that complexity was safe.",
   },
   {
     id: "enron",
     term: "Enron",
     aliases: ["Enron", "Lay", "Fastow", "Raptor", "Raptors"],
     definition:
-      "A Houston energy firm. It booked today's profit on contracts that had no real market, and hid the losses in paper companies. Passed every audit. The CFO, Andrew Fastow, ran the vehicles. Kenneth Lay was the letterhead. The dress rehearsal for the mortgage stacks.",
+      "An energy firm. It booked today's profit on contracts that had no real market, and hid the losses in paper companies. Passed every audit. The CFO, Andrew Fastow, ran the vehicles. Kenneth Lay was the name on the door. The dress rehearsal for the mortgage stacks.",
   },
   {
     id: "spe",
@@ -371,7 +371,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "DIDMCA",
     aliases: ["DIDMCA"],
     definition:
-      "A 1980 law that raised federal deposit insurance from $40,000 to $100,000 and started killing the old caps on what a bank could pay a depositor. In 2026 grocery money that is about $160,000 to $410,000. The safety net got bigger. So did the chip stack a dying bank could buy.",
+      "A 1980 law that raised federal deposit insurance from {cpi|$160,000|$40,000} to {cpi|$410,000|$100,000} and started killing the old caps on what a bank could pay a depositor. The safety net got bigger. So did the chip stack a dying bank could buy.",
   },
   {
     id: "garn",
@@ -420,7 +420,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "counterparties",
     aliases: ["counterparties", "counterparty"],
     definition:
-      "The other desks on the other side of your bets. If you die overnight, they all take a hole at once. That is why fourteen banks sat in a room for Long-Term Capital, and why AIG was not allowed to follow Lehman.",
+      "The other desks on the other side of your bets. If you die overnight, they all take a hole at once. That is why fourteen banks sat in a room for Long-Term Capital Management, and why AIG was not allowed to follow Lehman.",
   },
   {
     id: "stress-test",
@@ -435,6 +435,34 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     aliases: ["China"],
     definition:
       "Buys the paper. Recycles a trade surplus into American mortgages, then into the next book. Not a villain in a movie. A bid.",
+  },
+  {
+    id: "normal",
+    term: "Normal Distribution",
+    aliases: ["Normal Distribution", "Bell Curve", "bell curve"],
+    definition:
+      "The clean math. Marbles on a pinboard. Tails go to zero. Impossible in real life. The pinboard has edges. Bad things happen more than they are supposed to.",
+  },
+  {
+    id: "clt",
+    term: "Central Limit Theorem",
+    aliases: ["Central Limit Theorem"],
+    definition:
+      "The excuse. Add up a bunch of random numbers and you still get a bell curve, so you can keep the clean math. This does not work when the tails are fat.",
+  },
+  {
+    id: "paretian",
+    term: "Stable Paretian",
+    aliases: ["Stable Paretian"],
+    definition:
+      "The distribution that matches the real world. Tails do not converge to zero. Pesky infinities. Mathematicians and Wall Street do not want to talk about it, because it is not clean math.",
+  },
+  {
+    id: "quant",
+    term: "quants",
+    aliases: ["quants"],
+    definition:
+      "People paid beaucoup dollars to pretend the market is a bell curve. Practice beats theory.",
   },
   {
     id: "al",
@@ -479,6 +507,16 @@ export function glossaryForClock(clockId: string): GlossaryEntry | undefined {
 export interface GlossPart {
   readonly text: string;
   readonly id?: string;
+  readonly money?: { ruler: "cpi" | "gdp"; then: string };
+}
+
+const MONEY_RE = /^\{(cpi|gdp)\|([^}|]+)\|([^}]+)\}/;
+
+export function expandMoneyMarks(text: string): string {
+  return text.replace(/\{(cpi|gdp)\|([^}|]+)\|([^}]+)\}/g, (_all, ruler: string, now: string, then: string) => {
+    const label = ruler === "cpi" ? "adjusted to 2026 CPI" : "scaled to 2026 GDP";
+    return `${now} (was ${then} then, ${label})`;
+  });
 }
 
 function isLetter(ch: string | undefined): boolean {
@@ -498,8 +536,17 @@ export function linkify(text: string): GlossPart[] {
   const parts: GlossPart[] = [];
   let i = 0;
   while (i < text.length) {
-    let hit: { alias: string; id: string; caseSensitive: boolean } | null = null;
     const slice = text.slice(i);
+    const money = slice.match(MONEY_RE);
+    if (money) {
+      parts.push({
+        text: money[2] ?? "",
+        money: { ruler: money[1] === "gdp" ? "gdp" : "cpi", then: money[3] ?? "" },
+      });
+      i += money[0].length;
+      continue;
+    }
+    let hit: { alias: string; id: string; caseSensitive: boolean } | null = null;
     for (const needle of NEEDLES) {
       if (slice.length < needle.alias.length) continue;
       const got = slice.slice(0, needle.alias.length);
@@ -515,7 +562,7 @@ export function linkify(text: string): GlossPart[] {
     if (!hit) {
       const last = parts[parts.length - 1];
       const ch = text[i] ?? "";
-      if (last && !last.id) parts[parts.length - 1] = { text: last.text + ch };
+      if (last && !last.id && !last.money) parts[parts.length - 1] = { text: last.text + ch };
       else parts.push({ text: ch });
       i += 1;
       continue;

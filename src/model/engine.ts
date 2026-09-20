@@ -109,7 +109,7 @@ const ENDINGS: Record<Exclude<EndingId, "none">, Omit<Ending, "id">> = {
   seizure: {
     title: "The book seized you",
     referee:
-      "The book ran away. Duration, leverage, SPEs, the houses. You were letterhead. The resolution is not a win. It is a packing of this desk. The Street continues without you.\n\nTime travel is the honest button.",
+      "The book ran away. Duration, leverage, SPEs, the houses. You were a name on the door. The resolution is not a win. It is a packing of this desk. The Street continues without you.\n\nTime travel is the honest button.",
     canContinue: false,
   },
   desk_sideline: {
