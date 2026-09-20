@@ -2,6 +2,18 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-20 Hygiene
+
+What: Dump matches the rail. Playable hash was still `0253393`. Congress letter catalog dumped to `docs/LETTER.md` for the morning redline. Model tests 36/36.
+
+Why: User: hygiene, going to bed, pickup tomorrow AM.
+
+How: `npm run cards:dump` writes `docs/CARDS.md` and `docs/LETTER.md`. CARDS dump unchanged. Hash `81867da` is the redline. Do not commit sandbox `AGENTS.md`, `.project_id`, or `migrations/`.
+
+### What did not work
+`npm test` still runs grok-pwa plugin tests that expect og:title Hello World. `site.json` is Past Performance. Platform chrome, not the rail.
+
+
 ## 2026-09-20 Redline: book table, cubicle once, money hover
 
 What: `docs/BOOK.md` is the table. Overlay is now a victory point, the greed continues. Inner "You have the point" stripped so the helper is the only closer. Cubicle sermon once, then you left. 2026 money on the page, hover the cart or the bank for then-dollars. Long-Term Capital Management. Short is free cash for a long. VaR taught on the 1998 weekend, not as a synonym for Black-Scholes. No CFMA before its card. Enron, not Houston. Charter is the next guy's problem. Advisors dump as Fed/Ratings/Congress, not cia/venezuela. Quants page is the bell curve rant.

@@ -4,7 +4,7 @@ A GrumpyTechBro joint. Working name was Hard to Unwind.
 
 Origin is https://github.com/twinforces/sim6.
 Poll closed 2026-09-18: 2007 financial collapse, 4 of 8.
-Playable: `0253393`. Title frozen: Past Performance.
+Playable: `81867da`. Title frozen: Past Performance.
 
 ## Non-negotiables
 

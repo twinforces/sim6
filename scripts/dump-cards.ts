@@ -1,12 +1,15 @@
 /**
  * What: dump every card into docs/CARDS.md for a morning copy review.
  * Why: GTB asked for the rail on paper, not a recap.
+ * Also dumps docs/LETTER.md from the CongressCritter catalog.
  */
 import { writeFileSync } from "node:fs";
 import { ui } from "../src/i18n/ui.ts";
 import { FACTION_LABEL } from "../src/model/constants.ts";
 import { CARDS, FIRST_CARD_ID } from "../src/model/cards.ts";
+import { EXITS } from "../src/model/exits.ts";
 import { expandMoneyMarks } from "../src/model/glossary.ts";
+import { CODIFY_ASKS, draftLetter, LETTER_HOST } from "../src/model/letter.ts";
 import type { Briefing, Card, Choice } from "../src/model/types.ts";
 
 const ERA: Record<Card["era"], string> = {
@@ -124,6 +127,65 @@ function dumpCard(card: Card, index: number): string {
   ].join("\n");
 }
 
+function dumpLetter(): string {
+  const used = new Set(CODIFY_ASKS.flatMap((ask) => ask.exitIds));
+  const leftover = EXITS.filter((e) => e.kind === "peace" && !used.has(e.id));
+  const graves = EXITS.filter((e) => e.kind === "cso");
+  const chair = (id: "us" | "iran") => (id === "us" ? "Washington" : "Street");
+
+  const bills = CODIFY_ASKS.map((ask) => {
+    const exits = ask.exitIds
+      .map((id) => {
+        const e = EXITS.find((row) => row.id === id);
+        return e
+          ? `- \`${id}\` · ${chair(e.chair)} · ${e.found}`
+          : `- \`${id}\` · MISSING`;
+      })
+      .join("\n");
+    return [`### ${ask.headline}`, "", `\`${ask.id}\``, "", ask.ask, "", "Found by:", "", exits].join("\n");
+  }).join("\n\n");
+
+  const unused =
+    leftover.length === 0
+      ? "_none. Every hindsight offramp is a bill or collapsed into one._"
+      : leftover.map((e) => `- \`${e.id}\` · ${chair(e.chair)} · ${e.found}`).join("\n");
+
+  const graveList = graves.map((e) => `- \`${e.id}\` · ${chair(e.chair)} · ${e.found}`).join("\n");
+
+  const full = draftLetter({
+    asks: CODIFY_ASKS,
+    signer: "Your Name",
+    addressee: "CongressCritter",
+  });
+
+  return [
+    "# Past Performance · letter to CongressCritter",
+    "",
+    `Generated from \`src/model/letter.ts\`. Host \`${LETTER_HOST}\`. ${CODIFY_ASKS.length} bills. Warehouse drives collapse to one audit standard. Moral walks stay graves, not bills. Empty museum: you rode history. Nothing to mail.`,
+    "",
+    "Do not hand-edit this dump. Redline here, patch `src/model/letter.ts`, dump again.",
+    "",
+    "## Full draft (every bill)",
+    "",
+    "```",
+    full,
+    "```",
+    "",
+    "## Bills",
+    "",
+    bills,
+    "",
+    "## Hindsight that is not a bill",
+    "",
+    unused,
+    "",
+    "## Graves (not bills)",
+    "",
+    graveList,
+    "",
+  ].join("\n");
+}
+
 function main() {
   const home = [
     "# Past Performance · card review",
@@ -167,6 +229,9 @@ function main() {
 
   const body = home.endsWith("\n") ? home : `${home}\n`;
   writeFileSync("docs/CARDS.md", expandMoneyMarks(body));
+
+  const letter = dumpLetter();
+  writeFileSync("docs/LETTER.md", letter.endsWith("\n") ? letter : `${letter}\n`);
 }
 
 main();

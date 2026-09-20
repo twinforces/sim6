@@ -2,6 +2,15 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Hygiene, 2026-09-20
+
+What: Morning paper is `docs/CARDS.md`, `docs/GTs.md`, and `docs/LETTER.md`. Playable hash was stale.
+
+Why: User going to bed.
+
+How: `npm run cards:dump`. Hash `81867da` is the redline.
+
+
 ## Redline, 2026-09-20
 
 What: Book table. Victory point. Cubicle once. Money hover. LTCM full name. No foreshadowing. Enron not Houston. Quants page.
