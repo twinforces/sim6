@@ -2,6 +2,15 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Hygiene, republish, 2026-09-20
+
+What: Playable hash `cb4d954`. Dump matches.
+
+Why: User re-publishing.
+
+How: Pointer only. No card edits.
+
+
 ## Street redline, 2026-09-20
 
 What: BOOK.md Proposed applied. No vibe meters on play.

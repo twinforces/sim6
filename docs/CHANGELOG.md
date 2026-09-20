@@ -2,6 +2,18 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-20 Hygiene, republish
+
+What: Dump matches. Playable hash was still `81867da`. Model tests 36/36.
+
+Why: User: hygiene before I re-publish.
+
+How: `npm run cards:dump`. CARDS and LETTER unchanged. Hash `cb4d954` is the book retags and meters off. Do not commit sandbox `AGENTS.md`, `.project_id`, or `migrations/`.
+
+### What did not work
+Leaving the playable hash on the redline after the meters came off.
+
+
 ## 2026-09-20 Book retags, no vibe meters
 
 What: BOOK.md Proposed column applied. Next scheme is greed or pile. Eddie carnival is grift. Accounting books stay. HUD is still the book. Faction bars and clocks off the play desk. Offramp hunt stays at the top.
