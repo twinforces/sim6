@@ -8,7 +8,7 @@ What: Hash-swap doors per card. Street URL is `chair=street`. History is open. O
 
 Why: User played the Street rail in order.
 
-How: Viewmodel hash. Search alias. Copy. Finished-chairs localStorage. Model tests 39/39.
+How: Viewmodel hash. Search alias. Copy. Finished-chairs localStorage. Model tests 39/39. Playable `875a4c1`.
 
 ### What did not work
 Authored history-first with no swap. Sitting Meriwether on Leave the dirt. Printing then-dollars next to the 2026 mark. The letter on the first cup.

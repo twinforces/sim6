@@ -8,7 +8,7 @@ What: Hash-swap. History open. Street URL. Overlay greed continues. Faces, money
 
 Why: User redlined the Street rail in order.
 
-How: Copy and chrome. Dump. Tests 39/39.
+How: Copy and chrome. Dump. Tests 39/39. Playable `875a4c1`.
 
 
 ## Hygiene, republish, 2026-09-20
