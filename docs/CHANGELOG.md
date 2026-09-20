@@ -2,6 +2,17 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-19 Share card: two chairs
+
+What: New `og.jpg` and `x-banner.jpg`. Washington chair and Street chair in one room. Titleless.
+
+Why: User, `/og`. The old card was one Street chair with lettering.
+
+How: Dual-chair cover from the chair art. Two title attempts garbled PAST PERFORMANCE. Artwork-only after that.
+
+### What did not work
+Baking "PAST PERFORMANCE" on the cover. PASI PEREORMANCE, then PERFORMANGE.
+
 ## 2026-09-19 GTs: expand the acronym first
 
 What: GTs.md expands every acronym on first use. Then the short form is earned. Fixed the collision where "IT ban" meant consulting, not Irish-true.

@@ -2,6 +2,14 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Share cards, 2026-09-19
+
+What: New OG preview and X banner. Two empty chairs. No lettering.
+
+Why: User `/og`.
+
+How: Dual-chair art. Glyphs failed twice. Titleless is the fallback.
+
 ## GTs acronyms, 2026-09-19
 
 What: Expand on first use in `docs/GTs.md`. Then the short form is earned.
