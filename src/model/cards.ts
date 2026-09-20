@@ -227,7 +227,7 @@ const CARDS: Card[] = [
       {
         faction: "irgc",
         audience: "iran",
-        rant: "The old 3-6-3 book is dead. The new book is anything an accountant will mark: junk bonds, desert condos. The audit will pass. Audits pass.",
+        rant: "The old 3-6-3 is dead. The new pile is anything an accountant will mark: junk bonds, desert condos. The audit will pass. Audits pass.",
       },
     ],
     situationUs:
@@ -373,7 +373,7 @@ const CARDS: Card[] = [
       {
         faction: "irgc",
         audience: "iran",
-        rant: "The warehouse is empty when the auditors leave. Full when they arrive. Accountants lying to accountants. That is the book.",
+        rant: "The warehouse is empty when the auditors leave. Full when they arrive. Accountants lying to accountants. That is the grift.",
       },
     ],
     situationUs:
@@ -504,7 +504,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about {gdp|$720 billion|$125 billion}. Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next book will hear that we can clean this up.",
+        "FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about {gdp|$720 billion|$125 billion}. Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next greed will hear that we can clean this up.",
       ],
       tags: ["LT", "IT"],
     },
@@ -589,12 +589,12 @@ const CARDS: Card[] = [
       {
         faction: "europeans",
         audience: "us",
-        rant: "The bill is public. The dirt is sold. Close the shop and take the win. The next book is not our problem.",
+        rant: "The bill is public. The dirt is sold. Close the shop and take the win. The next greed is not our problem.",
       },
       {
         faction: "irgc",
         audience: "iran",
-        rant: "The duration gap is a resolved case file. The next book is a math model. Models do not need a warehouse.",
+        rant: "The duration gap is a resolved case file. The next greed is a math model. Models do not need a warehouse.",
       },
       {
         faction: "cia",
@@ -616,7 +616,7 @@ const CARDS: Card[] = [
       {
         id: "ir-leave-dirt",
         label: "Leave for Greenwich",
-        summary: "The next book is a math model. A hedge fund does not keep a warehouse.",
+        summary: "The next greed is a math model. A hedge fund does not keep a warehouse.",
         kind: "hard",
         historical: true,
         deltas: { irgc: -4, leader: 6, cia: 4 },
@@ -760,7 +760,7 @@ const CARDS: Card[] = [
       },
     ],
     situationUs:
-      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nWhen you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. They split the long and the short across the Street. No haircut. Charging Scholes a haircut would have meant admitting nobody understood the math. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the economy today: about {gdp|$360 billion|$100 billion}, and about {gdp|$3.6 trillion|$1 trillion} of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.\n\nBill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at {cpi|$500,000|$250,000} a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next book will call it a put.",
+      "Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus borrowed money can threaten every bank in New York.\n\nWhen you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. They split the long and the short across the Street. No haircut. Charging Scholes a haircut would have meant admitting nobody understood the math. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the economy today: about {gdp|$360 billion|$100 billion}, and about {gdp|$3.6 trillion|$1 trillion} of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.\n\nBill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at {cpi|$500,000|$250,000} a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next greed will call it a put.",
     situationIran:
       "You are John Meriwether. Last year you stopped being a hedge. The long sat at one broker, the short at another. No haircut. Charging Scholes a haircut would have meant admitting they did not understand the math. You are the public face. Scholes and Merton are names on the door. You gave money back, which left the same bets on less of your own cash.\n\nRussia defaulted in August. The gaps blew open. Forty-four percent gone in a month. You have about $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. When you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. That is why fourteen banks are in a room.\n\nThey cannot unwind it without you. The consortium contract will say stay three years, salary {cpi|$500,000|$250,000} a year. Your partners will explode. They will pay anyway, because they need signatures and they do not know the book. Bear Stearns, which clears your trades, will not put in a dollar. Buffett faxed $250 million for the fund and would fire you. There is no Treasury check. They will call this private.",
     iranChoices: [
@@ -802,7 +802,7 @@ const CARDS: Card[] = [
         kind: "hard",
         deltas: { media: 8, cia: -4, street: -4 },
         flags: { ltcm_worked: true },
-        ...hindsight("You ran the room and you named the put. Greenwich still got saved. The next book heard you anyway."),
+        ...hindsight("You ran the room and you named the put. Greenwich still got saved. The next greed heard you anyway."),
       },
     ],
     sources: ["Lowenstein, When Genius Failed", "NY Fed LTCM meeting 23 Sep 1998", "Russia default 17 Aug 1998"],
@@ -828,7 +828,7 @@ const CARDS: Card[] = [
       {
         faction: "irgc",
         audience: "us",
-        rant: "The room proved the system can close a book. Let the books get bigger.",
+        rant: "The room proved the system can close a book. Let the piles get bigger.",
       },
       {
         faction: "cia",
@@ -873,7 +873,7 @@ const CARDS: Card[] = [
         summary: "1998 is not a license. Deposit banks stay deposit banks.",
         kind: "hard",
         deltas: { saudis: -8, irgc: 4 },
-        ...hindsight("The wall stayed. The houses still wanted to be AAA. The book found another costume."),
+        ...hindsight("The wall stayed. The houses still wanted to be AAA. The greed found another costume."),
       },
     ],
     sources: ["Gramm-Leach-Bliley Act 1999"],
@@ -1039,7 +1039,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We fixed accounting. The next book will hide in a structured investment vehicle, an SIV, a paper company with a new name. Same costume as an SPE.",
+        "Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We called accounting fixed. The next greed will hide in a structured investment vehicle, an SIV, a paper company with a new name. Same costume as an SPE.",
       ],
       tags: ["LT", "IT"],
     },
@@ -1635,7 +1635,7 @@ const CARDS: Card[] = [
       {
         id: "us-not-contained",
         label: "Say it is not contained",
-        summary: "Name the book. The houses are the country. The 1998 sentence is a lie this time.",
+        summary: "Name the pile. The houses are the country. The 1998 sentence is a lie this time.",
         kind: "hard",
         deltas: { media: -6, oil_pain: -4, street: -8, cia: -4 },
         ...hindsight("You refused the 1998 sentence. The book was the country."),
@@ -1889,7 +1889,7 @@ const CARDS: Card[] = [
     status: "playable",
     referee: {
       paragraphs: [
-        "TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about {gdp|$1.5 trillion|$700 billion}. The House of Representatives says no. The book is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.",
+        "TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about {gdp|$1.5 trillion|$700 billion}. The House of Representatives says no. The pile is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.",
       ],
       tags: ["LT"],
     },
@@ -1908,7 +1908,7 @@ const CARDS: Card[] = [
     situationUs:
       "The first vote on TARP, the Troubled Asset Relief Program: inject cash into banks so they do not die this week. Your caucus hates it. The ticker will punish a no. History is a no, then a yes.",
     situationIran:
-      "Washington just voted the government backstop down. The book does not care about the civics. It cares about Monday. A put that has to pass a vote can arrive late.",
+      "Washington just voted the government backstop down. The pile does not care about the civics. It cares about Monday. A put that has to pass a vote can arrive late.",
     iranChoices: [
       {
         id: "ir-wait-tarp",

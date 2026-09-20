@@ -61,7 +61,7 @@ const EN = {
     {
       bar: "China",
       falls: "They stop buying the mortgage paper.",
-      spikes: "They recycle a trade surplus into the next book of American bets.",
+      spikes: "They recycle a trade surplus into the next pile of American bets.",
     },
     {
       bar: "Ratings",

@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { TagChip, RefereeText } from "./TagChip.tsx";
-import { FactionBars, PlayScoreboard } from "./FactionBars.tsx";
+import { PlayScoreboard } from "./FactionBars.tsx";
 import { ChairSelect } from "./ChairSelect.tsx";
 import { AdvisorList } from "./AdvisorList.tsx";
 import { ActionChoices } from "./ActionChoices.tsx";
@@ -231,17 +231,7 @@ export function PlayView({
             </Button>
           </div>
 
-          <div className="grid min-w-0 gap-6 lg:grid-cols-[minmax(0,1fr)_16.5rem]">
-            <AdvisorList briefings={ui.card.briefings} />
-            <aside className="meters-panel lg:sticky lg:top-4 h-fit">
-              <p className="kicker mb-3">
-                {ui.chair === "us"
-                  ? `${ui.faceLabel} · ${ui.party === "D" ? "Democrat" : "Republican"}`
-                  : ui.faceLabel}
-              </p>
-              <FactionBars bars={ui.bars} clocks={ui.clocks} museum={ui.museum} />
-            </aside>
-          </div>
+          <AdvisorList briefings={ui.card.briefings} />
         </div>
 
       {ui.lastResult ? (

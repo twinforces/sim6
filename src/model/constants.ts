@@ -48,7 +48,7 @@ export const FACTION_BLURB: Record<FactionId, string> = {
   cia: "The Federal Reserve. It sets interest rates. In a panic it also runs the discount window, the emergency counter where a bank borrows cash overnight.",
   saudis: "Hearings, campaign cash, and the habit of waiting. Will not go first if closing a bank looks like a recession.",
   europeans: "The government promise on a bank deposit. FSLIC did this for savings and loans. FDIC does it for ordinary banks. Wait long enough and the fund itself goes broke.",
-  china: "Buys the paper. Recycles a trade surplus into American mortgages, then into the next book.",
+  china: "Buys the paper. Recycles a trade surplus into American mortgages, then into the next pile.",
   venezuela: "The credit-rating firms get paid by the people selling the product they are rating. The seller picks the firm. The firm stamps the stack AAA.",
 };
 

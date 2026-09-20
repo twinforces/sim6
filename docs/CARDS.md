@@ -196,7 +196,7 @@ Street briefings
 
 **The book**
 
-The old 3-6-3 book is dead. The new book is anything an accountant will mark: junk bonds, desert condos. The audit will pass. Audits pass.
+The old 3-6-3 is dead. The new pile is anything an accountant will mark: junk bonds, desert condos. The audit will pass. Audits pass.
 
 ### Washington
 
@@ -300,7 +300,7 @@ Street briefings
 
 **The book**
 
-The warehouse is empty when the auditors leave. Full when they arrive. Accountants lying to accountants. That is the book.
+The warehouse is empty when the auditors leave. Full when they arrive. Accountants lying to accountants. That is the grift.
 
 ### Washington
 
@@ -385,7 +385,7 @@ These are constituents. The examiners are cowboys. Give Lincoln time.
 
 ### Referee
 
-FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about $720 billion (was $125 billion then, scaled to 2026 GDP). Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next book will hear that we can clean this up.
+FIRREA, 1989. A law that kills FSLIC, the old savings-and-loan insurance fund, and stands up the Resolution Trust Corporation. The RTC seizes dead savings and loans and sells the wreckage in public. Slow. Expensive. Taxpayers later eat about $720 billion (was $125 billion then, scaled to 2026 GDP). Some jail. Keating will do time, then see the big convictions reversed and plead to time served. We will call this competence. The next greed will hear that we can clean this up.
 
 ### Street
 
@@ -440,7 +440,7 @@ The Resolution Trust Corporation winds down. Taxpayers ate the hole. Keating did
 The dirt is sold. Keating is in a cell. You can stay with the residue, or you can go to Greenwich, Connecticut, where John Meriwether is building a hedge fund with mathematicians on the door. A hedge fund is a private pool of bets. The lesson they want from the savings and loans is: we can close a book.
 
 - **Leave for Greenwich** `ir-leave-dirt` (HISTORY · hard)
-  The next book is a math model. A hedge fund does not keep a warehouse.
+  The next greed is a math model. A hedge fund does not keep a warehouse.
 - **Stay a resolution man** `ir-stay-resolution` (HINDSIGHT · walk)
   The dirt still has addresses. Someone should keep driving to them.
   Overlay title: Yes. That was the right thing to do.
@@ -452,7 +452,7 @@ Street briefings
 
 **The book**
 
-The duration gap is a resolved case file. The next book is a math model. Models do not need a warehouse.
+The duration gap is a resolved case file. The next greed is a math model. Models do not need a warehouse.
 
 **The desk · meriwether**
 
@@ -475,7 +475,7 @@ Washington briefings
 
 **FSLIC / FDIC**
 
-The bill is public. The dirt is sold. Close the shop and take the win. The next book is not our problem.
+The bill is public. The dirt is sold. Close the shop and take the win. The next greed is not our problem.
 
 **The Fed**
 
@@ -582,14 +582,14 @@ Clinton sits. A hedge fund in Greenwich just proved that Nobel Prize math plus b
 
 When you owe the bank $10 million, you have a problem. If you owe a bank $10 billion, the bank has a problem. If you owe half of Wall Street a trillion by Monday morning, the Secretary of the Treasury has a problem. They split the long and the short across the Street. No haircut. Charging Scholes a haircut would have meant admitting nobody understood the math. About $100 billion of assets, almost all borrowed, and more than a trillion dollars of side bets. Same slice of the economy today: about $360 billion (was $100 billion then, scaled to 2026 GDP), and about $3.6 trillion (was $1 trillion then, scaled to 2026 GDP) of side bets. If they fold tonight, every desk is left holding one side of a dead contract. Russia defaulted in August. Forty-four percent gone in a month.
 
-Bill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next book will call it a put.
+Bill McDonough wants fourteen banks in a room. Bear Stearns will say no. Buffett faxed $250 million for the fund and would fire the partners. There is no Treasury check. After you save them, you will need them to unwind it. The contract will say stay three years at $500,000 (was $250,000 then, adjusted to 2026 CPI) a year. They will explode. You will pay. Call it a recap, not a bailout. We will call this private. The next greed will call it a put.
 
 - **Get them in a room** `us-room` (HISTORY · deal)
   Not a bailout. Fourteen banks, their cash, no Treasury check. We will call it private.
 - **Call it a put, out loud** `us-call-put` (HINDSIGHT · hard)
   Name the backstop. Run the room anyway. A put is a cheap option to dump the loss on someone else.
   Overlay title: Yes. That was the right thing to do.
-  You ran the room and you named the put. Greenwich still got saved. The next book heard you anyway.
+  You ran the room and you named the put. Greenwich still got saved. The next greed heard you anyway.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -643,7 +643,7 @@ The 1998 weekend is already a success story: fourteen banks, no Treasury check, 
 - **Keep Glass-Steagall** `us-keep-wall` (HINDSIGHT · hard)
   1998 is not a license. Deposit banks stay deposit banks.
   Overlay title: Yes. That was the right thing to do.
-  The wall stayed. The houses still wanted to be AAA. The book found another costume.
+  The wall stayed. The houses still wanted to be AAA. The greed found another costume.
   
   That is not what happened. Hindsight is 20/20. You have found a victory point. The greed continues.
 
@@ -651,7 +651,7 @@ Washington briefings
 
 **The book**
 
-The room proved the system can close a book. Let the books get bigger.
+The room proved the system can close a book. Let the piles get bigger.
 
 ## 12. 2000 · `levitt-2000`
 
@@ -769,7 +769,7 @@ Enron. A campaign. An energy book. The filing is clean until it is not. Nobody h
 
 ### Referee
 
-Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We fixed accounting. The next book will hide in a structured investment vehicle, an SIV, a paper company with a new name. Same costume as an SPE.
+Sarbanes-Oxley, July 2002. The CEO must personally sign: these books are true. Andersen, Enron's auditor, dies as a going concern. WorldCom, another accounting hole the same year, is a sentence on this card, not its own movie. We called accounting fixed. The next greed will hide in a structured investment vehicle, an SIV, a paper company with a new name. Same costume as an SPE.
 
 ### Street
 
@@ -1199,7 +1199,7 @@ Ben Bernanke at the Federal Reserve, Hank Paulson at Treasury. Contained is the 
 - **Say contained** `us-contained` (HISTORY · ignore)
   1998 language. A sector, not the country. The models say the rest is fine.
 - **Say it is not contained** `us-not-contained` (HINDSIGHT · hard)
-  Name the book. The houses are the country. The 1998 sentence is a lie this time.
+  Name the pile. The houses are the country. The 1998 sentence is a lie this time.
   Overlay title: Yes. That was the right thing to do.
   You refused the 1998 sentence. The book was the country.
   
@@ -1372,11 +1372,11 @@ If AIG Financial Products fails, every desk that bought the insurance is naked. 
 
 ### Referee
 
-TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about $1.5 trillion (was $700 billion then, scaled to 2026 GDP). The House of Representatives says no. The book is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.
+TARP, the Troubled Asset Relief Program, first vote. Washington wants to inject up to $700 billion into banks, or buy the ugly assets, so the banks do not die this week. That is about $1.5 trillion (was $700 billion then, scaled to 2026 GDP). The House of Representatives says no. The pile is now a roll call. Main street watches the ticker. A put, a government backstop, that has to pass a vote is a put that can arrive late.
 
 ### Street
 
-Washington just voted the government backstop down. The book does not care about the civics. It cares about Monday. A put that has to pass a vote can arrive late.
+Washington just voted the government backstop down. The pile does not care about the civics. It cares about Monday. A put that has to pass a vote can arrive late.
 
 - **Wait for the second vote** `ir-wait-tarp` (HISTORY · soft)
   The backstop is late, not dead. They will vote again. They always vote again.

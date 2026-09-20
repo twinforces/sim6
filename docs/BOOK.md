@@ -21,7 +21,7 @@ The Street noun **book** is real: the pile of positions. Accounting **books** (p
 
 **Book** stays when we mean the positions. HUD: "The book." Seizure: "The book seized you." Housing book, energy book, cut the book: those are the pile.
 
-This pass changes the overlay and leaves the Street noun for us to retag row by row.
+Applied 2026-09-20. Overlay was already greed. Street noun retags that were Proposed (not Keep) are in. "Keep, or" rows stayed Keep. HUD bar is still **the book**.
 
 ## Overlay (was mixed)
 

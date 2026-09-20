@@ -192,7 +192,7 @@ const EN = {
   csoChair: "You stayed in mortgages",
   csoRobe: "You stopped the 30-years",
   csoGreen: "You stayed small",
-  csoMahsa: "You paused the book",
+  csoMahsa: "You paused origination",
   csoMoscow: "You asked for Chapter 11",
   csoFace: "The desk did not have the guns",
   csoSideline: "Sidelined twice",

@@ -10,6 +10,7 @@ Playable: `81867da`. Title frozen: Past Performance.
 
 - Ringmaster roles. Copy freeze lives in `docs/NEXT-SIM.md`. New cards obey it.
 - Same model as Train Ride to War: one chair, face changes, two buttons, golden path is the file, dual plate, receipts.
+- No faction scoreboard. Iran vibe meters do not apply. Museum offramps stay.
 - Overlay: `hindsight`. Right thing, not what happened, you keep the chair, you find a victory point, the greed continues. Distinct from `moral` (7-Eleven, you leave).
 - Four nested "it worked": RTC, LTCM room, Enron/SOX, then 2008 will not close.
 - Enron is a middle movie, not a third chair. Lay/Skilling sit the Street for 2001-2002. WorldCom is a sentence on the SOX card.

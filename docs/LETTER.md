@@ -23,7 +23,7 @@ A standing resolution desk. The RTC closed. TARP was a pause. Keep a desk that h
 
 Haircuts, in writing. Split legs and no haircut is a bomb. The cubicle does not write its own haircut. Long-Term talked every desk into zero. The five investment banks asked the SEC for the same courtesy on the whole firm.
 
-Name the put. A weekend in a room with no Treasury check is still a put. Say so out loud, or the next book will assume the backstop is free.
+Name the put. A weekend in a room with no Treasury check is still a put. Say so out loud, or the next greed will assume the backstop is free.
 
 Keep the wall. Commercial deposits stay off the proprietary book. GLBA ratified a screen door because 1998 worked. The houses still found another costume.
 
@@ -125,7 +125,7 @@ Found by:
 
 `name-the-put`
 
-A weekend in a room with no Treasury check is still a put. Say so out loud, or the next book will assume the backstop is free.
+A weekend in a room with no Treasury check is still a put. Say so out loud, or the next greed will assume the backstop is free.
 
 Found by:
 

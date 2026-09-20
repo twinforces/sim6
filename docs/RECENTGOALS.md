@@ -2,6 +2,15 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## Street redline, 2026-09-20
+
+What: BOOK.md Proposed applied. No vibe meters on play.
+
+Why: User starting the card redline from the Street chair.
+
+How: Copy first. Meters panel off. Offramp hunt stays.
+
+
 ## Hygiene, 2026-09-20
 
 What: Morning paper is `docs/CARDS.md`, `docs/GTs.md`, and `docs/LETTER.md`. Playable hash was stale.

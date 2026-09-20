@@ -71,7 +71,7 @@ export const CODIFY_ASKS: readonly CodifyAsk[] = [
     id: "name-the-put",
     exitIds: ["us-call-put"],
     headline: "Name the put",
-    ask: "A weekend in a room with no Treasury check is still a put. Say so out loud, or the next book will assume the backstop is free.",
+    ask: "A weekend in a room with no Treasury check is still a put. Say so out loud, or the next greed will assume the backstop is free.",
   },
   {
     id: "wall",

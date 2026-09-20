@@ -20,6 +20,8 @@ This file is the copy freeze. New cards obey it. Do not invent a third chair.
 
 Keep: one chair, face changes, two buttons, `historical: true` never labelled and never a grave, dual plate, moral / serve / adapts, stick figure after a moral diverge, receipts, glossary, quiet years get a sentence.
 
+No faction scoreboard. Iran vibe meters (keep the street from overthrowing the Shah) do not apply. Museum offramps stay. The engine may still seize if the book dies. The player does not play the bars.
+
 Chair ids are the fork: `us` is Washington, `iran` is the Street. Relabel in the view. Do not rename the ids.
 
 ### Overlay: `hindsight`
@@ -47,7 +49,7 @@ Museum counter: offramps. Found-once. Unfound names stay off the chrome. Do not 
 | Enron 2001-2002 | Mark-to-market on contracts you cannot mark. | SPEs, Raptors, auditor who is also the consultant. | Firm dies. Andersen dies. Skilling jail. SOX. Flag `sox_worked`. |
 | Housing 2003-2011 | A 30-year note sold as AAA. | CDO, CDS, AIG FP, repo, China. SIVs are SPEs in a new costume. | Will not close. TARP is a pause. SOX does not unwind AIG FP. |
 
-Four nested successes. Each is poison for the next book.
+Four nested successes. Each is poison for the next greed.
 
 ---
 

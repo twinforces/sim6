@@ -2,6 +2,18 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-20 Book retags, no vibe meters
+
+What: BOOK.md Proposed column applied. Next scheme is greed or pile. Eddie carnival is grift. Accounting books stay. HUD is still the book. Faction bars and clocks off the play desk. Offramp hunt stays at the top.
+
+Why: User, Street redline. Recommendations are good, make it so. Scoreboard was Iran vibes to keep the Shah. That never worked.
+
+How: Card copy. Play hides the meters panel. Advisors go full width. Engine still has bars so a dead book can seize.
+
+### What did not work
+Playing the Iran meters as a finance sim. You do not keep the Street from overthrowing the Shah.
+
+
 ## 2026-09-20 Hygiene
 
 What: Dump matches the rail. Playable hash was still `0253393`. Congress letter catalog dumped to `docs/LETTER.md` for the morning redline. Model tests 36/36.

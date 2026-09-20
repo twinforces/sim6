@@ -434,7 +434,7 @@ export const GLOSSARY: readonly GlossaryEntry[] = [
     term: "China",
     aliases: ["China"],
     definition:
-      "Buys the paper. Recycles a trade surplus into American mortgages, then into the next book. Not a villain in a movie. A bid.",
+      "Buys the paper. Recycles a trade surplus into American mortgages, then into the next pile. Not a villain in a movie. A bid.",
   },
   {
     id: "normal",
