@@ -2,6 +2,18 @@
 
 Serious work. Source of truth for what we tried, including what not to do.
 
+## 2026-09-21 grok.me name
+
+What: Wrong live slug. Unpublish, edit the name, publish. That is the rename. Code cannot move the address.
+
+Why: User. Unpublish, name edit, publish was the trick.
+
+How: Paper only. Title in the game was already Past Performance. Letter host stays `pastperformance.grok.me`.
+
+### What did not work
+Editing `site.json` and republishing without unpublishing first. The old slug sticks.
+
+
 ## 2026-09-20 Street redline: hash-swap, History, faces, letter gate
 
 What: Hash-swap doors per card. Street URL is `chair=street`. History is open. Overlay button matches the greed continues closer. Eddie auditors. Warehouse drives stay on the rail and teach inspector hiring. Keating sits until Greenwich. LTCM is the hedge lie, not a haircut sermon, 2026 money only. Dual plate guns are cash/keys. SOX does not name the houses. Skilling hovers. Mozilo is origination, not the whole machine. Hibachi is the most expensive teppanyaki dinner. TARP is one 2026 number. Campaign sits Obama, DK on the wait, Geithner is the room. Letter waits for both rails and talks like a bill, not a game. Fannie is 1938. Lehman does not name AIG on the historical path.

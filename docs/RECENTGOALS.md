@@ -2,6 +2,15 @@
 
 Living scratchpad. Older items live in `CHANGELOG.md`.
 
+## grok.me name, 2026-09-21
+
+What: Unpublish, edit the name, publish. That is how the live slug moves.
+
+Why: User fucked the app name, then found the trick.
+
+How: Paper. Do not try to rename from the rail.
+
+
 ## Street rail redline, 2026-09-20
 
 What: Hash-swap. History open. Street URL. Overlay greed continues. Faces, money, SOX, campaign Obama, both-chairs letter.
